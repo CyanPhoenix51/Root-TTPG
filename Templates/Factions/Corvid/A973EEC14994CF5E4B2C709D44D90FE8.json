@@ -1,0 +1,75 @@
+{
+	"Type": "Card",
+	"GUID": "A973EEC14994CF5E4B2C709D44D90FE8",
+	"Name": "Plot_Bomb",
+	"Metadata": "",
+	"CollisionType": "Regular",
+	"Friction": 0.7,
+	"Restitution": 0,
+	"Density": 0.5,
+	"SurfaceType": "Cardboard",
+	"Roughness": 1,
+	"Metallic": 0,
+	"PrimaryColor":
+	{
+		"R": 255,
+		"G": 255,
+		"B": 255
+	},
+	"SecondaryColor":
+	{
+		"R": 0,
+		"G": 0,
+		"B": 0
+	},
+	"Flippable": true,
+	"AutoStraighten": false,
+	"ShouldSnap": false,
+	"ScriptName": "",
+	"Blueprint": "",
+	"Models": [],
+	"Collision": [],
+	"SnapPointsGlobal": false,
+	"SnapPoints": [],
+	"ZoomViewDirection":
+	{
+		"X": 0,
+		"Y": 0,
+		"Z": 0
+	},
+	"Tags": [
+		"Corvid",
+		"Piece"
+	],
+	"FrontTexture": "Factions/Corvid/Corvid_Plot_Bomb.png",
+	"BackTexture": "Factions/Corvid/Corvid_Plot_Back.png",
+	"HiddenTexture": "",
+	"BackIndex": -2,
+	"HiddenIndex": -1,
+	"NumHorizontal": 1,
+	"NumVertical": 1,
+	"Width": 1.98,
+	"Height": 1.98,
+	"Thickness": 0.16,
+	"HiddenInHand": false,
+	"UsedWithCardHolders": false,
+	"CanStack": false,
+	"UsePrimaryColorForSide": false,
+	"FrontTextureOverrideExposed": false,
+	"AllowFlippedInStack": false,
+	"MirrorBack": false,
+	"EmissiveFront": false,
+	"Model": "Factions/Corvid/Corvid_Plot_Bomb.png",
+	"ShapeAccuracy": 10,
+	"ConvexCollision": true,
+	"Indices": [ 0 ],
+	"CardNames":
+	{
+	},
+	"CardMetadata":
+	{
+	},
+	"CardTags":
+	{
+	}
+}

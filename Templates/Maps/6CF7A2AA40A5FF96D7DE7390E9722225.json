@@ -1,0 +1,111 @@
+{
+	"Type": "Card",
+	"GUID": "6CF7A2AA40A5FF96D7DE7390E9722225",
+	"Name": "Lost Souls Tracker",
+	"Metadata": "",
+	"CollisionType": "Ground",
+	"Friction": 0.7,
+	"Restitution": 0,
+	"Density": 0.5,
+	"SurfaceType": "Cardboard",
+	"Roughness": 1,
+	"Metallic": 0,
+	"PrimaryColor":
+	{
+		"R": 255,
+		"G": 255,
+		"B": 255
+	},
+	"SecondaryColor":
+	{
+		"R": 0,
+		"G": 0,
+		"B": 0
+	},
+	"Flippable": true,
+	"AutoStraighten": false,
+	"ShouldSnap": true,
+	"ScriptName": "",
+	"Blueprint": "",
+	"Models": [],
+	"Collision": [],
+	"SnapPointsGlobal": false,
+	"SnapPoints": [
+		{
+			"X": -0.142375,
+			"Y": -3.77589,
+			"Z": 0.160001,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": -0.00319994,
+			"Shape": 0,
+			"FlipValidity": 0
+		},
+		{
+			"X": -1.8819,
+			"Y": -3.82871,
+			"Z": 0.160001,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": -0.00319994,
+			"Shape": 0,
+			"FlipValidity": 0
+		},
+		{
+			"X": -3.67426,
+			"Y": -3.85053,
+			"Z": 0.160001,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": -0.00319994,
+			"Shape": 0,
+			"FlipValidity": 0
+		},
+		{
+			"X": 0.0511698,
+			"Y": 2.52781,
+			"Z": 0.160001,
+			"Range": 3,
+			"SnapRotation": 4,
+			"RotationOffset": -0.00319994,
+			"Shape": 0,
+			"FlipValidity": 0
+		}
+	],
+	"ZoomViewDirection":
+	{
+		"X": 0,
+		"Y": 0,
+		"Z": 0
+	},
+	"Tags": [],
+	"FrontTexture": "Lost_Souls_Holder.png",
+	"BackTexture": "Lost_Souls_Holder_Back.jpg",
+	"HiddenTexture": "",
+	"BackIndex": -2,
+	"HiddenIndex": -1,
+	"NumHorizontal": 1,
+	"NumVertical": 1,
+	"Width": 13.0512,
+	"Height": 10.0394,
+	"Thickness": 0.16,
+	"HiddenInHand": false,
+	"UsedWithCardHolders": false,
+	"CanStack": false,
+	"UsePrimaryColorForSide": false,
+	"FrontTextureOverrideExposed": false,
+	"AllowFlippedInStack": false,
+	"MirrorBack": true,
+	"EmissiveFront": false,
+	"Model": "StaticMesh'/Game/Meshes/Cards/SquareRounded.SquareRounded'",
+	"Indices": [ 0 ],
+	"CardNames":
+	{
+	},
+	"CardMetadata":
+	{
+	},
+	"CardTags":
+	{
+	}
+}

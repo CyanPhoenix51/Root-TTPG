@@ -1,0 +1,250 @@
+{
+	"Type": "Card",
+	"GUID": "977B6F8E4F5FC8134F1A10ACDB4EBD3A",
+	"Name": "E&P Deck",
+	"Metadata": "",
+	"CollisionType": "Regular",
+	"Friction": 0.7,
+	"Restitution": 0,
+	"Density": 0.5,
+	"SurfaceType": "Cardboard",
+	"Roughness": 1,
+	"Metallic": 0,
+	"PrimaryColor":
+	{
+		"R": 255,
+		"G": 255,
+		"B": 255
+	},
+	"SecondaryColor":
+	{
+		"R": 0,
+		"G": 0,
+		"B": 0
+	},
+	"Flippable": true,
+	"AutoStraighten": false,
+	"ShouldSnap": true,
+	"ScriptName": "",
+	"Blueprint": "",
+	"Models": [],
+	"Collision": [],
+	"SnapPointsGlobal": false,
+	"SnapPoints": [],
+	"ZoomViewDirection":
+	{
+		"X": 0,
+		"Y": 0,
+		"Z": 0
+	},
+	"Tags": [],
+	"FrontTexture": "Decks/E&P_Deck.png",
+	"BackTexture": "Decks/E&P_Deck_Back.png",
+	"HiddenTexture": "",
+	"BackIndex": -2,
+	"HiddenIndex": -1,
+	"NumHorizontal": 10,
+	"NumVertical": 6,
+	"Width": 6.35,
+	"Height": 8.89,
+	"Thickness": 0.05,
+	"HiddenInHand": true,
+	"UsedWithCardHolders": true,
+	"CanStack": true,
+	"UsePrimaryColorForSide": false,
+	"FrontTextureOverrideExposed": false,
+	"AllowFlippedInStack": false,
+	"MirrorBack": true,
+	"EmissiveFront": false,
+	"Model": "Rounded",
+	"Indices": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53 ],
+	"CardNames":
+	{
+	},
+	"CardMetadata":
+	{
+	},
+	"CardTags":
+	{
+		"0": [
+			"E&P"
+		],
+		"1": [
+			"E&P"
+		],
+		"2": [
+			"E&P"
+		],
+		"3": [
+			"E&P"
+		],
+		"4": [
+			"E&P"
+		],
+		"5": [
+			"E&P"
+		],
+		"6": [
+			"E&P"
+		],
+		"7": [
+			"E&P"
+		],
+		"8": [
+			"E&P"
+		],
+		"9": [
+			"E&P"
+		],
+		"10": [
+			"E&P"
+		],
+		"11": [
+			"E&P"
+		],
+		"12": [
+			"E&P"
+		],
+		"13": [
+			"E&P"
+		],
+		"14": [
+			"E&P"
+		],
+		"15": [
+			"E&P"
+		],
+		"16": [
+			"E&P"
+		],
+		"17": [
+			"E&P"
+		],
+		"18": [
+			"E&P"
+		],
+		"19": [
+			"E&P"
+		],
+		"20": [
+			"E&P"
+		],
+		"21": [
+			"E&P"
+		],
+		"22": [
+			"E&P"
+		],
+		"23": [
+			"E&P"
+		],
+		"24": [
+			"E&P"
+		],
+		"25": [
+			"E&P"
+		],
+		"26": [
+			"E&P"
+		],
+		"27": [
+			"E&P"
+		],
+		"28": [
+			"E&P"
+		],
+		"29": [
+			"E&P"
+		],
+		"30": [
+			"E&P"
+		],
+		"31": [
+			"E&P"
+		],
+		"32": [
+			"E&P"
+		],
+		"33": [
+			"E&P"
+		],
+		"34": [
+			"E&P"
+		],
+		"35": [
+			"E&P"
+		],
+		"36": [
+			"E&P"
+		],
+		"37": [
+			"E&P"
+		],
+		"38": [
+			"E&P"
+		],
+		"39": [
+			"E&P"
+		],
+		"40": [
+			"E&P"
+		],
+		"41": [
+			"E&P"
+		],
+		"42": [
+			"E&P"
+		],
+		"43": [
+			"E&P"
+		],
+		"44": [
+			"E&P"
+		],
+		"45": [
+			"E&P"
+		],
+		"46": [
+			"E&P"
+		],
+		"47": [
+			"E&P"
+		],
+		"48": [
+			"E&P"
+		],
+		"49": [
+			"E&P"
+		],
+		"50": [
+			"E&P"
+		],
+		"51": [
+			"E&P"
+		],
+		"52": [
+			"E&P"
+		],
+		"53": [
+			"E&P"
+		],
+		"54": [
+			"E&P"
+		],
+		"55": [
+			"E&P"
+		],
+		"56": [
+			"E&P"
+		],
+		"57": [
+			"E&P"
+		],
+		"58": [
+			"E&P"
+		],
+		"59": [
+			"E&P"
+		]
+	}
+}
