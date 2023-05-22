@@ -1,5 +1,5 @@
 const { Canvas, UIElement, Rotator, Border, Vector, Text } = require('@tabletop-playground/api')
-const spawnMap = require('./spawn')
+const { Spawn } = require('./spawn')
 
 //List of buttons initial
 /* 
@@ -25,7 +25,7 @@ setups[2].onClicked.add((button) => {
 
 let maps = [new Button().setText("Autumn"), new Button().setText("Summer"), new Button().setText("Winter"), new Button().setText("Lake"), new Button().setText("Mountain")];
 maps[0].onClicked.add((button, player) => {
-    spawnMap(button.getText());
+    Spawn.spawnMap(button.getText());
 })
 let decks = [new Button().setText("Base Deck"), new Button().setText("Exiles & Paristans")];
 let factionSelect = new Button().setText("Faction Board");
