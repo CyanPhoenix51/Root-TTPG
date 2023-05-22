@@ -30,7 +30,125 @@
 	"Models": [],
 	"Collision": [],
 	"SnapPointsGlobal": false,
-	"SnapPoints": [],
+	"SnapPoints": [
+		{
+			"X": 0.992,
+			"Y": 5.193,
+			"Z": 0.125,
+			"Range": 3,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 2.892,
+			"Y": 5.193,
+			"Z": 0.125,
+			"Range": 3,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 0.992,
+			"Y": 7.193,
+			"Z": 0.125,
+			"Range": 3,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 2.892,
+			"Y": 7.193,
+			"Z": 0.125,
+			"Range": 3,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 0.992,
+			"Y": 9.193,
+			"Z": 0.125,
+			"Range": 3,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 2.892,
+			"Y": 9.193,
+			"Z": 0.125,
+			"Range": 3,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 0.992,
+			"Y": 11.193,
+			"Z": 0.125,
+			"Range": 3,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 2.892,
+			"Y": 11.193,
+			"Z": 0.125,
+			"Range": 3,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": -5.6282,
+			"Y": 7.05836,
+			"Z": 0.125,
+			"Range": 3,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Mood Card"
+			]
+		}
+	],
 	"ZoomViewDirection":
 	{
 		"X": 0,
@@ -41,8 +159,8 @@
 		"LOTH",
 		"PlayerBoard"
 	],
-	"FrontTexture": "Factions/Hundreds/LOTH_PlayerBoard_Front.png",
-	"BackTexture": "Factions/Hundreds/LOTH_PlayerBoard_Back.jpg",
+	"FrontTexture": "Factions/Hundreds/LOTH_PlayerBoard_Back.jpg",
+	"BackTexture": "Factions/Hundreds/LOTH_PlayerBoard_Front.png",
 	"HiddenTexture": "",
 	"BackIndex": -2,
 	"HiddenIndex": -1,

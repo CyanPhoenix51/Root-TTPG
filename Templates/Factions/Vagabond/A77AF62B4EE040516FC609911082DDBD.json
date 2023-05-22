@@ -38,18 +38,19 @@
 		"Z": 0
 	},
 	"Tags": [
-		"Vagabond"
+		"Vagabond",
+		"Item"
 	],
-	"FrontTexture": "Factions/Vagabond/Sword_Starter_FaceUp.jpg",
-	"BackTexture": "Factions/Vagabond/Sword_Starter_Exhaust.jpg",
+	"FrontTexture": "Factions/Vagabond/Sword_Starter_Exhaust.jpg",
+	"BackTexture": "Factions/Vagabond/Sword_Starter_FaceUp.jpg",
 	"HiddenTexture": "",
 	"BackIndex": -2,
 	"HiddenIndex": -1,
 	"NumHorizontal": 1,
 	"NumVertical": 1,
-	"Width": 1.9,
-	"Height": 1.9,
-	"Thickness": 0.16,
+	"Width": 1.524,
+	"Height": 1.52398,
+	"Thickness": 0.159966,
 	"HiddenInHand": false,
 	"UsedWithCardHolders": false,
 	"CanStack": false,

@@ -38,7 +38,8 @@
 		"Z": 0
 	},
 	"Tags": [
-		"Vagabond"
+		"Vagabond",
+		"Character Card"
 	],
 	"FrontTexture": "Factions/Vagabond/Vagabond_Harrier_Card.png",
 	"BackTexture": "Factions/Vagabond/Vagabond_Card_Back.png",

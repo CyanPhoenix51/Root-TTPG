@@ -38,7 +38,8 @@
 		"Z": 0
 	},
 	"Tags": [
-		"LOTH"
+		"LOTH",
+		"Mood Card"
 	],
 	"FrontTexture": "Factions/Hundreds/LOTH_Moods.jpg",
 	"BackTexture": "Factions/Hundreds/LOTH_Mood_Back.png",

@@ -40,8 +40,8 @@
 	"Tags": [
 		"Vagabond"
 	],
-	"FrontTexture": "Factions/Vagabond/Torch_Starter_FaceUp.jpg",
-	"BackTexture": "Factions/Vagabond/Torch_Starter_Exhaust.jpg",
+	"FrontTexture": "Factions/Vagabond/Torch_Starter_Exhaust.jpg",
+	"BackTexture": "Factions/Vagabond/Torch_Starter_FaceUp.jpg",
 	"HiddenTexture": "",
 	"BackIndex": -2,
 	"HiddenIndex": -1,

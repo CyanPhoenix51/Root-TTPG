@@ -41,8 +41,8 @@
 		"Woodland",
 		"PlayerBoard"
 	],
-	"FrontTexture": "Factions/Woodland/WA_PlayerBoard_Front.png",
-	"BackTexture": "Factions/Woodland/WA_PlayerBoard_Back.png",
+	"FrontTexture": "Factions/Woodland/WA_PlayerBoard_Back.png",
+	"BackTexture": "Factions/Woodland/WA_PlayerBoard_Front.png",
 	"HiddenTexture": "",
 	"BackIndex": -2,
 	"HiddenIndex": -1,

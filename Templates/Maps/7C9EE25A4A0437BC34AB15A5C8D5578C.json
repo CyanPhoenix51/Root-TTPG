@@ -60,7 +60,7 @@
 		}
 	],
 	"Collision": [],
-	"SnapPointsGlobal": false,
+	"SnapPointsGlobal": true,
 	"SnapPoints": [
 		{
 			"X": -25.718,
@@ -711,7 +711,8 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Ruin"
+				"Ruin",
+				"Building"
 			]
 		},
 		{

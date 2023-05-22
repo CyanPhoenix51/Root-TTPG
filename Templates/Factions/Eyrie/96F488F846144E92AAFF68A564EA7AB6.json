@@ -30,7 +30,161 @@
 	"Models": [],
 	"Collision": [],
 	"SnapPointsGlobal": false,
-	"SnapPoints": [],
+	"SnapPoints": [
+		{
+			"X": 0.912,
+			"Y": -0.0229998,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": 0.912,
+			"Y": 1.977,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": 0.912,
+			"Y": 3.977,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": 0.912,
+			"Y": 5.977,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": 0.912,
+			"Y": 7.977,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": 0.912,
+			"Y": 9.977,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": 0.912,
+			"Y": 11.977,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": 3.782,
+			"Y": 5.677,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 3.782,
+			"Y": 7.577,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 3.782,
+			"Y": 9.477,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 3.782,
+			"Y": 11.377,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": -5.78072,
+			"Y": 9.72354,
+			"Z": 0.125,
+			"Range": 3,
+			"SnapRotation": 4,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0
+		}
+	],
 	"ZoomViewDirection":
 	{
 		"X": 0,
@@ -41,8 +195,8 @@
 		"Eyrie",
 		"PlayerBoard"
 	],
-	"FrontTexture": "Factions/Eyrie/Eyrie_PlayerBoard_Front.png",
-	"BackTexture": "Factions/Eyrie/Eyrie_PlayerBoard_Back.png",
+	"FrontTexture": "Factions/Eyrie/Eyrie_PlayerBoard_Back.png",
+	"BackTexture": "Factions/Eyrie/Eyrie_PlayerBoard_Front.png",
 	"HiddenTexture": "",
 	"BackIndex": -2,
 	"HiddenIndex": -1,

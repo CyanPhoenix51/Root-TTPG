@@ -38,18 +38,19 @@
 		"Z": 0
 	},
 	"Tags": [
-		"Vagabond"
+		"Vagabond",
+		"Item"
 	],
-	"FrontTexture": "Factions/Vagabond/Crossbow_Craft_FaceUp.jpg",
-	"BackTexture": "Factions/Vagabond/Crossbow_Craft_Exhaust.jpg",
+	"FrontTexture": "Factions/Vagabond/Crossbow_Starter_Exhaust.jpg",
+	"BackTexture": "Factions/Vagabond/Crossbow_Craft_FaceUp.jpg",
 	"HiddenTexture": "",
 	"BackIndex": -2,
 	"HiddenIndex": -1,
 	"NumHorizontal": 1,
 	"NumVertical": 1,
-	"Width": 1.9,
-	"Height": 1.9,
-	"Thickness": 0.16,
+	"Width": 1.52399,
+	"Height": 1.52399,
+	"Thickness": 0.160049,
 	"HiddenInHand": false,
 	"UsedWithCardHolders": false,
 	"CanStack": false,

@@ -24,7 +24,7 @@ class Spawn{
     static spawnMap = (name, setupType = '') => {
         console.log(mapDict[name].GUID);
         const map = world.createObjectFromTemplate(mapDict[name].GUID, new Vector(0, 0.75, 120));
-        //map.setRotation(new Rotator(0, 90, 0));
+        map.setRotation(new Rotator(0, 90, 0));
         return map;
     };
 

@@ -30,7 +30,297 @@
 	"Models": [],
 	"Collision": [],
 	"SnapPointsGlobal": false,
-	"SnapPoints": [],
+	"SnapPoints": [
+		{
+			"X": 0.296,
+			"Y": 8.35,
+			"Z": 0.125,
+			"Range": 0.7,
+			"SnapRotation": 0,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0
+		},
+		{
+			"X": 1.656,
+			"Y": 8.35,
+			"Z": 0.125,
+			"Range": 0.7,
+			"SnapRotation": 0,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0
+		},
+		{
+			"X": 3.016,
+			"Y": 8.35,
+			"Z": 0.125,
+			"Range": 0.7,
+			"SnapRotation": 0,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0
+		},
+		{
+			"X": 0.296,
+			"Y": 9.65,
+			"Z": 0.125,
+			"Range": 0.7,
+			"SnapRotation": 0,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0
+		},
+		{
+			"X": 1.656,
+			"Y": 9.65,
+			"Z": 0.125,
+			"Range": 0.7,
+			"SnapRotation": 0,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0
+		},
+		{
+			"X": 3.016,
+			"Y": 9.65,
+			"Z": 0.125,
+			"Range": 0.7,
+			"SnapRotation": 0,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0
+		},
+		{
+			"X": 0.296,
+			"Y": 10.95,
+			"Z": 0.125,
+			"Range": 0.7,
+			"SnapRotation": 0,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0
+		},
+		{
+			"X": 1.656,
+			"Y": 10.95,
+			"Z": 0.125,
+			"Range": 0.7,
+			"SnapRotation": 0,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0
+		},
+		{
+			"X": 3.016,
+			"Y": 10.95,
+			"Z": 0.125,
+			"Range": 0.7,
+			"SnapRotation": 0,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0
+		},
+		{
+			"X": 0.296,
+			"Y": 12.25,
+			"Z": 0.125,
+			"Range": 0.7,
+			"SnapRotation": 0,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0
+		},
+		{
+			"X": 1.656,
+			"Y": 12.25,
+			"Z": 0.125,
+			"Range": 0.7,
+			"SnapRotation": 0,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0
+		},
+		{
+			"X": 3.016,
+			"Y": 12.25,
+			"Z": 0.125,
+			"Range": 0.7,
+			"SnapRotation": 0,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0
+		},
+		{
+			"X": -8.87,
+			"Y": 7.952,
+			"Z": 0.125,
+			"Range": 0.7,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token"
+			]
+		},
+		{
+			"X": -6.92,
+			"Y": 7.952,
+			"Z": 0.125,
+			"Range": 0.7,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token"
+			]
+		},
+		{
+			"X": -4.97,
+			"Y": 7.952,
+			"Z": 0.125,
+			"Range": 0.7,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token"
+			]
+		},
+		{
+			"X": -8.87,
+			"Y": 9.952,
+			"Z": 0.125,
+			"Range": 0.7,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token"
+			]
+		},
+		{
+			"X": -6.92,
+			"Y": 9.952,
+			"Z": 0.125,
+			"Range": 0.7,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token"
+			]
+		},
+		{
+			"X": -4.97,
+			"Y": 9.952,
+			"Z": 0.125,
+			"Range": 0.7,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token"
+			]
+		},
+		{
+			"X": -8.87,
+			"Y": 11.952,
+			"Z": 0.125,
+			"Range": 0.7,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token"
+			]
+		},
+		{
+			"X": -6.92,
+			"Y": 11.952,
+			"Z": 0.125,
+			"Range": 0.7,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token"
+			]
+		},
+		{
+			"X": -4.97,
+			"Y": 11.952,
+			"Z": 0.125,
+			"Range": 0.7,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token"
+			]
+		},
+		{
+			"X": 6.557,
+			"Y": 5.684,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 6.557,
+			"Y": 7.584,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 6.557,
+			"Y": 9.484,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 6.557,
+			"Y": 11.342,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		}
+	],
 	"ZoomViewDirection":
 	{
 		"X": 0,
@@ -41,8 +331,8 @@
 		"Riverfolk",
 		"PlayerBoard"
 	],
-	"FrontTexture": "Factions/Riverfolk/Riverfolk_PlayerBoard_Front.png",
-	"BackTexture": "Factions/Riverfolk/Riverfolk_PlayerBoard_Back.png",
+	"FrontTexture": "Factions/Riverfolk/Riverfolk_PlayerBoard_Back.png",
+	"BackTexture": "Factions/Riverfolk/Riverfolk_PlayerBoard_Front.png",
 	"HiddenTexture": "",
 	"BackIndex": -2,
 	"HiddenIndex": -1,

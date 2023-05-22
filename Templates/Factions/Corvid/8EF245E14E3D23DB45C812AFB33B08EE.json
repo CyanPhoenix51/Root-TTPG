@@ -3,7 +3,7 @@
 	"GUID": "8EF245E14E3D23DB45C812AFB33B08EE",
 	"Name": "Corvid PlayerBoard",
 	"Metadata": "",
-	"CollisionType": "Regular",
+	"CollisionType": "Ground",
 	"Friction": 0.7,
 	"Restitution": 0,
 	"Density": 0.5,
@@ -30,7 +30,60 @@
 	"Models": [],
 	"Collision": [],
 	"SnapPointsGlobal": false,
-	"SnapPoints": [],
+	"SnapPoints": [
+		{
+			"X": 7.054,
+			"Y": 7.109,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 7.054,
+			"Y": 8.639,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 7.054,
+			"Y": 10.169,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 7.054,
+			"Y": 11.699,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		}
+	],
 	"ZoomViewDirection":
 	{
 		"X": 0,
@@ -41,8 +94,8 @@
 		"Corvid",
 		"PlayerBoard"
 	],
-	"FrontTexture": "Factions/Corvid/Corvid_PlayerBoard_Front.png",
-	"BackTexture": "Factions/Corvid/Corvid_PlayerBoard_Back.png",
+	"FrontTexture": "Factions/Corvid/Corvid_PlayerBoard_Back.png",
+	"BackTexture": "Factions/Corvid/Corvid_PlayerBoard_Front.png",
 	"HiddenTexture": "",
 	"BackIndex": -2,
 	"HiddenIndex": -1,

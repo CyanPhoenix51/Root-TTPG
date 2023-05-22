@@ -3,7 +3,7 @@
 	"GUID": "80CA07F84104C7312D0AFBA6D8E74D87",
 	"Name": "Lizard PlayerBoard",
 	"Metadata": "",
-	"CollisionType": "Regular",
+	"CollisionType": "Ground",
 	"Friction": 0.7,
 	"Restitution": 0,
 	"Density": 0.5,
@@ -30,7 +30,255 @@
 	"Models": [],
 	"Collision": [],
 	"SnapPointsGlobal": false,
-	"SnapPoints": [],
+	"SnapPoints": [
+		{
+			"X": 6.638,
+			"Y": 6.585,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 6.638,
+			"Y": 8.115,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 6.638,
+			"Y": 9.645,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 6.638,
+			"Y": 11.175,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": -8.798,
+			"Y": -3.188,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -6.798,
+			"Y": -3.188,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -4.798,
+			"Y": -3.188,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -8.798,
+			"Y": -1.148,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -6.798,
+			"Y": -1.148,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -4.798,
+			"Y": -1.148,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -8.798,
+			"Y": 0.892,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -6.798,
+			"Y": 0.892,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -4.798,
+			"Y": 0.892,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -8.798,
+			"Y": 2.932,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -6.798,
+			"Y": 2.932,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -4.798,
+			"Y": 2.932,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -8.798,
+			"Y": 4.972,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -6.798,
+			"Y": 4.972,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -4.798,
+			"Y": 4.972,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		}
+	],
 	"ZoomViewDirection":
 	{
 		"X": 0,
@@ -41,8 +289,8 @@
 		"Lizard",
 		"PlayerBoard"
 	],
-	"FrontTexture": "Factions/Lizard/Lizard_PlayerBoard_Front.png",
-	"BackTexture": "Factions/Lizard/Lizard_PlayerBoard_Back.png",
+	"FrontTexture": "Factions/Lizard/Lizard_PlayerBoard_Back.png",
+	"BackTexture": "Factions/Lizard/Lizard_PlayerBoard_Front.png",
 	"HiddenTexture": "",
 	"BackIndex": -2,
 	"HiddenIndex": -1,

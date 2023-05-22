@@ -30,7 +30,268 @@
 	"Models": [],
 	"Collision": [],
 	"SnapPointsGlobal": false,
-	"SnapPoints": [],
+	"SnapPoints": [
+		{
+			"X": -3.845,
+			"Y": -11.494,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 0,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Crown"
+			]
+		},
+		{
+			"X": -3.845,
+			"Y": -10.274,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 0,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Crown"
+			]
+		},
+		{
+			"X": -3.845,
+			"Y": -9.054,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 0,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Crown"
+			]
+		},
+		{
+			"X": -3.845,
+			"Y": -6.999,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 0,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Crown"
+			]
+		},
+		{
+			"X": -3.845,
+			"Y": -5.779,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 0,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Crown"
+			]
+		},
+		{
+			"X": -3.845,
+			"Y": -4.559,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 0,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Crown"
+			]
+		},
+		{
+			"X": -3.845,
+			"Y": -2.382,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 0,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Crown"
+			]
+		},
+		{
+			"X": -3.845,
+			"Y": -1.162,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 0,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Crown"
+			]
+		},
+		{
+			"X": -3.845,
+			"Y": 0.0580001,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 0,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Crown"
+			]
+		},
+		{
+			"X": 1.222,
+			"Y": 4.76,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": 3.222,
+			"Y": 4.76,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": 1.222,
+			"Y": 6.81,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": 3.222,
+			"Y": 6.81,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": 1.222,
+			"Y": 8.86,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": 3.222,
+			"Y": 8.86,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -5.21621,
+			"Y": 6.07912,
+			"Z": 0.125,
+			"Range": 3,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Minister Card"
+			]
+		},
+		{
+			"X": 7.16,
+			"Y": 6.66,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 7.16,
+			"Y": 8.56,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 7.16,
+			"Y": 10.46,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 7.16,
+			"Y": 12.36,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		}
+	],
 	"ZoomViewDirection":
 	{
 		"X": 0,
@@ -41,8 +302,8 @@
 		"Duchy",
 		"PlayerBoard"
 	],
-	"FrontTexture": "Factions/Duchy/Duchy_PlayerBoard_Front.png",
-	"BackTexture": "Factions/Duchy/Duchy_PlayerBoard_Back.png",
+	"FrontTexture": "Factions/Duchy/Duchy_Minister_Back.png",
+	"BackTexture": "Factions/Duchy/Duchy_PlayerBoard_Front.png",
 	"HiddenTexture": "",
 	"BackIndex": -2,
 	"HiddenIndex": -1,

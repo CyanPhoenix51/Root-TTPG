@@ -3,7 +3,7 @@
 	"GUID": "F22B37B54661F999727586BF90EAFCDD",
 	"Name": "Cat PlayerBoard",
 	"Metadata": "",
-	"CollisionType": "Regular",
+	"CollisionType": "Ground",
 	"Friction": 0.7,
 	"Restitution": 0,
 	"Density": 0.5,
@@ -32,64 +32,290 @@
 	"SnapPointsGlobal": false,
 	"SnapPoints": [
 		{
-			"X": 1.57125,
-			"Y": -0.448452,
-			"Z": -0.125,
+			"X": 6.443,
+			"Y": 6.755,
+			"Z": 0.125,
 			"Range": 1,
-			"SnapRotation": 0,
+			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
 		},
 		{
-			"X": 1.57536,
-			"Y": -2.54875,
-			"Z": -0.124992,
+			"X": 6.443,
+			"Y": 8.285,
+			"Z": 0.125,
 			"Range": 1,
-			"SnapRotation": 0,
+			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
 		},
 		{
-			"X": 1.56775,
-			"Y": -4.69315,
-			"Z": -0.124992,
+			"X": 6.443,
+			"Y": 9.815,
+			"Z": 0.125,
 			"Range": 1,
-			"SnapRotation": 0,
+			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
 		},
 		{
-			"X": 1.56805,
-			"Y": -6.83838,
-			"Z": -0.125,
+			"X": 6.443,
+			"Y": 11.345,
+			"Z": 0.125,
 			"Range": 1,
-			"SnapRotation": 0,
+			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
 		},
 		{
-			"X": 1.58864,
-			"Y": -9.10295,
-			"Z": -0.125,
+			"X": -2.913,
+			"Y": 0.466,
+			"Z": 0.125,
 			"Range": 1,
-			"SnapRotation": 0,
+			"SnapRotation": 2,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
 		},
 		{
-			"X": 1.57434,
-			"Y": -11.259,
-			"Z": -0.125,
+			"X": -0.693,
+			"Y": 0.466,
+			"Z": 0.125,
 			"Range": 1,
-			"SnapRotation": 0,
+			"SnapRotation": 2,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": 1.527,
+			"Y": 0.466,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -2.913,
+			"Y": 2.53,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -0.693,
+			"Y": 2.53,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": 1.527,
+			"Y": 2.53,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -2.913,
+			"Y": 4.766,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -0.693,
+			"Y": 4.766,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": 1.527,
+			"Y": 4.766,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -2.913,
+			"Y": 6.916,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -0.693,
+			"Y": 6.916,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": 1.527,
+			"Y": 6.916,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -2.913,
+			"Y": 9.066,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -0.693,
+			"Y": 9.066,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": 1.527,
+			"Y": 9.066,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -2.913,
+			"Y": 11.216,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -0.693,
+			"Y": 11.216,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": 1.527,
+			"Y": 11.216,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
 		}
 	],
 	"ZoomViewDirection":
@@ -102,8 +328,8 @@
 		"PlayerBoard",
 		"Cat"
 	],
-	"FrontTexture": "Factions/Cats/Cat_PlayerBoard_Front.png",
-	"BackTexture": "Factions/Cats/Cats_PlayerBoard_Back.png",
+	"FrontTexture": "Factions/Cats/Cats_PlayerBoard_Back.png",
+	"BackTexture": "Factions/Cats/Cat_PlayerBoard_Front.png",
 	"HiddenTexture": "",
 	"BackIndex": -2,
 	"HiddenIndex": -1,

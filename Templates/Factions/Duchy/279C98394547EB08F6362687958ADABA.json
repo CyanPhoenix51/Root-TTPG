@@ -24,7 +24,7 @@
 	},
 	"Flippable": true,
 	"AutoStraighten": false,
-	"ShouldSnap": false,
+	"ShouldSnap": true,
 	"ScriptName": "",
 	"Blueprint": "",
 	"Models": [],
@@ -38,7 +38,7 @@
 		"Z": 0
 	},
 	"Tags": [
-		"Duchy"
+		"Minister Card"
 	],
 	"FrontTexture": "Factions/Duchy/Duchy_Minister_Text.png",
 	"BackTexture": "Factions/Duchy/Duchy_Minister_Back.png",

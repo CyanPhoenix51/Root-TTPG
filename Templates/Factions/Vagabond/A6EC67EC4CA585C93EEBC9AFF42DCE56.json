@@ -38,18 +38,19 @@
 		"Z": 0
 	},
 	"Tags": [
-		"Vagabond"
+		"Vagabond",
+		"Item"
 	],
-	"FrontTexture": "Factions/Vagabond/Tea_Starter_FaceUp.jpg",
-	"BackTexture": "Factions/Vagabond/Tea_Starter_Exhaust.jpg",
+	"FrontTexture": "Factions/Vagabond/Tea_Starter_Exhaust.jpg",
+	"BackTexture": "Factions/Vagabond/Tea_Starter_FaceUp.jpg",
 	"HiddenTexture": "",
 	"BackIndex": -2,
 	"HiddenIndex": -1,
 	"NumHorizontal": 1,
 	"NumVertical": 1,
-	"Width": 1.9,
-	"Height": 1.9,
-	"Thickness": 0.16,
+	"Width": 1.52401,
+	"Height": 1.52401,
+	"Thickness": 0.159998,
 	"HiddenInHand": false,
 	"UsedWithCardHolders": false,
 	"CanStack": false,

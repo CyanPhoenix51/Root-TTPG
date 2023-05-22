@@ -24,7 +24,7 @@
 	},
 	"Flippable": true,
 	"AutoStraighten": false,
-	"ShouldSnap": false,
+	"ShouldSnap": true,
 	"ScriptName": "",
 	"Blueprint": "",
 	"Models": [],
@@ -38,8 +38,8 @@
 		"Z": 0
 	},
 	"Tags": [
-		"Keepers",
-		"Piece"
+		"Token",
+		"Keepers"
 	],
 	"FrontTexture": "Factions/Keepers/Keepers_Jewelry_2.png",
 	"BackTexture": "Factions/Keepers/Keepers_Jewelry_Back.png",

@@ -38,15 +38,15 @@
 			},
 			"Scale":
 			{
-				"X": 1.397,
-				"Y": 1.524,
-				"Z": 1.66259
+				"X": 1.4125,
+				"Y": 1.53625,
+				"Z": 0.999995
 			},
 			"Rotation":
 			{
 				"X": 0,
 				"Y": 0,
-				"Z": 90
+				"Z": 0
 			},
 			"Texture": "Maps/Autumn_Map.png",
 			"NormalMap": "",
@@ -60,429 +60,416 @@
 		}
 	],
 	"Collision": [],
-	"SnapPointsGlobal": false,
+	"SnapPointsGlobal": true,
 	"SnapPoints": [
 		{
-			"X": -25.434,
-			"Y": -28.063,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": -28.2886,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": -26.193,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": -26.4035,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": -24.323,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": -24.5185,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": -22.453,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": -22.6335,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": -20.583,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": -20.7484,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": -18.713,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": -18.8634,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": -16.843,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": -16.9784,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": -14.973,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": -15.0934,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": -13.103,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": -13.2083,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": -11.233,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": -11.3233,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": -9.363,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": -9.43826,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": -7.493,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": -7.55323,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": -5.623,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": -5.6682,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": -3.753,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": -3.78317,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": -1.883,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": -1.89814,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": -0.0129969,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": -0.0131014,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": 1.857,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": 1.87193,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": 3.727,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": 3.75696,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": 5.597,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": 5.64199,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": 7.467,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": 7.52702,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": 9.337,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": 9.41205,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": 11.207,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": 11.2971,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": 13.077,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": 13.1821,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": 14.947,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": 15.0671,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": 16.817,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": 16.9522,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": 18.687,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": 18.8372,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": 20.557,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": 20.7222,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": 22.427,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": 22.6073,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": 24.297,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": 24.4923,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": 26.167,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": 26.3773,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": -25.434,
-			"Y": 28.037,
-			"Z": 0.831,
-			"Range": 1,
+			"X": -25.7162,
+			"Y": 28.2624,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Point"
+				"VP"
 			]
 		},
 		{
-			"X": 23.857,
-			"Y": -16.753,
-			"Z": 0.831,
-			"Range": 1,
-			"SnapRotation": 3,
-			"RotationOffset": 0,
-			"Shape": 0,
-			"FlipValidity": 0,
-			"Tags": [
-				"Item"
-			]
-		},
-		{
-			"X": 25.957,
-			"Y": -16.753,
-			"Z": 0.831,
-			"Range": 1,
+			"X": 24.1217,
+			"Y": -16.8877,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
@@ -492,200 +479,210 @@
 			]
 		},
 		{
-			"X": 23.857,
-			"Y": -14.553,
-			"Z": 0.831,
-			"Range": 1,
-			"SnapRotation": 3,
-			"RotationOffset": 0,
-			"Shape": 0,
-			"FlipValidity": 0,
-			"Tags": [
-				"Item"
-			]
-		},
-		{
-			"X": 25.957,
-			"Y": -14.553,
-			"Z": 0.831,
-			"Range": 1,
-			"SnapRotation": 3,
-			"RotationOffset": 0,
-			"Shape": 0,
-			"FlipValidity": 0,
-			"Tags": [
-				"Item"
-			]
-		},
-		{
-			"X": 23.857,
-			"Y": -12.353,
-			"Z": 0.831,
-			"Range": 1,
-			"SnapRotation": 3,
-			"RotationOffset": 0,
-			"Shape": 0,
-			"FlipValidity": 0,
-			"Tags": [
-				"Item"
-			]
-		},
-		{
-			"X": 25.957,
-			"Y": -12.353,
-			"Z": 0.831,
-			"Range": 1,
-			"SnapRotation": 3,
-			"RotationOffset": 0,
-			"Shape": 0,
-			"FlipValidity": 0,
-			"Tags": [
-				"Item"
-			]
-		},
-		{
-			"X": 23.857,
-			"Y": -10.153,
-			"Z": 0.831,
-			"Range": 1,
-			"SnapRotation": 3,
-			"RotationOffset": 0,
-			"Shape": 0,
-			"FlipValidity": 0,
-			"Tags": [
-				"Item"
-			]
-		},
-		{
-			"X": 25.957,
-			"Y": -10.153,
-			"Z": 0.831,
-			"Range": 1,
-			"SnapRotation": 3,
-			"RotationOffset": 0,
-			"Shape": 0,
-			"FlipValidity": 0,
-			"Tags": [
-				"Item"
-			]
-		},
-		{
-			"X": 23.857,
-			"Y": -7.953,
-			"Z": 0.831,
-			"Range": 1,
-			"SnapRotation": 3,
-			"RotationOffset": 0,
-			"Shape": 0,
-			"FlipValidity": 0,
-			"Tags": [
-				"Item"
-			]
-		},
-		{
-			"X": 25.957,
-			"Y": -7.953,
-			"Z": 0.831,
-			"Range": 1,
-			"SnapRotation": 3,
-			"RotationOffset": 0,
-			"Shape": 0,
-			"FlipValidity": 0,
-			"Tags": [
-				"Item"
-			]
-		},
-		{
-			"X": 23.857,
-			"Y": -5.753,
-			"Z": 0.831,
-			"Range": 1,
-			"SnapRotation": 3,
-			"RotationOffset": 0,
-			"Shape": 0,
-			"FlipValidity": 0,
-			"Tags": [
-				"Item"
-			]
-		},
-		{
-			"X": 25.957,
-			"Y": -5.753,
-			"Z": 0.831,
-			"Range": 1,
-			"SnapRotation": 3,
-			"RotationOffset": 0,
-			"Shape": 0,
-			"FlipValidity": 0,
-			"Tags": [
-				"Item"
-			]
-		},
-		{
-			"X": 20.7558,
-			"Y": -25.0843,
-			"Z": 0.831299,
-			"Range": 1,
+			"X": 26.245,
+			"Y": -16.8877,
+			"Z": 0.49982,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0
 		},
 		{
-			"X": 23.6806,
-			"Y": 0.733891,
-			"Z": 0.831299,
-			"Range": 1,
+			"X": 24.1217,
+			"Y": -14.67,
+			"Z": 0.49982,
+			"Range": 0.872684,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 26.245,
+			"Y": -14.67,
+			"Z": 0.49982,
+			"Range": 0.872684,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 24.1217,
+			"Y": -12.4523,
+			"Z": 0.49982,
+			"Range": 0.872684,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 26.245,
+			"Y": -12.4523,
+			"Z": 0.49982,
+			"Range": 0.872684,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 24.1217,
+			"Y": -10.2346,
+			"Z": 0.49982,
+			"Range": 0.872684,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 26.245,
+			"Y": -10.2346,
+			"Z": 0.49982,
+			"Range": 0.872684,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 24.1217,
+			"Y": -8.01692,
+			"Z": 0.49982,
+			"Range": 0.872684,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 26.245,
+			"Y": -8.01692,
+			"Z": 0.49982,
+			"Range": 0.872684,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 24.1217,
+			"Y": -5.79924,
+			"Z": 0.49982,
+			"Range": 0.872684,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 26.245,
+			"Y": -5.79924,
+			"Z": 0.49982,
+			"Range": 0.872684,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 20.9819,
+			"Y": -25.2038,
+			"Z": 0.500009,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0
 		},
 		{
-			"X": 24.1127,
-			"Y": 3.99594,
-			"Z": 0.831284,
-			"Range": 1,
+			"X": 23.9433,
+			"Y": 0.73979,
+			"Z": 0.5,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0
 		},
 		{
-			"X": 15.7656,
-			"Y": 22.555,
-			"Z": 0.831299,
-			"Range": 1,
+			"X": 24.3802,
+			"Y": 4.02806,
+			"Z": 0.499991,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0
 		},
 		{
-			"X": 13.1021,
-			"Y": 23.8924,
-			"Z": 0.831306,
-			"Range": 1,
+			"X": 15.9405,
+			"Y": 22.7363,
+			"Z": 0.5,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0
 		},
 		{
-			"X": 13.0827,
-			"Y": -7.06634,
-			"Z": 0.831284,
-			"Range": 1,
+			"X": 13.2475,
+			"Y": 24.0844,
+			"Z": 0.500004,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0
 		},
 		{
-			"X": 8.992,
-			"Y": -3.64453,
-			"Z": 0.831306,
-			"Range": 1,
+			"X": 13.2279,
+			"Y": -7.12314,
+			"Z": 0.499991,
+			"Range": 0.872684,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0
+		},
+		{
+			"X": 9.09177,
+			"Y": -3.67382,
+			"Z": 0.500004,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
@@ -695,40 +692,40 @@
 			]
 		},
 		{
-			"X": 2.2416,
-			"Y": -25.3725,
-			"Z": 0.831306,
-			"Range": 1,
+			"X": 2.26647,
+			"Y": -25.5764,
+			"Z": 0.500004,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0
 		},
 		{
-			"X": 7.32586,
-			"Y": -22.7088,
-			"Z": 0.831306,
-			"Range": 1,
+			"X": 7.40714,
+			"Y": -22.8913,
+			"Z": 0.500004,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0
 		},
 		{
-			"X": -5.21061,
-			"Y": -11.5885,
-			"Z": 0.831299,
-			"Range": 1,
+			"X": -5.26842,
+			"Y": -11.6816,
+			"Z": 0.5,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0
 		},
 		{
-			"X": -2.49934,
-			"Y": -9.03313,
-			"Z": 0.831306,
-			"Range": 1,
+			"X": -2.52707,
+			"Y": -9.10574,
+			"Z": 0.500004,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
@@ -738,10 +735,10 @@
 			]
 		},
 		{
-			"X": -0.902466,
-			"Y": 6.72608,
-			"Z": 0.831299,
-			"Range": 1,
+			"X": -0.912479,
+			"Y": 6.78014,
+			"Z": 0.5,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
@@ -751,40 +748,40 @@
 			]
 		},
 		{
-			"X": 2.71845,
-			"Y": 7.0993,
-			"Z": 0.831299,
-			"Range": 1,
+			"X": 2.74861,
+			"Y": 7.15636,
+			"Z": 0.5,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0
 		},
 		{
-			"X": 0.936645,
-			"Y": 9.24352,
-			"Z": 0.831306,
-			"Range": 1,
+			"X": 0.947037,
+			"Y": 9.31782,
+			"Z": 0.500004,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0
 		},
 		{
-			"X": -1.89891,
-			"Y": 22.3434,
-			"Z": 0.831299,
-			"Range": 1,
+			"X": -1.91998,
+			"Y": 22.523,
+			"Z": 0.5,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0
 		},
 		{
-			"X": 0.977453,
-			"Y": 25.0255,
-			"Z": 0.831299,
-			"Range": 1,
+			"X": 0.988298,
+			"Y": 25.2267,
+			"Z": 0.5,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
@@ -794,50 +791,50 @@
 			]
 		},
 		{
-			"X": -17.4172,
-			"Y": -21.3972,
-			"Z": 0.831299,
-			"Range": 1,
+			"X": -17.6104,
+			"Y": -21.5692,
+			"Z": 0.5,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0
 		},
 		{
-			"X": -22.5032,
-			"Y": -7.42663,
-			"Z": 0.831299,
-			"Range": 1,
+			"X": -22.7529,
+			"Y": -7.48632,
+			"Z": 0.5,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0
 		},
 		{
-			"X": -19.1299,
-			"Y": -6.39135,
-			"Z": 0.831306,
-			"Range": 1,
+			"X": -19.3422,
+			"Y": -6.44272,
+			"Z": 0.500004,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0
 		},
 		{
-			"X": -16.0233,
-			"Y": 2.82853,
-			"Z": 0.831299,
-			"Range": 1,
+			"X": -16.2011,
+			"Y": 2.85127,
+			"Z": 0.5,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
 			"FlipValidity": 0
 		},
 		{
-			"X": -12.7892,
-			"Y": 4.86396,
-			"Z": 0.831299,
-			"Range": 1,
+			"X": -12.9311,
+			"Y": 4.90306,
+			"Z": 0.5,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
@@ -847,10 +844,10 @@
 			]
 		},
 		{
-			"X": -20.1749,
-			"Y": 18.7624,
-			"Z": 0.831306,
-			"Range": 1,
+			"X": -20.3987,
+			"Y": 18.9132,
+			"Z": 0.500004,
+			"Range": 0.872684,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,

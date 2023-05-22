@@ -30,7 +30,270 @@
 	"Models": [],
 	"Collision": [],
 	"SnapPointsGlobal": false,
-	"SnapPoints": [],
+	"SnapPoints": [
+		{
+			"X": -3.9003,
+			"Y": -0.362824,
+			"Z": 0.125001,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token",
+				"Keepers"
+			]
+		},
+		{
+			"X": -1.838,
+			"Y": -0.355,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token",
+				"Keepers"
+			]
+		},
+		{
+			"X": 0.162,
+			"Y": -0.355,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token",
+				"Keepers"
+			]
+		},
+		{
+			"X": -3.838,
+			"Y": 1.645,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token",
+				"Keepers"
+			]
+		},
+		{
+			"X": -1.838,
+			"Y": 1.645,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token",
+				"Keepers"
+			]
+		},
+		{
+			"X": 0.162,
+			"Y": 1.645,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token",
+				"Keepers"
+			]
+		},
+		{
+			"X": -3.838,
+			"Y": 3.645,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token",
+				"Keepers"
+			]
+		},
+		{
+			"X": -1.838,
+			"Y": 3.645,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token",
+				"Keepers"
+			]
+		},
+		{
+			"X": 0.162,
+			"Y": 3.645,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token",
+				"Keepers"
+			]
+		},
+		{
+			"X": -3.838,
+			"Y": 5.645,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token",
+				"Keepers"
+			]
+		},
+		{
+			"X": -1.838,
+			"Y": 5.645,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token",
+				"Keepers"
+			]
+		},
+		{
+			"X": 0.162,
+			"Y": 5.645,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token",
+				"Keepers"
+			]
+		},
+		{
+			"X": -8.059,
+			"Y": 0.391,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building",
+				"Keepers"
+			]
+		},
+		{
+			"X": -8.059,
+			"Y": 2.541,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building",
+				"Keepers"
+			]
+		},
+		{
+			"X": -8.059,
+			"Y": 4.691,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building",
+				"Keepers"
+			]
+		},
+		{
+			"X": 4.109,
+			"Y": 6.195,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 4.109,
+			"Y": 8.095,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 4.109,
+			"Y": 9.995,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 4.109,
+			"Y": 11.895,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		}
+	],
 	"ZoomViewDirection":
 	{
 		"X": 0,
@@ -41,8 +304,8 @@
 		"Keepers",
 		"PlayerBoard"
 	],
-	"FrontTexture": "Factions/Keepers/Keepers_PlayerBoard_Front.jpg",
-	"BackTexture": "Factions/Keepers/Keepers_PlayerBoard_Back.jpg",
+	"FrontTexture": "Factions/Keepers/Keepers_PlayerBoard_Back.jpg",
+	"BackTexture": "Factions/Keepers/Keepers_PlayerBoard_Front.jpg",
 	"HiddenTexture": "",
 	"BackIndex": -2,
 	"HiddenIndex": -1,
