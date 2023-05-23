@@ -302,7 +302,7 @@
 		"Duchy",
 		"PlayerBoard"
 	],
-	"FrontTexture": "Factions/Duchy/Duchy_Minister_Back.png",
+	"FrontTexture": "Factions/Duchy/Duchy_PlayerBoard_Back.png",
 	"BackTexture": "Factions/Duchy/Duchy_PlayerBoard_Front.png",
 	"HiddenTexture": "",
 	"BackIndex": -2,

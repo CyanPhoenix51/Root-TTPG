@@ -52,7 +52,7 @@
 	"Thickness": 0.05,
 	"HiddenInHand": false,
 	"UsedWithCardHolders": false,
-	"CanStack": false,
+	"CanStack": true,
 	"UsePrimaryColorForSide": false,
 	"FrontTextureOverrideExposed": false,
 	"AllowFlippedInStack": false,
