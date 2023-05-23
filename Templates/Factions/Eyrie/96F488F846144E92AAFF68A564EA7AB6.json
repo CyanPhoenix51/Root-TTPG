@@ -3,7 +3,7 @@
 	"GUID": "96F488F846144E92AAFF68A564EA7AB6",
 	"Name": "Eyrie PlayerBoard",
 	"Metadata": "",
-	"CollisionType": "Regular",
+	"CollisionType": "Ground",
 	"Friction": 0.7,
 	"Restitution": 0,
 	"Density": 0.5,
@@ -175,8 +175,8 @@
 			]
 		},
 		{
-			"X": -5.78072,
-			"Y": 9.72354,
+			"X": -5.655,
+			"Y": 9.7745,
 			"Z": 0.125,
 			"Range": 3,
 			"SnapRotation": 4,

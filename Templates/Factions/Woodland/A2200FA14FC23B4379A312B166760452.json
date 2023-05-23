@@ -3,7 +3,7 @@
 	"GUID": "A2200FA14FC23B4379A312B166760452",
 	"Name": "Woodland PlayerBoard",
 	"Metadata": "",
-	"CollisionType": "Regular",
+	"CollisionType": "Ground",
 	"Friction": 0.7,
 	"Restitution": 0,
 	"Density": 0.5,
@@ -30,7 +30,229 @@
 	"Models": [],
 	"Collision": [],
 	"SnapPointsGlobal": false,
-	"SnapPoints": [],
+	"SnapPoints": [
+		{
+			"X": 6.572,
+			"Y": 6.057,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 6.572,
+			"Y": 7.587,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 6.572,
+			"Y": 9.117,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": 6.572,
+			"Y": 10.647,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Item"
+			]
+		},
+		{
+			"X": -2.157,
+			"Y": -1.638,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -2.157,
+			"Y": 0.282,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -2.157,
+			"Y": 2.202,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -8.03959,
+			"Y": -5.13151,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token"
+			]
+		},
+		{
+			"X": -7.15081,
+			"Y": -3.20655,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token"
+			]
+		},
+		{
+			"X": -8.04816,
+			"Y": -1.27822,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token"
+			]
+		},
+		{
+			"X": -7.18715,
+			"Y": 0.592434,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token"
+			]
+		},
+		{
+			"X": -8.02671,
+			"Y": 2.54947,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token"
+			]
+		},
+		{
+			"X": -7.16541,
+			"Y": 4.45533,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token"
+			]
+		},
+		{
+			"X": -8.04841,
+			"Y": 6.33475,
+			"Z": 0.125,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token"
+			]
+		},
+		{
+			"X": -7.17208,
+			"Y": 8.26117,
+			"Z": 0.125008,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token"
+			]
+		},
+		{
+			"X": -8.07044,
+			"Y": 10.1373,
+			"Z": 0.125008,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token"
+			]
+		},
+		{
+			"X": -7.20783,
+			"Y": 12.0379,
+			"Z": 0.125008,
+			"Range": 1,
+			"SnapRotation": 2,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Token"
+			]
+		}
+	],
 	"ZoomViewDirection":
 	{
 		"X": 0,

@@ -38,7 +38,7 @@
 		"Z": 0
 	},
 	"Tags": [
-		"Piece",
+		"Token",
 		"Woodland"
 	],
 	"FrontTexture": "Factions/Woodland/WA_sympathy.png",
@@ -48,9 +48,9 @@
 	"HiddenIndex": -1,
 	"NumHorizontal": 1,
 	"NumVertical": 1,
-	"Width": 1.98,
-	"Height": 1.98,
-	"Thickness": 0.16,
+	"Width": 1.92,
+	"Height": 1.92,
+	"Thickness": 0.160002,
 	"HiddenInHand": false,
 	"UsedWithCardHolders": false,
 	"CanStack": false,

@@ -38,7 +38,8 @@
 		"Z": 0
 	},
 	"Tags": [
-		"LOTH"
+		"LOTH",
+		"VP"
 	],
 	"FrontTexture": "Factions/Hundreds/LOTH_VP_Marker.png",
 	"BackTexture": "",
@@ -47,8 +48,8 @@
 	"HiddenIndex": -1,
 	"NumHorizontal": 1,
 	"NumVertical": 1,
-	"Width": 1.9,
-	"Height": 1.9,
+	"Width": 1.87001,
+	"Height": 1.87,
 	"Thickness": 0.16,
 	"HiddenInHand": false,
 	"UsedWithCardHolders": false,

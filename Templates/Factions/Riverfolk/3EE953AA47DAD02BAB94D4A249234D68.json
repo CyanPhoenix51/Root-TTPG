@@ -3,7 +3,7 @@
 	"GUID": "3EE953AA47DAD02BAB94D4A249234D68",
 	"Name": "Riverfolk",
 	"Metadata": "",
-	"CollisionType": "Regular",
+	"CollisionType": "Ground",
 	"Friction": 0.7,
 	"Restitution": 0,
 	"Density": 0.5,

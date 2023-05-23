@@ -39,7 +39,7 @@
 	},
 	"Tags": [
 		"LOTH",
-		"Piece"
+		"Token"
 	],
 	"FrontTexture": "Factions/Hundreds/LOTH_Mob.png",
 	"BackTexture": "",
@@ -48,8 +48,8 @@
 	"HiddenIndex": -1,
 	"NumHorizontal": 1,
 	"NumVertical": 1,
-	"Width": 1.98673,
-	"Height": 1.98336,
+	"Width": 1.92653,
+	"Height": 1.92328,
 	"Thickness": 0.16,
 	"HiddenInHand": false,
 	"UsedWithCardHolders": false,

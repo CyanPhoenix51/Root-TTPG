@@ -14,6 +14,11 @@ const mapDict = {
     "Mountain" : {GUID: "", Landmark: "Tower", Special: "Closed Paths"}
 };
 
+const deckDict = {
+    "Base" : {GUID: ""},
+    "Exiles & Paristans" : {GUID: ""}
+};
+
 const Ruins = {};
 
 const landmarks = {};
