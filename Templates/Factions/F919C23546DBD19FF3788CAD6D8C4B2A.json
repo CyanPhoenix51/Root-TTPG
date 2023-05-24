@@ -1,0 +1,123 @@
+{
+	"Type": "Card",
+	"GUID": "F919C23546DBD19FF3788CAD6D8C4B2A",
+	"Name": "Card Improvment Holder",
+	"Metadata": "",
+	"CollisionType": "Ground",
+	"Friction": 0.7,
+	"Restitution": 0,
+	"Density": 0.5,
+	"SurfaceType": "Cardboard",
+	"Roughness": 1,
+	"Metallic": 0,
+	"PrimaryColor":
+	{
+		"R": 255,
+		"G": 255,
+		"B": 255
+	},
+	"SecondaryColor":
+	{
+		"R": 0,
+		"G": 0,
+		"B": 0
+	},
+	"Flippable": true,
+	"AutoStraighten": false,
+	"ShouldSnap": true,
+	"ScriptName": "",
+	"Blueprint": "",
+	"Models": [],
+	"Collision": [],
+	"SnapPointsGlobal": false,
+	"SnapPoints": [
+		{
+			"X": -5.92,
+			"Y": 0,
+			"Z": 0.125,
+			"Range": 4,
+			"SnapRotation": 4,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0
+		},
+		{
+			"X": -3.528,
+			"Y": 0,
+			"Z": 0.125,
+			"Range": 4,
+			"SnapRotation": 4,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0
+		},
+		{
+			"X": -1.108,
+			"Y": 0,
+			"Z": 0.125,
+			"Range": 4,
+			"SnapRotation": 4,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0
+		},
+		{
+			"X": 1.312,
+			"Y": 0,
+			"Z": 0.125,
+			"Range": 4,
+			"SnapRotation": 4,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0
+		},
+		{
+			"X": 3.712,
+			"Y": 0,
+			"Z": 0.125,
+			"Range": 4,
+			"SnapRotation": 4,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0
+		}
+	],
+	"ZoomViewDirection":
+	{
+		"X": 0,
+		"Y": 0,
+		"Z": 0
+	},
+	"Tags": [],
+	"FrontTexture": "Factions/Card_Improvement_Holder.png",
+	"BackTexture": "",
+	"HiddenTexture": "",
+	"BackIndex": 0,
+	"HiddenIndex": -1,
+	"NumHorizontal": 1,
+	"NumVertical": 1,
+	"Width": 8.99999,
+	"Height": 23.39,
+	"Thickness": 0.250061,
+	"HiddenInHand": false,
+	"UsedWithCardHolders": false,
+	"CanStack": true,
+	"UsePrimaryColorForSide": false,
+	"FrontTextureOverrideExposed": false,
+	"AllowFlippedInStack": false,
+	"MirrorBack": false,
+	"EmissiveFront": false,
+	"Model": "Factions/Card_Improvement_Holder.png",
+	"ShapeAccuracy": 10,
+	"ConvexCollision": true,
+	"Indices": [ 0 ],
+	"CardNames":
+	{
+	},
+	"CardMetadata":
+	{
+	},
+	"CardTags":
+	{
+	}
+}
