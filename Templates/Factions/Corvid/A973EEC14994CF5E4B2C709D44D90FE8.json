@@ -1,7 +1,7 @@
 {
 	"Type": "Card",
 	"GUID": "A973EEC14994CF5E4B2C709D44D90FE8",
-	"Name": "Plot_Bomb",
+	"Name": "Bomb",
 	"Metadata": "",
 	"CollisionType": "Regular",
 	"Friction": 0.7,

@@ -1,7 +1,7 @@
 {
 	"Type": "Card",
 	"GUID": "4CC1136E438A76DA940F43B97014507A",
-	"Name": "Plot_Snare",
+	"Name": "Snare",
 	"Metadata": "",
 	"CollisionType": "Regular",
 	"Friction": 0.7,

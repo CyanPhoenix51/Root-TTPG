@@ -1,7 +1,7 @@
 {
 	"Type": "Card",
 	"GUID": "86D1A961432490A161B512B295CCA2BA",
-	"Name": "Plot_Raid",
+	"Name": "Raid",
 	"Metadata": "",
 	"CollisionType": "Regular",
 	"Friction": 0.7,

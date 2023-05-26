@@ -1,7 +1,7 @@
 {
 	"Type": "Card",
 	"GUID": "3EE953AA47DAD02BAB94D4A249234D68",
-	"Name": "Riverfolk",
+	"Name": "Riverfolk PlayerBoard",
 	"Metadata": "",
 	"CollisionType": "Ground",
 	"Friction": 0.7,
