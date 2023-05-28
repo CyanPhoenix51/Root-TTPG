@@ -57,7 +57,7 @@
 	"MirrorBack": true,
 	"EmissiveFront": false,
 	"Model": "Rounded",
-	"Indices": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ],
+	"Indices": [ 0, 1, 7, 9, 10, 2, 3, 4, 5, 8 ],
 	"CardNames":
 	{
 	},
@@ -66,5 +66,49 @@
 	},
 	"CardTags":
 	{
+		"0": [
+			"Cat",
+			"Militant"
+		],
+		"1": [
+			"Eyrie",
+			"Militant"
+		],
+		"2": [
+			"Woodland",
+			"Insurgent"
+		],
+		"3": [
+			"Vagabond",
+			"Insurgent"
+		],
+		"4": [
+			"Riverfolk",
+			"Insurgent"
+		],
+		"5": [
+			"Lizard",
+			"Insurgent"
+		],
+		"6": [
+			"Vagabond",
+			"Insurgent"
+		],
+		"7": [
+			"Duchy",
+			"Militant"
+		],
+		"8": [
+			"Corvid",
+			"Insurgent"
+		],
+		"9": [
+			"LOTH",
+			"Militant"
+		],
+		"10": [
+			"Keepers",
+			"Militant"
+		]
 	}
 }

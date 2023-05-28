@@ -3,7 +3,7 @@
 	"GUID": "9F4C45AA4A82CF6CCD08B6845B1D265B",
 	"Name": "Bunny Clearing Marker",
 	"Metadata": "",
-	"CollisionType": "Regular",
+	"CollisionType": "Ground",
 	"Friction": 0.7,
 	"Restitution": 0.3,
 	"Density": 1,
@@ -68,5 +68,7 @@
 		"Y": 0,
 		"Z": 0
 	},
-	"Tags": []
+	"Tags": [
+		"Clearing"
+	]
 }

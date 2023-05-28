@@ -42,7 +42,7 @@
 	"BackTexture": "Decks/E&P_Deck_Back.png",
 	"HiddenTexture": "",
 	"BackIndex": -2,
-	"HiddenIndex": -1,
+	"HiddenIndex": -3,
 	"NumHorizontal": 10,
 	"NumVertical": 6,
 	"Width": 6.35,

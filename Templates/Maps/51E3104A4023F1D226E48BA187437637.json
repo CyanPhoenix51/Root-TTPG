@@ -622,14 +622,17 @@
 			]
 		},
 		{
-			"X": 20.7521,
-			"Y": -25.0513,
-			"Z": 0.500008,
+			"X": 20.752,
+			"Y": -25.021,
+			"Z": 0.5,
 			"Range": 1,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
 		},
 		{
 			"X": 23.6399,
@@ -639,7 +642,10 @@
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
 		},
 		{
 			"X": 24.0169,
@@ -649,61 +655,14 @@
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
 		},
 		{
-			"X": 15.7621,
-			"Y": 22.6262,
-			"Z": 0.5,
-			"Range": 1,
-			"SnapRotation": 3,
-			"RotationOffset": 0,
-			"Shape": 0,
-			"FlipValidity": 0
-		},
-		{
-			"X": 13.0724,
-			"Y": 23.9852,
-			"Z": 0.500008,
-			"Range": 1,
-			"SnapRotation": 3,
-			"RotationOffset": 0,
-			"Shape": 0,
-			"FlipValidity": 0
-		},
-		{
-			"X": 2.28513,
-			"Y": -25.3575,
-			"Z": 0.5,
-			"Range": 1,
-			"SnapRotation": 3,
-			"RotationOffset": 0,
-			"Shape": 0,
-			"FlipValidity": 0
-		},
-		{
-			"X": 7.35523,
-			"Y": -22.7309,
-			"Z": 0.5,
-			"Range": 1,
-			"SnapRotation": 3,
-			"RotationOffset": 0,
-			"Shape": 0,
-			"FlipValidity": 0
-		},
-		{
-			"X": 13.103,
-			"Y": -7.03601,
-			"Z": 0.500008,
-			"Range": 1,
-			"SnapRotation": 3,
-			"RotationOffset": 0,
-			"Shape": 0,
-			"FlipValidity": 0
-		},
-		{
-			"X": 9.00835,
-			"Y": -3.61969,
+			"X": 15.762,
+			"Y": 22.57,
 			"Z": 0.5,
 			"Range": 1,
 			"SnapRotation": 3,
@@ -711,18 +670,87 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Ruin"
+				"Building"
 			]
 		},
 		{
-			"X": -5.27306,
-			"Y": -11.6283,
+			"X": 13.072,
+			"Y": 23.902,
 			"Z": 0.5,
 			"Range": 1,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": 2.298,
+			"Y": -25.378,
+			"Z": 0.5,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": 7.305,
+			"Y": -22.751,
+			"Z": 0.5,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": 13.133,
+			"Y": -7.086,
+			"Z": 0.5,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": 8.95,
+			"Y": -3.68,
+			"Z": 0.5,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Ruin",
+				"Building"
+			]
+		},
+		{
+			"X": -5.203,
+			"Y": -11.598,
+			"Z": 0.5,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
 		},
 		{
 			"X": -2.48044,
@@ -734,12 +762,13 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Ruin"
+				"Ruin",
+				"Building"
 			]
 		},
 		{
-			"X": -1.02632,
-			"Y": 6.6815,
+			"X": -0.945,
+			"Y": 6.681,
 			"Z": 0.5,
 			"Range": 1,
 			"SnapRotation": 3,
@@ -747,38 +776,48 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Ruin"
+				"Ruin",
+				"Building"
 			]
 		},
 		{
-			"X": 2.72279,
-			"Y": 7.00481,
-			"Z": 0.500008,
-			"Range": 1,
-			"SnapRotation": 3,
-			"RotationOffset": 0,
-			"Shape": 0,
-			"FlipValidity": 0
-		},
-		{
-			"X": 0.927769,
-			"Y": 9.21048,
-			"Z": 0.500008,
-			"Range": 1,
-			"SnapRotation": 3,
-			"RotationOffset": 0,
-			"Shape": 0,
-			"FlipValidity": 0
-		},
-		{
-			"X": -1.99345,
-			"Y": 22.3276,
+			"X": 2.763,
+			"Y": 7.015,
 			"Z": 0.5,
 			"Range": 1,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": 0.948,
+			"Y": 9.21,
+			"Z": 0.5,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -1.923,
+			"Y": 22.328,
+			"Z": 0.5,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
 		},
 		{
 			"X": 0.970119,
@@ -790,28 +829,35 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Ruin"
+				"Ruin",
+				"Building"
 			]
 		},
 		{
-			"X": -17.4216,
-			"Y": -21.3519,
-			"Z": 0.500008,
-			"Range": 1,
-			"SnapRotation": 3,
-			"RotationOffset": 0,
-			"Shape": 0,
-			"FlipValidity": 0
-		},
-		{
-			"X": -22.55,
-			"Y": -7.39014,
+			"X": -17.422,
+			"Y": -21.365,
 			"Z": 0.5,
 			"Range": 1,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
+		},
+		{
+			"X": -22.544,
+			"Y": -7.397,
+			"Z": 0.5,
+			"Range": 1,
+			"SnapRotation": 3,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
 		},
 		{
 			"X": -19.1463,
@@ -821,17 +867,23 @@
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
 		},
 		{
-			"X": -16.0254,
-			"Y": 2.85056,
-			"Z": 0.500008,
+			"X": -15.992,
+			"Y": 2.851,
+			"Z": 0.5,
 			"Range": 1,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
 		},
 		{
 			"X": -12.766,
@@ -841,17 +893,23 @@
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
 		},
 		{
-			"X": -20.2489,
-			"Y": 18.8279,
+			"X": -20.209,
+			"Y": 18.748,
 			"Z": 0.5,
 			"Range": 1,
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
 		},
 		{
 			"X": 11.4129,
@@ -861,7 +919,10 @@
 			"SnapRotation": 2,
 			"RotationOffset": 45.9,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Clearing"
+			]
 		},
 		{
 			"X": 18.206,
@@ -871,7 +932,10 @@
 			"SnapRotation": 2,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Clearing"
+			]
 		},
 		{
 			"X": 17.228,
@@ -881,47 +945,62 @@
 			"SnapRotation": 2,
 			"RotationOffset": -44.8,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Clearing"
+			]
 		},
 		{
-			"X": 6.38204,
-			"Y": -18.6515,
-			"Z": 0.500003,
+			"X": 6.382,
+			"Y": -18.7,
+			"Z": 0.5,
 			"Range": 1,
 			"SnapRotation": 2,
 			"RotationOffset": -90,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Clearing"
+			]
 		},
 		{
-			"X": 8.81745,
-			"Y": -9.05396,
+			"X": 8.88,
+			"Y": -8.95,
 			"Z": 0.5,
 			"Range": 1,
 			"SnapRotation": 2,
-			"RotationOffset": 56.4,
+			"RotationOffset": 60.3,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Clearing"
+			]
 		},
 		{
-			"X": -7.41205,
-			"Y": -10.8846,
+			"X": -7.382,
+			"Y": -10.815,
 			"Z": 0.5,
 			"Range": 1,
 			"SnapRotation": 2,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Clearing"
+			]
 		},
 		{
-			"X": -2.57226,
-			"Y": 12.5071,
-			"Z": 0.500003,
+			"X": -2.472,
+			"Y": 12.407,
+			"Z": 0.5,
 			"Range": 1,
 			"SnapRotation": 2,
 			"RotationOffset": -44.8,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Clearing"
+			]
 		},
 		{
 			"X": -4.65703,
@@ -931,17 +1010,23 @@
 			"SnapRotation": 2,
 			"RotationOffset": -44.8,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Clearing"
+			]
 		},
 		{
-			"X": -22.1261,
-			"Y": -23.6527,
-			"Z": 0.500003,
+			"X": -22.086,
+			"Y": -23.653,
+			"Z": 0.5,
 			"Range": 1,
 			"SnapRotation": 2,
-			"RotationOffset": 0,
+			"RotationOffset": 0.8,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Clearing"
+			]
 		},
 		{
 			"X": -17.9596,
@@ -951,27 +1036,36 @@
 			"SnapRotation": 2,
 			"RotationOffset": 150.7,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Clearing"
+			]
 		},
 		{
-			"X": -19.8647,
-			"Y": 5.19768,
+			"X": -19.815,
+			"Y": 5.148,
 			"Z": 0.5,
 			"Range": 1,
 			"SnapRotation": 2,
-			"RotationOffset": 0,
+			"RotationOffset": -0.5,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Clearing"
+			]
 		},
 		{
-			"X": -18.6991,
-			"Y": 24.6134,
-			"Z": 0.500003,
+			"X": -18.799,
+			"Y": 24.513,
+			"Z": 0.5,
 			"Range": 1,
 			"SnapRotation": 2,
-			"RotationOffset": -123.9,
+			"RotationOffset": -120,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Clearing"
+			]
 		}
 	],
 	"ZoomViewDirection":
