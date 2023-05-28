@@ -3,7 +3,7 @@
 	"GUID": "5654A1E6451C1BBA320C039C384D81A3",
 	"Name": "Dominance Holder",
 	"Metadata": "",
-	"CollisionType": "Regular",
+	"CollisionType": "Ground",
 	"Friction": 0.7,
 	"Restitution": 0,
 	"Density": 0.5,
@@ -24,13 +24,66 @@
 	},
 	"Flippable": true,
 	"AutoStraighten": false,
-	"ShouldSnap": true,
+	"ShouldSnap": false,
 	"ScriptName": "",
 	"Blueprint": "",
 	"Models": [],
 	"Collision": [],
 	"SnapPointsGlobal": false,
-	"SnapPoints": [],
+	"SnapPoints": [
+		{
+			"X": -1,
+			"Y": -12.063,
+			"Z": 0.1,
+			"Range": 3,
+			"SnapRotation": 4,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Dominance"
+			]
+		},
+		{
+			"X": -1,
+			"Y": -3.963,
+			"Z": 0.1,
+			"Range": 3,
+			"SnapRotation": 4,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Dominance"
+			]
+		},
+		{
+			"X": -1,
+			"Y": 4.137,
+			"Z": 0.1,
+			"Range": 3,
+			"SnapRotation": 4,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Dominance"
+			]
+		},
+		{
+			"X": -1,
+			"Y": 12.237,
+			"Z": 0.1,
+			"Range": 3,
+			"SnapRotation": 4,
+			"RotationOffset": 0,
+			"Shape": 0,
+			"FlipValidity": 0,
+			"Tags": [
+				"Dominance"
+			]
+		}
+	],
 	"ZoomViewDirection":
 	{
 		"X": 0,
@@ -45,8 +98,8 @@
 	"HiddenIndex": -1,
 	"NumHorizontal": 1,
 	"NumVertical": 1,
-	"Width": 20.3972,
-	"Height": 13.0714,
+	"Width": 33.6553,
+	"Height": 14.1607,
 	"Thickness": 0.2,
 	"HiddenInHand": false,
 	"UsedWithCardHolders": false,

@@ -1,7 +1,7 @@
 {
 	"Type": "Generic",
-	"GUID": "9F4C45AA4A82CF6CCD08B6845B1D265B",
-	"Name": "Bunny Clearing Marker",
+	"GUID": "0CF3FA4746E5B234459402BB60B0FC30",
+	"Name": "Lost City Clearing Marker",
 	"Metadata": "",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
@@ -40,7 +40,7 @@
 			{
 				"X": 1.50107,
 				"Y": 1.40912,
-				"Z": 0.999999
+				"Z": 1
 			},
 			"Rotation":
 			{
@@ -48,7 +48,7 @@
 				"Y": 0,
 				"Z": -90
 			},
-			"Texture": "Bunny_Clearing_Marker.png",
+			"Texture": "Lost_City_Clearing_Marker.png",
 			"NormalMap": "",
 			"ExtraMap": "",
 			"ExtraMap2": "",

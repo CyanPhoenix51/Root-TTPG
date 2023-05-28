@@ -1,133 +1,136 @@
-const { Canvas, UIElement, Rotator, Border, Vector, Text, GameWorld } = require('@tabletop-playground/api')
-const { Spawn } = require('./spawn')
-
-//List of buttons initial
-/* 
-    Manual Setup
-    Adset
-    Winter Tournament
-    Both Decks
-    All 4 maps
-    Faction selector
-
-*/
-
-let setups = [new Button().setText("Manual Setup"), new Button().setText("ADSET"), new Button().setText("GSG WT 2023")];
-setups[0].onClicked.add((button) => {
-    //Manual Setup
-});
-setups[1].onClicked.add((button) => {
-    //ADSET
-});
-setups[2].onClicked.add((button) => {
-    //GSG WT setup function
-});
-
-let maps = [new Button().setText("Autumn"), new Button().setText("Summer"), new Button().setText("Winter"), new Button().setText("Lake"), new Button().setText("Mountain")];
-maps[0].onClicked.add((button, player) => {
-    Spawn.spawnMap(button.getText());
-})
-let decks = [new Button().setText("Base Deck"), new Button().setText("Exiles & Paristans")];
-let factionSelect = new Button().setText("Faction Select");
-
-factionSelect.onClicked.add((button) => {
-    let factionCanvas = new Canvas();
-    factionCanvas.addChild(new Button().setText("Cats"), 50, 50, 100, 50);
-    factionCanvas.addChild(new Button().setText("Corvid"), 150, 50, 100, 50);
-    factionCanvas.addChild(new Button().setText("Duchy"), 250, 50, 100, 50);
-    factionCanvas.addChild(new Button().setText("Eyrie"), 50, 150, 100, 50);
-    factionCanvas.addChild(new Button().setText("Keepers"), 150, 150, 100, 50);
-    factionCanvas.addChild(new Button().setText("Lizards"), 250, 150, 100, 50);
-    factionCanvas.addChild(new Button().setText("Hundreds"), 50, 250, 100, 50);
-    factionCanvas.addChild(new Button().setText("Riverfolk"), 150, 250, 100, 50);
-    factionCanvas.addChild(new Button().setText("Vagabond"), 350, 50, 100, 50);
-    factionCanvas.addChild(new Button().setText("Woodland"), 250, 250, 100, 50);
-    let btns = factionCanvas.getChildren();
-    console.log(btns[0].getText());
-
-    let factionUI = new UIElement();
-    factionUI.useWidgetSize = false;
-    factionUI.width = 500;
-    factionUI.height = 350;
-    factionUI.position = new Vector(-70, 0, 90);
-    factionUI.rotation = new Rotator(0, 180, 0);
-    factionUI.widget = new Border().setChild(factionCanvas);
-    world.addUI(factionUI);
-});
+const { Canvas, UIElement, Rotator, Border, Vector, Text, Button, world } = require('@tabletop-playground/api')
+const { Shuffle } = require('../lib/shuffle')
 
 
-let canvas = new Canvas();
-padding = 170;
-let offsetMult = 0;
+//May change how setup starts but for now this will do
+//Eventually break functions out to other scripts/classes
 
-for (let btn of setups){
-    canvas.addChild(btn, (padding * offsetMult) + 50, 50, 120, 75); //change numbers to place them spaced evenly
-    offsetMult++;
+class SetupGame{
+    constructor(){
+        this.rosterArray = [];
+        this.manSet = new Button().setText("Manual Setup");
+        this.manSet.onClicked.add((button, player) => {
+            this.bigBoard();
+        });
+
+        this.adSet = new Button().setText("ADSET");
+        this.adSet.onClicked.add((button, player) => {
+            this.bigBoard();
+            this.joinGame(setupGame.adSet.getText());
+        });
+
+        this.wtSet = new Button().setText("WT 2023");
+        this.wtSet.onClicked.add((button, player) => {
+            this.bigBoard();
+            this.joinGame(setupGame.wtSet.getText());
+        });
+
+        this.setupCanvas = new Canvas();
+        this.setupCanvas.addChild(this.manSet, 50, 25, 120, 50);
+        this.setupCanvas.addChild(this.adSet, 170, 25, 120, 50);
+        this.setupCanvas.addChild(this.wtSet, 290, 25, 120, 50);
+
+        this.setupBorder = new Border().setChild(this.setupCanvas);
+        
+        this.setupUI = new UIElement();
+        this.setupUI.useWidgetSize = false;
+        this.setupUI.height = 100;
+        this.setupUI.width = 460;
+        this.setupUI.position = new Vector(0, 60, 92);
+        this.setupUI.rotation = new Rotator(60, 90, 0);
+        this.setupUI.widget = this.setupBorder;
+        world.addUI(this.setupUI);
+    }
+
+    bigBoard(){
+        for(let child of this.setupCanvas.getChildren()){
+            this.setupCanvas.removeChild(child);
+        }
+        this.setupUI.height = 400;
+        this.setupUI.width = 400;
+        this.setupUI.position = new Vector(0, 67, 105);
+        world.updateUI(this.setupUI);
+    }
+
+    joinGame(setupType){
+        this.rosterText = new Text().setText("ROSTER");
+        this.joinBtn = new Button().setText("Join");
+        this.startBtn = new Button().setText("Start");
+        this.playerDisplay = new Text().setTextColor([0, 0, 0, 1]).setText("");
+        this.playerDisplayBorder = new Border().setChild(this.playerDisplay);
+        this.playerDisplayBorder.setColor([256, 256, 256, 1]);
+        this.setupCanvas.addChild(this.joinBtn, 210, 250, 50, 50);
+        this.setupCanvas.addChild(this.startBtn, 270, 250, 50, 50);
+        this.setupCanvas.addChild(this.rosterText, 70, 30, 60, 20);
+        this.joinBtn.onClicked.add((button, player) => {
+            if(!this.playerDisplay.getText().includes(player.getName())){
+                this.rosterArray.push(player);
+                this.playerDisplay.setText(this.playerDisplay.getText() + player.getName() + '\n');
+                world.updateUI(this.setupUI);
+            }
+        });
+
+        this.startBtn.onClicked.add((button, player) => {
+            if(this.playerDisplay.getText() != ""){
+                if(setupType == "WT 2023"){
+                    this.mapSelection(setupType);
+                    this.takeSeats();
+                    this.spawnDeck("Exiles and Paristans");
+                }
+                else {
+
+                }
+            }
+        });
+
+        this.setupCanvas.addChild(this.playerDisplayBorder, 50, 50, 100, 300);
+        world.updateUI(this.setupUI);
+    }
+
+    mapSelection(setupType){
+        const mapTemplate = {};
+        Object.assign(mapTemplate, require("./spawn/object_guid/map_guid"));
+        for(let child of this.setupCanvas.getChildren()){
+            this.setupCanvas.removeChild(child);
+        }
+        this.autumnBtn = new Button().setText("Autumn");
+        this.summerBtn = new Button().setText("Summer");
+        this.summerBtn.onClicked.add((button, player) => {
+            if(setupType == "WT 2023"){
+                this.spawnedMap = world.createObjectFromTemplate(mapTemplate[button.getText()], new Vector(0, 0, 87)).setRotation(new Rotator(0, 90, 0));
+            }
+        });
+        this.lakeBtn = new Button().setText("Lake");
+        this.mtnBtn = new Button().setText("Mountain");
+        this.winterBtn = new Button().setText("Winter");
+        if(setupType == "WT 2023"){
+            this.setupCanvas.addChild(this.summerBtn, 25, 25, 100, 50);
+            this.setupCanvas.addChild(this.lakeBtn, 150, 25, 100, 50);
+            this.setupCanvas.addChild(this.mtnBtn, 275, 25, 100, 50);
+            this.setupCanvas.addChild(this.winterBtn, 400, 25, 100, 50);
+            this.setupUI.height = 100;
+            this.setupUI.width = 525;
+        }
+        this.setupUI.position = new Vector(0, 60, 92);
+        world.updateUI(this.setupUI);
+    }
+
+    spawnDeck(deck){
+        const deckTemplate = {};
+        Object.assign(deckTemplate, require("./spawn/object_guid/deck_guid"));
+        this.deckHolder = world.createObjectFromTemplate(deckTemplate["Deck Holder"], new Vector(37, 0, 87));
+        this.domHolder = world.createObjectFromTemplate(deckTemplate["Dominance Holder"], new Vector(50, 0, 87))
+        this.spawnedDeck = world.createObjectFromTemplate(deckTemplate[deck], new Vector(36, -4, 88));
+        //this.spawnDeck.
+    }
+
+    takeSeats(){
+        this.turnOrder = Shuffle.shuffle(this.rosterArray);
+        for(player of this.turnOrder){
+            
+        }
+        
+    }
 }
 
-offsetMult = 0;
-
-for (let btn of decks){
-    canvas.addChild(btn, (padding * setups.length) + (padding * offsetMult) + 50, 50, 120, 75);
-    offsetMult++;
-}
-
-offsetMult = 0;
-
-for (let btn of maps){
-    canvas.addChild(btn, (padding * offsetMult) + 50, 200, 120, 75); //change numbers to place them spaced evenly
-    offsetMult++;
-}
-
-canvas.addChild(factionSelect, 50, 300, 120, 75);
-canvas.addChild(new Button().setText("Clear Table"), 730, 300, 120, 75);
-
-let ui = new UIElement();
-ui.useWidgetSize = false;
-ui.width = 900;
-ui.height = 400;
-ui.position = new Vector(-110, 0, 120); // Current table is just under 120cm tall
-ui.rotation = new Rotator(60, 180, 0);
-ui.widget = new Border().setChild(canvas);
-world.addUI(ui);
-
-let playerNameText = [new Text(), new Text(), new Text(), new Text(), new Text()];
-for(let i = 0; i < playerNameText.length; i++){
-    playerNameText[i].setText("Player " + (i + 1)).setFontSize(50);
-    playerNameText[i].setJustification(1);
-}
-
-let playerUI = new UIElement();
-playerUI.useWidgetSize = false;
-playerUI.width = 600;
-playerUI.height = 100;
-
-playerUI.position = new Vector(-64, -108, 81);
-playerUI.rotation = new Rotator(50, -90, 0);
-playerUI.widget = new Border().setChild(playerNameText[0]);
-world.addUI(playerUI);
-
-playerUI.position = new Vector(64, -108, 81);
-playerUI.rotation = new Rotator(50, -90, 0);
-playerUI.widget = new Border().setChild(playerNameText[1]);
-world.addUI(playerUI);
-playerUI.position = new Vector(64, 108, 81);
-playerUI.rotation = new Rotator(50, 90, 0);
-playerUI.widget = new Border().setChild(playerNameText[2]);
-world.addUI(playerUI);
-playerUI.position = new Vector(-64, 108, 81);
-playerUI.rotation = new Rotator(50, 90, 0);
-playerUI.widget = new Border().setChild(playerNameText[3]);
-world.addUI(playerUI);
-
-//Figure out if this is suitable especially for 5th and 6th player
-// for(let i = 0; i < playerNameText.length; i++){
-//     if(i == 1){
-//         playerUI.position = new Vector(50, -90, 130);
-//     }
-//     else{
-//         playerUI.position = new Vector(-50, -90, 130);
-//     }
-//     playerUI.widget = new Border().setChild(playerNameText[i]);
-//     world.addUI(playerUI);
-// }
+let setupGame = new SetupGame();
