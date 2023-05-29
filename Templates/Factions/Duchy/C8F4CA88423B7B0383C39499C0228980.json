@@ -2,7 +2,7 @@
 	"Type": "Generic",
 	"GUID": "C8F4CA88423B7B0383C39499C0228980",
 	"Name": "Warrior",
-	"Metadata": "",
+	"Metadata": "unit.warrior:underworld/duchy",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.3,

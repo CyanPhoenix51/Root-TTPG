@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "302B76BA410768B64F9B818055E599EE",
 	"Name": "Recruiter",
-	"Metadata": "",
+	"Metadata": "building.recruiter:base/cats",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,
@@ -39,7 +39,7 @@
 	},
 	"Tags": [
 		"Building",
-		"Cat"
+		"Cats"
 	],
 	"FrontTexture": "Factions/Cats/Recruiter.png",
 	"BackTexture": "",

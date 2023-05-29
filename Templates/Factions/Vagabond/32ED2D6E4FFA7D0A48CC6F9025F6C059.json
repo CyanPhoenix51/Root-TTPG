@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "32ED2D6E4FFA7D0A48CC6F9025F6C059",
 	"Name": "Thief Card",
-	"Metadata": "",
+	"Metadata": "card.character.thief:base/vagabond",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

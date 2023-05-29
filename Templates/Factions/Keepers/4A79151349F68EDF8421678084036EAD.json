@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "4A79151349F68EDF8421678084036EAD",
 	"Name": "Jewelry 3",
-	"Metadata": "",
+	"Metadata": "token.jewelry.3:marauder/keepers",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

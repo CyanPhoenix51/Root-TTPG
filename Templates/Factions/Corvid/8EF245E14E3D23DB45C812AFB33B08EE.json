@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "8EF245E14E3D23DB45C812AFB33B08EE",
 	"Name": "Corvid PlayerBoard",
-	"Metadata": "",
+	"Metadata": "board.faction:underworld/corvid",
 	"CollisionType": "Ground",
 	"Friction": 0.7,
 	"Restitution": 0,

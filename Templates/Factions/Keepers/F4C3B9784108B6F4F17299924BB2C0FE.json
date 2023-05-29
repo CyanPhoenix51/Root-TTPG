@@ -2,7 +2,7 @@
 	"Type": "Generic",
 	"GUID": "F4C3B9784108B6F4F17299924BB2C0FE",
 	"Name": "Keeper Container",
-	"Metadata": "",
+	"Metadata": "container.warrior:marauder/keepers",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.3,

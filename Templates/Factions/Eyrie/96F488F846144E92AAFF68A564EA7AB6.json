@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "96F488F846144E92AAFF68A564EA7AB6",
 	"Name": "Eyrie PlayerBoard",
-	"Metadata": "",
+	"Metadata": "board.faction:base/eyrie",
 	"CollisionType": "Ground",
 	"Friction": 0.7,
 	"Restitution": 0,

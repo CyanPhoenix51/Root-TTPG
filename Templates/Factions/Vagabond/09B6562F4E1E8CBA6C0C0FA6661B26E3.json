@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "09B6562F4E1E8CBA6C0C0FA6661B26E3",
 	"Name": "Boot Starter",
-	"Metadata": "",
+	"Metadata": "piece.item.starter.boot:base/vagabond",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

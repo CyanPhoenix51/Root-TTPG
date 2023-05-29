@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "695BED8146B69D817BE474B026DBCB81",
 	"Name": "Leaders",
-	"Metadata": "",
+	"Metadata": "card.leaders:base/eyrie",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "603E1E7E4D1BD59C86D78FB92C766B4E",
 	"Name": "Vagabond PlayerBoard",
-	"Metadata": "",
+	"Metadata": "board.faction:base/vagabond",
 	"CollisionType": "Ground",
 	"Friction": 0.7,
 	"Restitution": 0,

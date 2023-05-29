@@ -2,7 +2,7 @@
 	"Type": "Generic",
 	"GUID": "B3F7E6944D2655A8928FEFB4F55C77DC",
 	"Name": "Hundreds Container",
-	"Metadata": "",
+	"Metadata": "container.warrior:marauder/loth",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.3,
@@ -68,5 +68,8 @@
 		"Y": 0,
 		"Z": 0
 	},
-	"Tags": []
+	"Tags": [
+		"LOTH",
+		"Warrior"
+	]
 }

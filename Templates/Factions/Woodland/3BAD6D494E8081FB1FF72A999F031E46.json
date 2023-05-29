@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "3BAD6D494E8081FB1FF72A999F031E46",
 	"Name": "Fox Base",
-	"Metadata": "",
+	"Metadata": "building.base.fox:base/woodland",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

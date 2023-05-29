@@ -2,7 +2,7 @@
 	"Type": "Generic",
 	"GUID": "0D88A34344350F9DA928FFA27F1212F4",
 	"Name": "Services Marker",
-	"Metadata": "",
+	"Metadata": "marker.services:riverfolk/riverfolk",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.3,

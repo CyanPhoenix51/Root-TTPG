@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "EE89D1A04D479E45FEDEA9B5F124B758",
 	"Name": "Retinue Board",
-	"Metadata": "",
+	"Metadata": "board.retinue:marauders/keepers",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

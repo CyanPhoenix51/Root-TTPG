@@ -2,7 +2,7 @@
 	"Type": "Dice",
 	"GUID": "2EE5761B4D08156E99A639B8856B3A9B",
 	"Name": "WA Die",
-	"Metadata": "",
+	"Metadata": "dice:base/woodland",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.5,

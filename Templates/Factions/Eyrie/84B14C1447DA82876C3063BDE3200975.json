@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "84B14C1447DA82876C3063BDE3200975",
 	"Name": "VP Marker",
-	"Metadata": "",
+	"Metadata": "marker.vp:base/eyrie",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

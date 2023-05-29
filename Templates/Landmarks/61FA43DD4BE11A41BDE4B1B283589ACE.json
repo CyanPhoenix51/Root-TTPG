@@ -1,8 +1,8 @@
 {
 	"Type": "Generic",
 	"GUID": "61FA43DD4BE11A41BDE4B1B283589ACE",
-	"Name": "Generic",
-	"Metadata": "",
+	"Name": "Lost City Landmark",
+	"Metadata": "landmark:lpack/lost_city",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.3,

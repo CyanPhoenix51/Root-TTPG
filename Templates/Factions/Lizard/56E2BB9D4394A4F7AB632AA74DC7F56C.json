@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "56E2BB9D4394A4F7AB632AA74DC7F56C",
 	"Name": "Mouse Garden",
-	"Metadata": "",
+	"Metadata": "buliding.garden.mouse:riverfolk/lizards",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,
@@ -39,7 +39,7 @@
 	},
 	"Tags": [
 		"Building",
-		"Lizard"
+		"Lizards"
 	],
 	"FrontTexture": "Factions/Lizard/Lizard_Mouse_Garden.png",
 	"BackTexture": "",

@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "D7B7737C4E3931AA7DE3BE908114D435",
 	"Name": "Market",
-	"Metadata": "",
+	"Metadata": "building.market:underworld/duchy",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "1B9B3AAF4C44ECCD6C86E09B0085066A",
 	"Name": "VP Marker",
-	"Metadata": "",
+	"Metadata": "marker.vp:underworld/corvid",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

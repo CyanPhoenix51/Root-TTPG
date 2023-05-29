@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "56114E5A4E16EB05195B52A61965F65A",
 	"Name": "Tablet 3",
-	"Metadata": "",
+	"Metadata": "token.tablet.3:marauder/keepers",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

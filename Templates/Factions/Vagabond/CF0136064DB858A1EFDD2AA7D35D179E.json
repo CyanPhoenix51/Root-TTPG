@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "CF0136064DB858A1EFDD2AA7D35D179E",
 	"Name": "Keepers Relationship Marker",
-	"Metadata": "",
+	"Metadata": "piece.relationship.keepers:marauder/vagabond",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

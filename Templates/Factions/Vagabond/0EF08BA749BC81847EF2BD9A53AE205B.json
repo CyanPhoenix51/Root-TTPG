@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "0EF08BA749BC81847EF2BD9A53AE205B",
 	"Name": "VP Marker 2",
-	"Metadata": "",
+	"Metadata": "marker.vp.2:riverfolk/vagabond",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

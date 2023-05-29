@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "F919C23546DBD19FF3788CAD6D8C4B2A",
 	"Name": "Card Improvment Holder",
-	"Metadata": "",
+	"Metadata": "board.holder.faction:base/card_improvment",
 	"CollisionType": "Ground",
 	"Friction": 0.7,
 	"Restitution": 0,

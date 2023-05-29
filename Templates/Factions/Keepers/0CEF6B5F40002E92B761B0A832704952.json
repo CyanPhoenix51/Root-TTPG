@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "0CEF6B5F40002E92B761B0A832704952",
 	"Name": "Keeper VP Marker",
-	"Metadata": "",
+	"Metadata": "marker.vp:marauder/keepers",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

@@ -6,30 +6,36 @@ const { world } = require('@tabletop-playground/api')
 //spawn Craftable Items, Ruins, and any landmarks
 //spawn Clearing Numbers
 
-const mapDict = {
-    "Autumn" : {GUID: "09B4F948491B210D3FA9CD9AC86DF4CE", Landmarks: "", Special: ""},
-    "Summer" : {GUID: "", Landmark: "", Special: ""},
-    "Winter" : {GUID: "", Landmark: "", Special: ""},
-    "Lake" : {GUID: "", Landmark: "Ferry", Special: ""},
-    "Mountain" : {GUID: "", Landmark: "Tower", Special: "Closed Paths"}
-};
-
-const deckDict = {
-    "Base" : {GUID: "99FC83E04C43793D89BF1A8BF85DAF2E"},
-    "Exiles & Paristans" : {GUID: "977B6F8E4F5FC8134F1A10ACDB4EBD3A"}
-};
+const decks = {};
+const maps = {};
+const ruins = {};
+const itemCrafts = {};
 class Spawn{
 
-    static spawnDeck = () => {
+    //Spawns chosen deck, holder, and dominance
+    deck(){
 
     }
 
-    static spawnMap = (name, setupType = '') => {
-        console.log(mapDict[name].GUID);
-        const map = world.createObjectFromTemplate(mapDict[name].GUID, new Vector(0, 0.75, 120));
-        map.setRotation(new Rotator(0, 90, 0));
-        return map;
-    };
+    //spawns the choosen map
+    map(){
+
+    }
+
+    //from map() will spawn craftable items and ruins
+    ruinsAndItems(){
+
+    }
+
+    //when a faction is choosen will spawn at the correct player area
+    faction(){
+
+    }
+
+    //battle button that will roll die for battles
+    battleButton(){
+
+    }
 
 }
 

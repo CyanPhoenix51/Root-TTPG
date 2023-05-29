@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "1514586D49876DC54AC084A3208063C1",
 	"Name": "Harrier Card",
-	"Metadata": "",
+	"Metadata": "card.character.harrier:vbpack/vagabond",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

@@ -1,8 +1,8 @@
 {
 	"Type": "Card",
 	"GUID": "F22B37B54661F999727586BF90EAFCDD",
-	"Name": "Cat PlayerBoard",
-	"Metadata": "",
+	"Name": "Cats PlayerBoard",
+	"Metadata": "board.faction:base/cats",
 	"CollisionType": "Ground",
 	"Friction": 0.7,
 	"Restitution": 0,
@@ -326,7 +326,7 @@
 	},
 	"Tags": [
 		"PlayerBoard",
-		"Cat"
+		"Cats"
 	],
 	"FrontTexture": "Factions/Cats/Cats_PlayerBoard_Back.png",
 	"BackTexture": "Factions/Cats/Cat_PlayerBoard_Front.png",

@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "4FA0022F47B0B4D5C10E198F1EB27296",
 	"Name": "Corvid Relationship Marker",
-	"Metadata": "",
+	"Metadata": "piece.relationship.corvid:underworld/vagabond",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

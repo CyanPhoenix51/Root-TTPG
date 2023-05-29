@@ -2,7 +2,7 @@
 	"Type": "Container",
 	"GUID": "C6F699B64D507523F612DD8E8A677F2A",
 	"Name": "Eyrie Container",
-	"Metadata": "",
+	"Metadata": "container.warrior:base/eyrie",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.3,

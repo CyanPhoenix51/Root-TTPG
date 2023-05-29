@@ -2,7 +2,7 @@
 	"Type": "Container",
 	"GUID": "80F494CB421CA8BF8F5AC3934D141713",
 	"Name": "Warrior Container",
-	"Metadata": "",
+	"Metadata": "container.warrior:riverfolk/riverfolk",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.3,

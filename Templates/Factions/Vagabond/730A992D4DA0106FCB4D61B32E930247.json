@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "730A992D4DA0106FCB4D61B32E930247",
 	"Name": "Cats Relationship Marker",
-	"Metadata": "",
+	"Metadata": "piece.relationship.cats:base/vagabond",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

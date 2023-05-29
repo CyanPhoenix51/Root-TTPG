@@ -2,7 +2,7 @@
 	"Type": "Dice",
 	"GUID": "AA8F5BB74DF346E46C6BF3BE490AA850",
 	"Name": "Eyrie Die",
-	"Metadata": "",
+	"Metadata": "dice:base/eyrie",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.5,
@@ -68,7 +68,10 @@
 		"Y": 0,
 		"Z": 0
 	},
-	"Tags": [],
+	"Tags": [
+		"Eyrie",
+		"Dice"
+	],
 	"Faces": [
 		{
 			"X": 0,

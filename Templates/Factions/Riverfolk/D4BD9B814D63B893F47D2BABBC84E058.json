@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "D4BD9B814D63B893F47D2BABBC84E058",
 	"Name": "Fox Tradepost",
-	"Metadata": "",
+	"Metadata": "token.tradepost.fox:riverfolk/riverfolk",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

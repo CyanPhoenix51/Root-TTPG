@@ -1,8 +1,8 @@
 {
 	"Type": "Card",
 	"GUID": "80CA07F84104C7312D0AFBA6D8E74D87",
-	"Name": "Lizard PlayerBoard",
-	"Metadata": "",
+	"Name": "Lizards PlayerBoard",
+	"Metadata": "board.faction:riverfolk/lizards",
 	"CollisionType": "Ground",
 	"Friction": 0.7,
 	"Restitution": 0,
@@ -286,7 +286,7 @@
 		"Z": 0
 	},
 	"Tags": [
-		"Lizard",
+		"Lizards",
 		"PlayerBoard"
 	],
 	"FrontTexture": "Factions/Lizard/Lizard_PlayerBoard_Back.png",

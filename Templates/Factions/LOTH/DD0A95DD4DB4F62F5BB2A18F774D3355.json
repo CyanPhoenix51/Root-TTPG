@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "DD0A95DD4DB4F62F5BB2A18F774D3355",
 	"Name": "Moods",
-	"Metadata": "",
+	"Metadata": "card.deck.moods:marauder/loth",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,
@@ -66,6 +66,14 @@
 	},
 	"CardMetadata":
 	{
+		"0": "card.mood:marauder/grandiose",
+		"1": "card.mood:marauder/stubborn",
+		"2": "card.mood:marauder/bitter",
+		"3": "card.mood:marauder/lavish",
+		"4": "card.mood:marauder/relentless",
+		"5": "card.mood:marauder/wrathful",
+		"6": "card.mood:marauder/jubilant",
+		"7": "card.mood:marauder/rowdy"
 	},
 	"CardTags":
 	{

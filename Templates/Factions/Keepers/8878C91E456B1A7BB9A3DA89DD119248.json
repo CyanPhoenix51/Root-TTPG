@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "8878C91E456B1A7BB9A3DA89DD119248",
 	"Name": "Waystation Jewelry/Tablet",
-	"Metadata": "",
+	"Metadata": "builing.waystation.jewelry.tablet:marauder/keepers",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

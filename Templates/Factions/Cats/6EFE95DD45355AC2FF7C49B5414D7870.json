@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "6EFE95DD45355AC2FF7C49B5414D7870",
 	"Name": "Cats VP Marker",
-	"Metadata": "",
+	"Metadata": "marker.vp:base/cats",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,
@@ -38,7 +38,7 @@
 		"Z": 0
 	},
 	"Tags": [
-		"Cat",
+		"Cats",
 		"VP"
 	],
 	"FrontTexture": "Factions/Cats/Cat_VP_Marker.png",

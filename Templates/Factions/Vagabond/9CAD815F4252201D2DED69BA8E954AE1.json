@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "9CAD815F4252201D2DED69BA8E954AE1",
 	"Name": "Vagrant Card",
-	"Metadata": "",
+	"Metadata": "card.character.vagrant:riverfolk/vagabond",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "261E4FDF4BD58BDFF931AAAA6CCD6F2E",
 	"Name": "Workshop",
-	"Metadata": "",
+	"Metadata": "building.workshop:base/cats",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,
@@ -39,7 +39,7 @@
 	},
 	"Tags": [
 		"Building",
-		"Cat"
+		"Cats"
 	],
 	"FrontTexture": "Factions/Cats/Workshop.png",
 	"BackTexture": "",

@@ -1,8 +1,8 @@
 {
 	"Type": "Card",
-	"GUID": "8AE3D34A48FCC5A065934F9D5B6F34E3",
-	"Name": "Boot Ruin",
-	"Metadata": "",
+	"GUID": "A2C6C9B74FFCF85EFCC6B8B67C6390E4",
+	"Name": "Hammer Ruin",
+	"Metadata": "piece.item.ruin:base/hammer",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,
@@ -41,8 +41,8 @@
 		"Vagabond",
 		"Item"
 	],
-	"FrontTexture": "Factions/Vagabond/Boots_Ruin_Exhaust.jpg",
-	"BackTexture": "Factions/Vagabond/Boots_Ruin_FaceUp.jpg",
+	"FrontTexture": "Factions/Vagabond/Hammer_Ruin_Exhaust.jpg",
+	"BackTexture": "Factions/Vagabond/Hammer_Ruin_FaceUp.jpg",
 	"HiddenTexture": "",
 	"BackIndex": -2,
 	"HiddenIndex": -1,

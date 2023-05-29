@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "2DECAE8B44B82D55A613CB9C25C5A2ED",
 	"Name": "Bunny Base",
-	"Metadata": "",
+	"Metadata": "building.base.bunny:base/woodland",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

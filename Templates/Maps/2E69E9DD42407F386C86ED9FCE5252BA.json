@@ -2,7 +2,7 @@
 	"Type": "Generic",
 	"GUID": "2E69E9DD42407F386C86ED9FCE5252BA",
 	"Name": "Mountain Map",
-	"Metadata": "",
+	"Metadata": "board.map:underworld/mountain",
 	"CollisionType": "Ground",
 	"Friction": 0.7,
 	"Restitution": 0.3,

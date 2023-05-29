@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "37C414734C3123254C02E6BCCD549512",
 	"Name": "Waystation Tablet/Figure",
-	"Metadata": "",
+	"Metadata": "building.waystation.tablet.figure:marauder/keepers",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

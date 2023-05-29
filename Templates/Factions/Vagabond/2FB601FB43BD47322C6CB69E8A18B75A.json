@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "2FB601FB43BD47322C6CB69E8A18B75A",
 	"Name": "VP Marker 1",
-	"Metadata": "",
+	"Metadata": "marker.vp.1:base/vagabond",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

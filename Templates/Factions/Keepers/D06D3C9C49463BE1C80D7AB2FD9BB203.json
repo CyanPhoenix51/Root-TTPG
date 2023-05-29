@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "D06D3C9C49463BE1C80D7AB2FD9BB203",
 	"Name": "Waystation Figure/Jewelry",
-	"Metadata": "",
+	"Metadata": "building.waystation.figure.jewelry:marauder/keepers",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

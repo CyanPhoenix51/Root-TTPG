@@ -1,8 +1,8 @@
 {
 	"Type": "Dice",
 	"GUID": "A95BB31B4B5546138F402DBDAB6CAB5A",
-	"Name": "Lizard Die",
-	"Metadata": "",
+	"Name": "Lizards Die",
+	"Metadata": "dice:riverfolk/lizards",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.5,
@@ -68,7 +68,10 @@
 		"Y": 0,
 		"Z": 0
 	},
-	"Tags": [],
+	"Tags": [
+		"Dice",
+		"Lizards"
+	],
 	"Faces": [
 		{
 			"X": 0,

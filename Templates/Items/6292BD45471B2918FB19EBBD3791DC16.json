@@ -1,8 +1,8 @@
 {
 	"Type": "Card",
-	"GUID": "58C8966940860297E9A5879ADB04249A",
-	"Name": "Sword Craft",
-	"Metadata": "",
+	"GUID": "6292BD45471B2918FB19EBBD3791DC16",
+	"Name": "Hammer Craft",
+	"Metadata": "piece.item.craft:base/hammer",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,
@@ -40,10 +40,10 @@
 	"Tags": [
 		"Vagabond",
 		"Item",
-		"Sword"
+		"Hammer"
 	],
-	"FrontTexture": "Factions/Vagabond/Sword_Craft_Exhaust.jpg",
-	"BackTexture": "Factions/Vagabond/Sword_Craft_FaceUp.jpg",
+	"FrontTexture": "Factions/Vagabond/Hammer_Ruin_Exhaust.jpg",
+	"BackTexture": "Factions/Vagabond/Hammer_Craft_FaceUp.jpg",
 	"HiddenTexture": "",
 	"BackIndex": -2,
 	"HiddenIndex": -1,

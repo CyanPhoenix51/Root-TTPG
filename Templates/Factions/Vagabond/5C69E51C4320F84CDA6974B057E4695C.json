@@ -2,7 +2,7 @@
 	"Type": "Generic",
 	"GUID": "5C69E51C4320F84CDA6974B057E4695C",
 	"Name": "Tinker",
-	"Metadata": "",
+	"Metadata": "unit.tinker:base/vagabond",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.3,

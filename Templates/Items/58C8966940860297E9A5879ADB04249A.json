@@ -1,8 +1,8 @@
 {
 	"Type": "Card",
-	"GUID": "FCB69A764EBBBD5AAA85F7B705A43F26",
-	"Name": "Sword Ruin",
-	"Metadata": "",
+	"GUID": "58C8966940860297E9A5879ADB04249A",
+	"Name": "Sword Craft",
+	"Metadata": "piece.item.craft:base/sword",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,
@@ -39,10 +39,11 @@
 	},
 	"Tags": [
 		"Vagabond",
-		"Item"
+		"Item",
+		"Sword"
 	],
-	"FrontTexture": "Factions/Vagabond/Sword_Ruin_Exhaust.jpg",
-	"BackTexture": "Factions/Vagabond/Sword_Ruin_FaceUp.jpg",
+	"FrontTexture": "Factions/Vagabond/Sword_Craft_Exhaust.jpg",
+	"BackTexture": "Factions/Vagabond/Sword_Craft_FaceUp.jpg",
 	"HiddenTexture": "",
 	"BackIndex": -2,
 	"HiddenIndex": -1,

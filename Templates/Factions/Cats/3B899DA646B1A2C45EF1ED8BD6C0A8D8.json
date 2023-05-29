@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "3B899DA646B1A2C45EF1ED8BD6C0A8D8",
 	"Name": "Sawmill",
-	"Metadata": "",
+	"Metadata": "building.sawmill:base/cats",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,
@@ -39,7 +39,7 @@
 	},
 	"Tags": [
 		"Building",
-		"Cat"
+		"Cats"
 	],
 	"FrontTexture": "Factions/Cats/Sawmill.png",
 	"BackTexture": "",

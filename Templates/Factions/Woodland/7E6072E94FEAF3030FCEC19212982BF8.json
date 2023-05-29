@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "7E6072E94FEAF3030FCEC19212982BF8",
 	"Name": "VP Marker",
-	"Metadata": "",
+	"Metadata": "marker.vp:base/woodland",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

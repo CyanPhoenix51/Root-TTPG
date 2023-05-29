@@ -2,7 +2,7 @@
 	"Type": "Generic",
 	"GUID": "8BBAAEAC487EAC4F9309E38B904F7D61",
 	"Name": "Crown",
-	"Metadata": "",
+	"Metadata": "piece.crown:underworld/duchy",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.3,
@@ -69,6 +69,7 @@
 		"Z": 0
 	},
 	"Tags": [
-		"Crown"
+		"Crown",
+		"Duchy"
 	]
 }

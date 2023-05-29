@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "2101DE524C59D81B8C5CD089017BDA4C",
 	"Name": "LOTH VP Marker",
-	"Metadata": "",
+	"Metadata": "marker.vp:marauder/loth",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

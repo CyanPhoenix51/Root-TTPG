@@ -2,7 +2,7 @@
 	"Type": "Container",
 	"GUID": "400417CD42463B1D0D0CF2845EE09F53",
 	"Name": "Duchy Container",
-	"Metadata": "",
+	"Metadata": "container.warrior:underworld/duchy",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.3,

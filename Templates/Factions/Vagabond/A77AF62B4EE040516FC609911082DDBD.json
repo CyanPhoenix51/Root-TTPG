@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "A77AF62B4EE040516FC609911082DDBD",
 	"Name": "Sword Starter",
-	"Metadata": "",
+	"Metadata": "piece.item.starter.sword:base/vagabond",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "1A3245BA4034F182AFF012BEE0ADE4F4",
 	"Name": "Eyrie Relationship Marker",
-	"Metadata": "",
+	"Metadata": "piece.relationship.eyrie:base/vagabond",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

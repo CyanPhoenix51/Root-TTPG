@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "686E39AA4AEA4FD6462C139F4A3571B8",
 	"Name": "Faithful Retainers",
-	"Metadata": "",
+	"Metadata": "card.retainers:marauder/keepers",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

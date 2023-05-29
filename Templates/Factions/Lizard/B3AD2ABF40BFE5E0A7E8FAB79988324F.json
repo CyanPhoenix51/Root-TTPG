@@ -1,8 +1,8 @@
 {
 	"Type": "Card",
 	"GUID": "B3AD2ABF40BFE5E0A7E8FAB79988324F",
-	"Name": "Lizard VP Marker",
-	"Metadata": "",
+	"Name": "Lizards VP Marker",
+	"Metadata": "marker.vp:riverfolk/lizards",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,
@@ -38,7 +38,7 @@
 		"Z": 0
 	},
 	"Tags": [
-		"Lizard",
+		"Lizards",
 		"VP"
 	],
 	"FrontTexture": "Factions/Lizard/Lizard_VP_Marker.png",

@@ -2,7 +2,7 @@
 	"Type": "Dice",
 	"GUID": "8A1F1C974961E378D855548F057B9F45",
 	"Name": "Mole Die",
-	"Metadata": "",
+	"Metadata": "dice:underworld/duchy",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.5,
@@ -68,7 +68,10 @@
 		"Y": 0,
 		"Z": 0
 	},
-	"Tags": [],
+	"Tags": [
+		"Dice",
+		"Duchy"
+	],
 	"Faces": [
 		{
 			"X": 0,

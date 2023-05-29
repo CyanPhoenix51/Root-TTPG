@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "893D56FC4138C2F573FA009BAB4D4452",
 	"Name": "Wood",
-	"Metadata": "",
+	"Metadata": "token.wood:base/cats",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,
@@ -39,7 +39,7 @@
 	},
 	"Tags": [
 		"Piece",
-		"Cat"
+		"Cats"
 	],
 	"FrontTexture": "Factions/Cats/Cats_Wood_Piece.png",
 	"BackTexture": "",

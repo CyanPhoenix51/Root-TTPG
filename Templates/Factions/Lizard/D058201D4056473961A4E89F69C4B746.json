@@ -1,8 +1,8 @@
 {
 	"Type": "Container",
 	"GUID": "D058201D4056473961A4E89F69C4B746",
-	"Name": "Lizard Container",
-	"Metadata": "",
+	"Name": "Lizards Container",
+	"Metadata": "container.warrior:riverfolk/lizards",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.3,
@@ -68,5 +68,7 @@
 		"Y": 0,
 		"Z": 0
 	},
-	"Tags": []
+	"Tags": [
+		"Lizards"
+	]
 }

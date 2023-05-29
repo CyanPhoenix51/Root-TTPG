@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "A2200FA14FC23B4379A312B166760452",
 	"Name": "Woodland PlayerBoard",
-	"Metadata": "",
+	"Metadata": "board.faction:base/woodland",
 	"CollisionType": "Ground",
 	"Friction": 0.7,
 	"Restitution": 0,

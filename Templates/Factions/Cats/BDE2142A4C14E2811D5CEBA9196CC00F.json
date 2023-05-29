@@ -2,7 +2,7 @@
 	"Type": "Generic",
 	"GUID": "BDE2142A4C14E2811D5CEBA9196CC00F",
 	"Name": "Warrior",
-	"Metadata": "",
+	"Metadata": "unit.warrior:base/cats",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.3,
@@ -69,7 +69,7 @@
 		"Z": 0
 	},
 	"Tags": [
-		"Cat",
+		"Cats",
 		"Warrior"
 	]
 }

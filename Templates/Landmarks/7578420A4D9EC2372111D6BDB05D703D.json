@@ -1,8 +1,8 @@
 {
 	"Type": "Card",
 	"GUID": "7578420A4D9EC2372111D6BDB05D703D",
-	"Name": "Ferry",
-	"Metadata": "",
+	"Name": "Ferry Landmark",
+	"Metadata": "landmark:underworld/ferry",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

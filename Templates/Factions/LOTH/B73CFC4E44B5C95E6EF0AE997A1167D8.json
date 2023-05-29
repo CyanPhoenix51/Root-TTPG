@@ -2,7 +2,7 @@
 	"Type": "Dice",
 	"GUID": "B73CFC4E44B5C95E6EF0AE997A1167D8",
 	"Name": "Mob Die",
-	"Metadata": "",
+	"Metadata": "die.mob:marauder/loth",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.5,

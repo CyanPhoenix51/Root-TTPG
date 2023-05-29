@@ -1,8 +1,8 @@
 {
 	"Type": "Card",
-	"GUID": "F148EAF64FB0FECB2BCAB4B7B8655156",
-	"Name": "Boot Craft",
-	"Metadata": "",
+	"GUID": "8AE3D34A48FCC5A065934F9D5B6F34E3",
+	"Name": "Boot Ruin",
+	"Metadata": "piece.item.ruin:base/boot",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,
@@ -39,11 +39,10 @@
 	},
 	"Tags": [
 		"Vagabond",
-		"Item",
-		"Boot"
+		"Item"
 	],
-	"FrontTexture": "Factions/Vagabond/Boots_Craft_Exhaust.jpg",
-	"BackTexture": "Factions/Vagabond/Boots_Craft_FaceUp.jpg",
+	"FrontTexture": "Factions/Vagabond/Boots_Ruin_Exhaust.jpg",
+	"BackTexture": "Factions/Vagabond/Boots_Ruin_FaceUp.jpg",
 	"HiddenTexture": "",
 	"BackIndex": -2,
 	"HiddenIndex": -1,

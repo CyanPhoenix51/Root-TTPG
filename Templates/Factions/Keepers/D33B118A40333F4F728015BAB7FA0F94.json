@@ -2,7 +2,7 @@
 	"Type": "Generic",
 	"GUID": "D33B118A40333F4F728015BAB7FA0F94",
 	"Name": "Warrior",
-	"Metadata": "",
+	"Metadata": "unit.warrior:marauder/keepers",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.3,

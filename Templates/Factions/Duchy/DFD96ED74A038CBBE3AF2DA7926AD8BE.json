@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "DFD96ED74A038CBBE3AF2DA7926AD8BE",
 	"Name": "Burrow",
-	"Metadata": "",
+	"Metadata": "board.burrow:underworld/duchy",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

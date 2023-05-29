@@ -2,7 +2,7 @@
 	"Type": "Container",
 	"GUID": "A1416BC74BCD2DC73FD661BE698DCBD6",
 	"Name": "Warrior Container",
-	"Metadata": "",
+	"Metadata": "container.warrior:base/cats",
 	"CollisionType": "Ground",
 	"Friction": 0.7,
 	"Restitution": 0.3,
@@ -68,5 +68,7 @@
 		"Y": 0,
 		"Z": 0
 	},
-	"Tags": []
+	"Tags": [
+		"Cats"
+	]
 }

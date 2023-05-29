@@ -2,7 +2,7 @@
 	"Type": "Generic",
 	"GUID": "3A9145BF4F3CB9B394A4199AD1C1C386",
 	"Name": "Warrior",
-	"Metadata": "",
+	"Metadata": "unit.warrior:riverfolk/riverfolk",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.3,

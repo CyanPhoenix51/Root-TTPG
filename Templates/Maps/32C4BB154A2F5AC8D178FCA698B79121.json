@@ -2,7 +2,7 @@
 	"Type": "Generic",
 	"GUID": "32C4BB154A2F5AC8D178FCA698B79121",
 	"Name": "Winter Map",
-	"Metadata": "",
+	"Metadata": "board.map:base/winter",
 	"CollisionType": "Ground",
 	"Friction": 0.7,
 	"Restitution": 0.3,

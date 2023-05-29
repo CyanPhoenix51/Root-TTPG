@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "0B2CEEA24E80724013B227B693350FA7",
 	"Name": "Keep",
-	"Metadata": "",
+	"Metadata": "token.keep:base/cats",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,
@@ -39,7 +39,7 @@
 	},
 	"Tags": [
 		"Piece",
-		"Cat"
+		"Cats"
 	],
 	"FrontTexture": "Factions/Cats/Keep_Token.png",
 	"BackTexture": "",

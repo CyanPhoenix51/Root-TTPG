@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "7649896746B0657CACFCE095382D27F9",
 	"Name": "Coins Starter",
-	"Metadata": "",
+	"Metadata": "piece.item.starter.coins:base/vagabond",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

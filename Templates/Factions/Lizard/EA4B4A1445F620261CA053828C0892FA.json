@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "EA4B4A1445F620261CA053828C0892FA",
 	"Name": "Fox Garden",
-	"Metadata": "",
+	"Metadata": "building.garden.fox:riverfolk/lizards",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,
@@ -39,7 +39,7 @@
 	},
 	"Tags": [
 		"Building",
-		"Lizard"
+		"Lizards"
 	],
 	"FrontTexture": "Factions/Lizard/Lizard_Fox_Garden.png",
 	"BackTexture": "",

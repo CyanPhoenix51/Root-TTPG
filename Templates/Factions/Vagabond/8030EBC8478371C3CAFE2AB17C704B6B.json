@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "8030EBC8478371C3CAFE2AB17C704B6B",
 	"Name": "LOTH Relationship Marker",
-	"Metadata": "",
+	"Metadata": "piece.relationship.loth:marauder/vagabond",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

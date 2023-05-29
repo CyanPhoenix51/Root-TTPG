@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "A973EEC14994CF5E4B2C709D44D90FE8",
 	"Name": "Bomb",
-	"Metadata": "",
+	"Metadata": "token.plot.bomb:underworld/corvid",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,
@@ -39,7 +39,8 @@
 	},
 	"Tags": [
 		"Corvid",
-		"Piece"
+		"Token",
+		"Plot"
 	],
 	"FrontTexture": "Factions/Corvid/Corvid_Plot_Bomb.png",
 	"BackTexture": "Factions/Corvid/Corvid_Plot_Back.png",

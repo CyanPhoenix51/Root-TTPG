@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "1A51FA2947C7E69BE6BBF3935DAFA1C5",
 	"Name": "VP Marker",
-	"Metadata": "",
+	"Metadata": "marker.vp:underworld/duchy",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

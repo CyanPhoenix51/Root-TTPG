@@ -2,7 +2,7 @@
 	"Type": "Generic",
 	"GUID": "F813F3DE4ADB9481712BE682BF647FBE",
 	"Name": "Scoundrel",
-	"Metadata": "",
+	"Metadata": "unit.scoundrel:riverfolk/vagabond",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.3,

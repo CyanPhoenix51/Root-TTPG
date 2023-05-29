@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "4CC1136E438A76DA940F43B97014507A",
 	"Name": "Snare",
-	"Metadata": "",
+	"Metadata": "token.plot.corvid:underworld/snare",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,
@@ -39,7 +39,7 @@
 	},
 	"Tags": [
 		"Corvid",
-		"Piece"
+		"Token"
 	],
 	"FrontTexture": "Factions/Corvid/Corvid_Plot_Snare.png",
 	"BackTexture": "Factions/Corvid/Corvid_Plot_Back.png",

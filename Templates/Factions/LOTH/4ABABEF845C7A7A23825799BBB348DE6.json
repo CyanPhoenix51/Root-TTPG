@@ -2,7 +2,7 @@
 	"Type": "Dice",
 	"GUID": "4ABABEF845C7A7A23825799BBB348DE6",
 	"Name": "LOTH Die",
-	"Metadata": "",
+	"Metadata": "dice:marauder/loth",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.5,
@@ -68,7 +68,10 @@
 		"Y": 0,
 		"Z": 0
 	},
-	"Tags": [],
+	"Tags": [
+		"LOTH",
+		"Dice"
+	],
 	"Faces": [
 		{
 			"X": 0,

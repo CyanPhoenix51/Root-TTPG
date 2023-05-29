@@ -2,7 +2,7 @@
 	"Type": "Generic",
 	"GUID": "51E3104A4023F1D226E48BA187437637",
 	"Name": "Summer Map",
-	"Metadata": "",
+	"Metadata": "marker.clearing:base/summer",
 	"CollisionType": "Ground",
 	"Friction": 0.7,
 	"Restitution": 0.3,

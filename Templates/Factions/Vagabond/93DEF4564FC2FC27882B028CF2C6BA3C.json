@@ -2,7 +2,7 @@
 	"Type": "Generic",
 	"GUID": "93DEF4564FC2FC27882B028CF2C6BA3C",
 	"Name": "Arbiter",
-	"Metadata": "",
+	"Metadata": "unit.vagrant:riverfolk/vagabond",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.3,

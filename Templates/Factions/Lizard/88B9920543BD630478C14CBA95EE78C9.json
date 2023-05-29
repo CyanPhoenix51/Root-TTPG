@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "88B9920543BD630478C14CBA95EE78C9",
 	"Name": "Bunny Garden",
-	"Metadata": "",
+	"Metadata": "building.garden.bunny:riverfolk/lizards",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,
@@ -39,7 +39,7 @@
 	},
 	"Tags": [
 		"Building",
-		"Lizard"
+		"Lizards"
 	],
 	"FrontTexture": "Factions/Lizard/Lizard_Bunny_Garden.png",
 	"BackTexture": "",

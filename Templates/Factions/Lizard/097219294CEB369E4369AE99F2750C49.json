@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "097219294CEB369E4369AE99F2750C49",
 	"Name": "Outcast Marker",
-	"Metadata": "",
+	"Metadata": "marker.outcast:riverfolk/lizards",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,
@@ -38,7 +38,7 @@
 		"Z": 0
 	},
 	"Tags": [
-		"Lizard"
+		"Lizards"
 	],
 	"FrontTexture": "Factions/Lizard/Lizard_Outcast_Normal_Marker.png",
 	"BackTexture": "Factions/Lizard/Lizard_Outcast_Hated_Marker.png",

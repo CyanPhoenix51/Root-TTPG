@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "86D1A961432490A161B512B295CCA2BA",
 	"Name": "Raid",
-	"Metadata": "",
+	"Metadata": "token.plot.raid:base/corvid",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,
@@ -39,7 +39,7 @@
 	},
 	"Tags": [
 		"Corvid",
-		"Piece"
+		"Token"
 	],
 	"FrontTexture": "Factions/Corvid/Corvid_Plot_Raid.png",
 	"BackTexture": "Factions/Corvid/Corvid_Plot_Back.png",

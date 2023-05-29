@@ -2,7 +2,7 @@
 	"Type": "Dice",
 	"GUID": "97C44ACC4307C310953A89B31EEEBB4A",
 	"Name": "VB2 Die",
-	"Metadata": "",
+	"Metadata": "dice.2:riverfolk/vagabond",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.5,

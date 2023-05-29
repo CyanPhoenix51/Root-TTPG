@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "46701D5E4F31C93C6AFA53A5546FF85C",
 	"Name": "Stronghold",
-	"Metadata": "",
+	"Metadata": "building.stronghold:marauder/loth",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

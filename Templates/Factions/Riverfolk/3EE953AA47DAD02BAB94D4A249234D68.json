@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "3EE953AA47DAD02BAB94D4A249234D68",
 	"Name": "Riverfolk PlayerBoard",
-	"Metadata": "",
+	"Metadata": "board.faction:riverfolk/riverfolk",
 	"CollisionType": "Ground",
 	"Friction": 0.7,
 	"Restitution": 0,
@@ -39,7 +39,10 @@
 			"SnapRotation": 0,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Services"
+			]
 		},
 		{
 			"X": 1.656,
@@ -49,7 +52,10 @@
 			"SnapRotation": 0,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"services"
+			]
 		},
 		{
 			"X": 3.016,
@@ -59,7 +65,10 @@
 			"SnapRotation": 0,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Services"
+			]
 		},
 		{
 			"X": 0.296,
@@ -69,7 +78,10 @@
 			"SnapRotation": 0,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Services"
+			]
 		},
 		{
 			"X": 1.656,
@@ -79,7 +91,10 @@
 			"SnapRotation": 0,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Services"
+			]
 		},
 		{
 			"X": 3.016,
@@ -89,7 +104,10 @@
 			"SnapRotation": 0,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Services"
+			]
 		},
 		{
 			"X": 0.296,
@@ -99,7 +117,10 @@
 			"SnapRotation": 0,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Services"
+			]
 		},
 		{
 			"X": 1.656,
@@ -109,7 +130,10 @@
 			"SnapRotation": 0,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Services"
+			]
 		},
 		{
 			"X": 3.016,
@@ -119,7 +143,10 @@
 			"SnapRotation": 0,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Services"
+			]
 		},
 		{
 			"X": 0.296,
@@ -129,7 +156,10 @@
 			"SnapRotation": 0,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Services"
+			]
 		},
 		{
 			"X": 1.656,
@@ -139,7 +169,10 @@
 			"SnapRotation": 0,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Services"
+			]
 		},
 		{
 			"X": 3.016,
@@ -149,7 +182,10 @@
 			"SnapRotation": 0,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Services"
+			]
 		},
 		{
 			"X": -8.87,

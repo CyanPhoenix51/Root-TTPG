@@ -2,7 +2,7 @@
 	"Type": "Dice",
 	"GUID": "8FFB602A4F7CA3B4796D3B8862B69516",
 	"Name": "Riverfolk Die",
-	"Metadata": "",
+	"Metadata": "dice:riverfolk/riverfolk",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.5,

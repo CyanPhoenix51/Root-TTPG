@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "F909CF91485785313B26D3A8F7539E08",
 	"Name": "Duchy Relationship Tracker",
-	"Metadata": "",
+	"Metadata": "piece.relationship.duchy:underworld/vagabond",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

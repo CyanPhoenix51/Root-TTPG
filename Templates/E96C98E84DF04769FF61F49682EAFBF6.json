@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "E96C98E84DF04769FF61F49682EAFBF6",
 	"Name": "Deck Holder",
-	"Metadata": "",
+	"Metadata": "board.holder:base/deck",
 	"CollisionType": "Ground",
 	"Friction": 0.7,
 	"Restitution": 0,

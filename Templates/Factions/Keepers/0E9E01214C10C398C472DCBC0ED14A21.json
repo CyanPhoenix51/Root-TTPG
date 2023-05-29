@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "0E9E01214C10C398C472DCBC0ED14A21",
 	"Name": "Figure 1",
-	"Metadata": "",
+	"Metadata": "token.figure.1:marauder/keepers",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "141181BD4E6F0084C8578A97DB4C7FD8",
 	"Name": "LOTH PlayerBoard",
-	"Metadata": "",
+	"Metadata": "board.faction:mauraders/loth",
 	"CollisionType": "Ground",
 	"Friction": 0.7,
 	"Restitution": 0,

@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "FEC3023C458AFE0E5B3E659990B90B0E",
 	"Name": "Tunnel",
-	"Metadata": "",
+	"Metadata": "token.tunnel:underworld/duchy",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,
@@ -38,7 +38,7 @@
 		"Z": 0
 	},
 	"Tags": [
-		"Piece",
+		"Token",
 		"Duchy"
 	],
 	"FrontTexture": "Factions/Duchy/Moles_Tunnel.png",

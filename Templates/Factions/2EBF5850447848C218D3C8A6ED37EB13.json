@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "2EBF5850447848C218D3C8A6ED37EB13",
 	"Name": "ADSET Cards",
-	"Metadata": "",
+	"Metadata": "card.deck.adset:marauder/0",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,
@@ -57,18 +57,29 @@
 	"MirrorBack": true,
 	"EmissiveFront": false,
 	"Model": "Rounded",
-	"Indices": [ 0, 1, 7, 9, 10, 2, 3, 4, 5, 8 ],
+	"Indices": [ 0, 1, 7, 9, 10, 2, 3, 4, 5, 8, 6 ],
 	"CardNames":
 	{
 	},
 	"CardMetadata":
 	{
+		"0": "card.adset:marauder/cats",
+		"1": "card.adset:marauder/eyrie",
+		"7": "card.adset:marauder/duchy",
+		"9": "card.adset:marauder/loth",
+		"10": "card.adset:marauder/keepers",
+		"2": "card.adset:marauder/woodland",
+		"3": "card.adset:marauder/vagabond_1",
+		"4": "card.adset:marauder/riverfolk",
+		"5": "card.adset:marauder/lizards",
+		"8": "card.adset:marauder/corvid",
+		"6": "card.adset:marauder/vagabond_2"
 	},
 	"CardTags":
 	{
 		"0": [
-			"Cat",
-			"Militant"
+			"Militant",
+			"Cats"
 		],
 		"1": [
 			"Eyrie",

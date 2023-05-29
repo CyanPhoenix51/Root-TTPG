@@ -1,8 +1,8 @@
 {
 	"Type": "Card",
-	"GUID": "7AD7CC154D80B9E04CE5FD9BB5482D34",
-	"Name": "Coins Craft",
-	"Metadata": "",
+	"GUID": "F148EAF64FB0FECB2BCAB4B7B8655156",
+	"Name": "Boot Craft",
+	"Metadata": "piece.item.craft:base/boot",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,
@@ -38,11 +38,12 @@
 		"Z": 0
 	},
 	"Tags": [
+		"Vagabond",
 		"Item",
-		"Coins"
+		"Boot"
 	],
-	"FrontTexture": "Factions/Vagabond/Coins_Craft_Exhaust.jpg",
-	"BackTexture": "Factions/Vagabond/Coins_Craft_FaceUp.jpg",
+	"FrontTexture": "Factions/Vagabond/Boots_Craft_Exhaust.jpg",
+	"BackTexture": "Factions/Vagabond/Boots_Craft_FaceUp.jpg",
 	"HiddenTexture": "",
 	"BackIndex": -2,
 	"HiddenIndex": -1,

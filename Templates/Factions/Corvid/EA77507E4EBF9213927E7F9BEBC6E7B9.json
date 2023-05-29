@@ -2,7 +2,7 @@
 	"Type": "Container",
 	"GUID": "EA77507E4EBF9213927E7F9BEBC6E7B9",
 	"Name": "Corvid Container",
-	"Metadata": "",
+	"Metadata": "container.warrior:underworld/corvid",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.3,

@@ -2,7 +2,7 @@
 	"Type": "Generic",
 	"GUID": "32506AEA455B4943A0575D85BD49ED6B",
 	"Name": "Warlord",
-	"Metadata": "",
+	"Metadata": "unit.warlord:maraduar/loth",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.3,
@@ -69,7 +69,7 @@
 		"Z": 0
 	},
 	"Tags": [
-		"Warrior",
+		"Warlord",
 		"LOTH"
 	]
 }

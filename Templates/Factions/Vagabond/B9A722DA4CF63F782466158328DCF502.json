@@ -2,7 +2,7 @@
 	"Type": "Generic",
 	"GUID": "B9A722DA4CF63F782466158328DCF502",
 	"Name": "Ronin",
-	"Metadata": "",
+	"Metadata": "unit.ronin:vbpack/vagabond",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.3,

@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "2A791CD4450B1F3197A33A90D82E84D8",
 	"Name": "Extortion",
-	"Metadata": "",
+	"Metadata": "token.plot.extortion:underworld/corvid",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,
@@ -39,7 +39,7 @@
 	},
 	"Tags": [
 		"Corvid",
-		"Piece"
+		"Token"
 	],
 	"FrontTexture": "Factions/Corvid/Corvid_Plot_Extort.png",
 	"BackTexture": "Factions/Corvid/Corvid_Plot_Back.png",

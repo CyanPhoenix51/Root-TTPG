@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "5654A1E6451C1BBA320C039C384D81A3",
 	"Name": "Dominance Holder",
-	"Metadata": "",
+	"Metadata": "board.holder:base/dominance",
 	"CollisionType": "Ground",
 	"Friction": 0.7,
 	"Restitution": 0,

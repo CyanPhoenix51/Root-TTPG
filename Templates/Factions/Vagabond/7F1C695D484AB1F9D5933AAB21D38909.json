@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "7F1C695D484AB1F9D5933AAB21D38909",
 	"Name": "Ranger Card",
-	"Metadata": "",
+	"Metadata": "card.character.ranger:base/vagabond",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

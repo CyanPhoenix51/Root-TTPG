@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "817A620A4F0950876EB1A9B57158A787",
 	"Name": "Tinker Card",
-	"Metadata": "",
+	"Metadata": "card.character.tinker:base/vagabond",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

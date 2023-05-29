@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "1F03F54442CC61F304193FA3FD658EB5",
 	"Name": "Citadel",
-	"Metadata": "",
+	"Metadata": "building.citadel:underworld/duchy",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

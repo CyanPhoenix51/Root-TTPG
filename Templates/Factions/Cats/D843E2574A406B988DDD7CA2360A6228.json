@@ -1,8 +1,8 @@
 {
 	"Type": "Dice",
 	"GUID": "D843E2574A406B988DDD7CA2360A6228",
-	"Name": "Cat Die",
-	"Metadata": "",
+	"Name": "Cats Die",
+	"Metadata": "dice:base/cats",
 	"CollisionType": "Ground",
 	"Friction": 0.7,
 	"Restitution": 0.5,
@@ -68,7 +68,10 @@
 		"Y": 0,
 		"Z": 0
 	},
-	"Tags": [],
+	"Tags": [
+		"Dice",
+		"Cats"
+	],
 	"Faces": [
 		{
 			"X": 0,

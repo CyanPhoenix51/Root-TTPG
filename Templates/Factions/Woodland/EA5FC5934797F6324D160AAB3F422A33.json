@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "EA5FC5934797F6324D160AAB3F422A33",
 	"Name": "Sympathy",
-	"Metadata": "",
+	"Metadata": "token.sympathy:base/woodland",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

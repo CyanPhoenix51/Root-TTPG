@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "662D490C4EEA9D2015459FAB1EE54BA4",
 	"Name": "Adventurer Card",
-	"Metadata": "",
+	"Metadata": "card.character.adventurer:vpback/vagabond",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

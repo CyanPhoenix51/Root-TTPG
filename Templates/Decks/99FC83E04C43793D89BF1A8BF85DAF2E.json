@@ -1,8 +1,8 @@
 {
 	"Type": "Card",
 	"GUID": "99FC83E04C43793D89BF1A8BF85DAF2E",
-	"Name": "Base Deck",
-	"Metadata": "",
+	"Name": "Base",
+	"Metadata": "card.deck:base/0",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,
@@ -38,7 +38,7 @@
 		"Z": 0
 	},
 	"Tags": [
-		"Base"
+		"Deck"
 	],
 	"FrontTexture": "Decks/Base_Deck.png",
 	"BackTexture": "Decks/Base_Deck_Back.png",
@@ -65,20 +65,216 @@
 	},
 	"CardMetadata":
 	{
+		"0": "card.improvement:base/Armorers",
+		"1": "card.improvement:base/Armorers",
+		"2": "card.item:base/woodland_runners",
+		"3": "card.item:base/arms_trader",
+		"4": "card.item:base/crossbow",
+		"5": "card.improvement:base/sappers",
+		"6": "card.improvement:base/sappers",
+		"7": "card.improvement:base/brutal_tactics",
+		"8": "card.improvement:base/brutal_tactics",
+		"9": "card.improvement:base/royal_claim",
+		"10": "card.ambush:base/fox_ambush",
+		"11": "card.item:base/gently_used_knapsack",
+		"12": "card.item:base/root_tea",
+		"13": "card.item:base/travel_gear",
+		"14": "card.item:base/protection_racket",
+		"15": "card.item:base/foxfolk_steel",
+		"16": "card.item:base/anvil",
+		"17": "card.improvement:base/stand_and_deliver",
+		"18": "card.improvement:base/stand_and_deliver",
+		"19": "card.improvement:base/tax_collector",
+		"20": "card.improvement:base/tax_collector",
+		"21": "card.improvement:base/tax_collector",
+		"22": "card.improvement:base/favor_of_the_foxes",
+		"23": "card.ambush:base/bunny_ambush",
+		"24": "card.item:base/smugglers_trail",
+		"25": "card.item:base/root_tea",
+		"26": "card.item:base/a_visit_to_friends",
+		"27": "card.item:base/bake_sale",
+		"28": "card.improvement:base/command_warren",
+		"29": "card.improvement:base/command_warren",
+		"30": "card.improvement:base/better_burrow_bank",
+		"31": "card.improvement:base/better_burrow_bank",
+		"32": "card.improvement:base/cobbler",
+		"33": "card.improvement:base/cobbler",
+		"34": "card.improvement:base/favor_of_the_rabbits",
+		"35": "card.ambush:base/mouse_ambush",
+		"36": "card.item:base/mouse_in_a_sack",
+		"37": "card.item:base/root_tea",
+		"38": "card.item:base/travel_gear",
+		"39": "card.item:base/investments",
+		"40": "card.item:base/sword",
+		"41": "card.item:base/crossbow",
+		"42": "card.improvement:base/scouting_party",
+		"43": "card.improvement:base/scouting_party",
+		"44": "card.ambush:base/bird_ambush",
+		"45": "card.ambush:base/bird_ambush",
+		"46": "card.item:base/birdy_bindle",
+		"47": "card.dominance:base/bird_dominance",
+		"48": "card.dominance:base/fox_dominance",
+		"49": "card.improvement:base/codebreakers",
+		"50": "card.improvement:base/codebreakers",
+		"51": "card.dominance:base/mouse_domniance",
+		"52": "card.improvement:base/favor_of_the_mice",
+		"53": "card.dominance:base/bunny_dominance"
 	},
 	"CardTags":
 	{
 		"47": [
-			"Dominance"
+			"Dominance",
+			"Bird"
 		],
 		"48": [
-			"Dominance"
+			"Dominance",
+			"Fox"
 		],
 		"51": [
-			"Dominance"
+			"Dominance",
+			"Mouse"
 		],
 		"53": [
-			"Dominance"
+			"Dominance",
+			"Bunny"
+		],
+		"0": [
+			"Bird"
+		],
+		"1": [
+			"Bird"
+		],
+		"2": [
+			"Bird"
+		],
+		"3": [
+			"Bird"
+		],
+		"4": [
+			"Bird"
+		],
+		"5": [
+			"Bird"
+		],
+		"6": [
+			"Bird"
+		],
+		"10": [
+			"Fox"
+		],
+		"11": [
+			"Fox"
+		],
+		"12": [
+			"Fox"
+		],
+		"13": [
+			"Fox"
+		],
+		"14": [
+			"Fox"
+		],
+		"15": [
+			"Fox"
+		],
+		"16": [
+			"Fox"
+		],
+		"17": [
+			"Fox"
+		],
+		"18": [
+			"Fox"
+		],
+		"19": [
+			"Fox"
+		],
+		"20": [
+			"Fox"
+		],
+		"21": [
+			"Fox"
+		],
+		"22": [
+			"Fox"
+		],
+		"23": [
+			"Bunny"
+		],
+		"25": [
+			"Bunny"
+		],
+		"26": [
+			"Bunny"
+		],
+		"27": [
+			"Bunny"
+		],
+		"28": [
+			"Bunny"
+		],
+		"29": [
+			"Bunny"
+		],
+		"30": [
+			"Bunny"
+		],
+		"32": [
+			"Bunny"
+		],
+		"31": [
+			"Bunny"
+		],
+		"33": [
+			"Bunny"
+		],
+		"34": [
+			"Bunny"
+		],
+		"35": [
+			"Mouse"
+		],
+		"36": [
+			"Mouse"
+		],
+		"37": [
+			"Mouse"
+		],
+		"38": [
+			"Mouse"
+		],
+		"39": [
+			"Mouse"
+		],
+		"40": [
+			"Mouse"
+		],
+		"41": [
+			"Mouse"
+		],
+		"42": [
+			"Mouse"
+		],
+		"43": [
+			"Mouse"
+		],
+		"44": [
+			"Bird"
+		],
+		"45": [
+			"Bird"
+		],
+		"46": [
+			"Bird"
+		],
+		"49": [
+			"Mouse"
+		],
+		"50": [
+			"Mouse"
+		],
+		"52": [
+			"Mouse"
 		]
 	}
 }

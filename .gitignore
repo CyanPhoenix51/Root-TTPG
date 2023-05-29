@@ -1,1 +1,17 @@
 .vts
+*.FBX
+Textures/mat_d.dds
+Textures/mat_e.dds
+Textures/mat_n.dds
+Textures/metal_d.dds
+Textures/metal_diff.png
+Textures/metal_e.dds
+Textures/metal_mask.png
+Textures/metal_n.png
+Textures/metal_nrm.png
+Textures/wood_d.dds
+Textures/wood_diff.png
+Textures/wood_e.dds
+Textures/wood_msk.png
+Textures/wood_n.dds
+Textures/wood_nrm.png

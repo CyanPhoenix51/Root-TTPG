@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "C9EBAB0C4D3F330CD88C2DB9116EDD1C",
 	"Name": "Crossbow Starter",
-	"Metadata": "",
+	"Metadata": "piece.item.starter.crossbow:base/vagabond",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "B981EB4C4F2123DC9DEFBBB0E7DBF948",
 	"Name": "Arbiter Card",
-	"Metadata": "",
+	"Metadata": "card.character.arbiter:riverfolk/vagabond",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

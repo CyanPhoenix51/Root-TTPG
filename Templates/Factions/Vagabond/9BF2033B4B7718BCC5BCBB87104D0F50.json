@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "9BF2033B4B7718BCC5BCBB87104D0F50",
 	"Name": "Riverfolk Relationship Marker",
-	"Metadata": "",
+	"Metadata": "piece.relationship.riverfolk:riverfolk/vagabond",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

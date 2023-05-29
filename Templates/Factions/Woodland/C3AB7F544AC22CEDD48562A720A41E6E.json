@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "C3AB7F544AC22CEDD48562A720A41E6E",
 	"Name": "Mouse Base",
-	"Metadata": "",
+	"Metadata": "building.base.mouse:base/woodland",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

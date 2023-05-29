@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "6C6DFC6F4D4639C00442619F4A05D924",
 	"Name": "VP Marker",
-	"Metadata": "",
+	"Metadata": "marker.vp:riverfolk/riverfolk",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

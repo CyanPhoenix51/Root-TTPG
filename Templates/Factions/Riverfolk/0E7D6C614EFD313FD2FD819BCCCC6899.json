@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "0E7D6C614EFD313FD2FD819BCCCC6899",
 	"Name": "Bunny Tradepost",
-	"Metadata": "",
+	"Metadata": "token.tradepost.bunny:riverfolk/riverfolk",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

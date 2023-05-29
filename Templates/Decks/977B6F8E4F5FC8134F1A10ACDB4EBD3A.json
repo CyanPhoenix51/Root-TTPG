@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "977B6F8E4F5FC8134F1A10ACDB4EBD3A",
 	"Name": "E&P Deck",
-	"Metadata": "",
+	"Metadata": "card.deck:e&p/0",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,
@@ -37,7 +37,9 @@
 		"Y": 0,
 		"Z": 0
 	},
-	"Tags": [],
+	"Tags": [
+		"Deck"
+	],
 	"FrontTexture": "Decks/E&P_Deck.png",
 	"BackTexture": "Decks/E&P_Deck_Back.png",
 	"HiddenTexture": "",
@@ -63,170 +65,280 @@
 	},
 	"CardMetadata":
 	{
+		"0": "card.improvement:e&p/saboteurs",
+		"1": "card.improvement:e&p/soup_kitchens",
+		"2": "card.improvement:e&p/boat_builders",
+		"3": "card.improvement:e&p/corvid_planners",
+		"4": "card.improvement:e&p/eyrie_emigre",
+		"5": "card.improvement:e&p/fox_partisans",
+		"6": "card.improvement:e&p/propaganda_bureau",
+		"7": "card.improvement:e&p/false_orders",
+		"8": "card.improvement:e&p/false_orders",
+		"9": "card.improvement:e&p/informants",
+		"10": "card.improvement:e&p/informants",
+		"11": "card.improvement:e&p/rabbit_partisans",
+		"12": "card.improvements:e&p/tunnels",
+		"13": "card.improvements:e&p/tunnels",
+		"14": "card.improvement:e&p/charm_offensive",
+		"15": "card.improvement:e&p/coffin_makers",
+		"16": "card.improvement:e&p/swap_meet",
+		"17": "card.improvement:e&p/swap_meet",
+		"18": "card.improvement:e&p/mouse_partisans",
+		"19": "card.improvements:e&p/league_of_adventurous_mice",
+		"20": "card.improvements:e&p/league_of_adventurous_mice",
+		"21": "card.improvement:e&p/murine_broker",
+		"22": "card.improvement:e&p/master_engravers",
+		"23": "card.improvement:e&p/saboteurs",
+		"24": "card.improvement:e&p/saboteurs",
+		"25": "card.item:e&p/woodland_runners",
+		"26": "card.item:e&p/arms_trader",
+		"27": "card.item:e&p/crossbow",
+		"28": "card.item:e&p/gently_used_knapsack",
+		"29": "card.item:e&p/root_tea",
+		"30": "card.item:e&p/travel_gear",
+		"31": "card.item:e&p/protection_racket",
+		"32": "card.item:e&p/foxfolk_steel",
+		"33": "card.item:e&p/anvil",
+		"34": "card.item:e&p/birdy_bindle",
+		"35": "card.item:e&p/smugglers_trail",
+		"36": "card.item:e&p/root_tea",
+		"37": "card.item:e&p/a_vist_to_friends",
+		"38": "card.item:e&p/bake_sale",
+		"39": "card.item:e&p/inventments",
+		"40": "card.item:e&p/travel_gear",
+		"41": "card.item:e&p/root_tea",
+		"42": "card.item:e&p/mouse_in_a_sack",
+		"43": "card.item:e&p/sword",
+		"44": "card.item:e&p/crossbow",
+		"45": "card.ambush:e&p/fox_ambush",
+		"46": "card.ambush:e&p/bunny_ambush",
+		"47": "card.ambush:e&p/mouse_ambush",
+		"48": "card.ambush:e&p/bird_ambush",
+		"49": "card.ambush:e&p/bird_ambush",
+		"50": "card.dominance:e&p/bird_dominance",
+		"51": "card.dominance:e&p/fox_dominance",
+		"52": "card.dominance:e&p/mouse_dominance",
+		"53": "card.dominance:e&p/bunny_dominance"
 	},
 	"CardTags":
 	{
 		"0": [
-			"E&P"
+			"E&P",
+			"Bird"
 		],
 		"1": [
-			"E&P"
+			"E&P",
+			"Bird"
 		],
 		"2": [
-			"E&P"
+			"E&P",
+			"Bird"
 		],
 		"3": [
-			"E&P"
+			"E&P",
+			"Bird"
 		],
 		"4": [
-			"E&P"
+			"E&P",
+			"Bird"
 		],
 		"5": [
-			"E&P"
+			"E&P",
+			"Fox"
 		],
 		"6": [
-			"E&P"
+			"E&P",
+			"Fox"
 		],
 		"7": [
-			"E&P"
+			"E&P",
+			"Fox"
 		],
 		"8": [
-			"E&P"
+			"E&P",
+			"Fox"
 		],
 		"9": [
-			"E&P"
+			"E&P",
+			"Fox"
 		],
 		"10": [
-			"E&P"
+			"E&P",
+			"Fox"
 		],
 		"11": [
-			"E&P"
+			"E&P",
+			"Bunny"
 		],
 		"12": [
-			"E&P"
+			"E&P",
+			"Bunny"
 		],
 		"13": [
-			"E&P"
+			"E&P",
+			"Bunny"
 		],
 		"14": [
-			"E&P"
+			"E&P",
+			"Bunny"
 		],
 		"15": [
-			"E&P"
+			"E&P",
+			"Bunny"
 		],
 		"16": [
-			"E&P"
+			"E&P",
+			"Bunny"
 		],
 		"17": [
-			"E&P"
+			"E&P",
+			"Bunny"
 		],
 		"18": [
-			"E&P"
+			"E&P",
+			"Bunny"
 		],
 		"19": [
-			"E&P"
+			"E&P",
+			"Mouse"
 		],
 		"20": [
-			"E&P"
+			"E&P",
+			"Mouse"
 		],
 		"21": [
-			"E&P"
+			"E&P",
+			"Mouse"
 		],
 		"22": [
-			"E&P"
+			"E&P",
+			"Mouse"
 		],
 		"23": [
-			"E&P"
+			"E&P",
+			"Bird"
 		],
 		"24": [
-			"E&P"
+			"E&P",
+			"Bird"
 		],
 		"25": [
-			"E&P"
+			"E&P",
+			"Bird"
 		],
 		"26": [
-			"E&P"
+			"E&P",
+			"Bird"
 		],
 		"27": [
-			"E&P"
+			"E&P",
+			"Bird"
 		],
 		"28": [
-			"E&P"
+			"E&P",
+			"Fox"
 		],
 		"29": [
-			"E&P"
+			"E&P",
+			"Fox"
 		],
 		"30": [
-			"E&P"
+			"E&P",
+			"Fox"
 		],
 		"31": [
-			"E&P"
+			"E&P",
+			"Fox"
 		],
 		"32": [
-			"E&P"
+			"E&P",
+			"Fox"
 		],
 		"33": [
-			"E&P"
+			"E&P",
+			"Fox"
 		],
 		"34": [
-			"E&P"
+			"E&P",
+			"Bird"
 		],
 		"35": [
-			"E&P"
+			"E&P",
+			"Bunny"
 		],
 		"36": [
-			"E&P"
+			"E&P",
+			"Bunny"
 		],
 		"37": [
-			"E&P"
+			"E&P",
+			"Bunny"
 		],
 		"38": [
-			"E&P"
+			"E&P",
+			"Bunny"
 		],
 		"39": [
-			"E&P"
+			"E&P",
+			"Mouse"
 		],
 		"40": [
-			"E&P"
+			"E&P",
+			"Mouse"
 		],
 		"41": [
-			"E&P"
+			"E&P",
+			"Mouse"
 		],
 		"42": [
-			"E&P"
+			"E&P",
+			"Mouse"
 		],
 		"43": [
-			"E&P"
+			"E&P",
+			"Mouse"
 		],
 		"44": [
-			"E&P"
+			"E&P",
+			"Mouse"
 		],
 		"45": [
-			"E&P"
+			"E&P",
+			"Fox"
 		],
 		"46": [
-			"E&P"
+			"E&P",
+			"Bunny"
 		],
 		"47": [
-			"E&P"
+			"E&P",
+			"Mouse"
 		],
 		"48": [
-			"E&P"
+			"E&P",
+			"Bird"
 		],
 		"49": [
-			"E&P"
+			"E&P",
+			"Bird"
 		],
 		"50": [
-			"E&P"
+			"E&P",
+			"Bird",
+			"Dominance"
 		],
 		"51": [
-			"E&P"
+			"E&P",
+			"Fox",
+			"Dominance"
 		],
 		"52": [
-			"E&P"
+			"E&P",
+			"Dominance"
 		],
 		"53": [
-			"E&P"
+			"E&P",
+			"Dominance"
 		],
 		"54": [
 			"E&P"

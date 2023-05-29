@@ -1,4 +1,4 @@
-const { Canvas, UIElement, Rotator, Border, Vector, Text, Button, world, Card } = require('@tabletop-playground/api')
+const { Canvas, UIElement, Rotator, Border, Vector, Text, Button, world, Card, ImageButton } = require('@tabletop-playground/api')
 const { Shuffle } = require('../lib/shuffle')
 
 
@@ -140,7 +140,6 @@ class SetupGame{
             Shuffle.shuffle(this.ruinItems);
             let rIdx = 0;
             for(let i = 0; i < allSnaps.length; i++){
-                console.log(allSnaps[i].getTags());
                 switch(true){
                     case allSnaps[i].getTags().includes("Ruin"):
                         let ruin = world.createObjectFromTemplate("D837A93048CE9F589AAA7C8B8C493F57", allSnaps[i].getGlobalPosition());
@@ -275,15 +274,18 @@ class SetupGame{
         let drawnCard = this.militantCards.takeCards(1);
         drawnCard.setPosition(new Vector(-14, -75, 88));
         drawnCard.flipOrUpright();
-        setTimeout
         this.adSetCards.addCards(this.militantCards);
         this.adSetCards.shuffle();
-        for(let i = 0; i < this.rosterArray.length + 3; i++){
+        let factionChoices = [];
+        for(let i = 0; i < this.rosterArray.length + 4; i++){
             drawnCard = this.adSetCards.takeCards(1, true);
             drawnCard.setPosition(new Vector(7 * i - 7, -75, 88));
             drawnCard.flipOrUpright();
+            let factionChoice = new Button().setText();
+
             if(drawnCard.getCardDetails().tags.includes("Vagabond")){
                 let keys = Object.keys(VagabondCards);
+                //fix double VB being the same one
                 let chosenKey = Shuffle.choice(keys);
                 this.chosenVagabond = world.createObjectFromTemplate(VagabondCards[chosenKey], new Vector(7 * i - 7, -73, 130));
                 this.chosenVagabond.setRotation(new Rotator(0, -90, 0));

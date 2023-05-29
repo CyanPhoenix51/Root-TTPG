@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "D91396A046FF033D7E2062ADAFA5E2A0",
 	"Name": "Hammer Starter",
-	"Metadata": "",
+	"Metadata": "piece.item.starter.hammer:base/vagabond",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

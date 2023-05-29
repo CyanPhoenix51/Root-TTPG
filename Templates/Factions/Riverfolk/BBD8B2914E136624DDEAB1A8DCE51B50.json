@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "BBD8B2914E136624DDEAB1A8DCE51B50",
 	"Name": "Mouse Tradepost",
-	"Metadata": "",
+	"Metadata": "token.faction:riverfolk/mouse_tradepost",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

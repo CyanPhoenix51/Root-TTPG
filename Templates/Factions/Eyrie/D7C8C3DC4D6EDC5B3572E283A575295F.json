@@ -2,7 +2,7 @@
 	"Type": "Generic",
 	"GUID": "D7C8C3DC4D6EDC5B3572E283A575295F",
 	"Name": "Warrior",
-	"Metadata": "",
+	"Metadata": "unit.warrior:base/eyrie",
 	"CollisionType": "Regular",
 	"Friction": 0.73,
 	"Restitution": 0.3,

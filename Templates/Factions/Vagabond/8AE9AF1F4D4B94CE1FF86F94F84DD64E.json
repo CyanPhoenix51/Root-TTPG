@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "8AE9AF1F4D4B94CE1FF86F94F84DD64E",
 	"Name": "Scoundrel Card",
-	"Metadata": "",
+	"Metadata": "card.character.scoundrel:riverfolk/vagabond",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "1C57B20D42DED70A551AE897718DBA8B",
 	"Name": "Ronin Card",
-	"Metadata": "",
+	"Metadata": "card.character.ronin:vbpack/vagabond",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

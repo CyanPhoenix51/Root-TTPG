@@ -2,7 +2,7 @@
 	"Type": "Generic",
 	"GUID": "62B0D7DE4C5721D3184D91B50C1BE1CD",
 	"Name": "Warrior",
-	"Metadata": "",
+	"Metadata": "unit.warrior:riverfolk/lizards",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.3,
@@ -69,7 +69,7 @@
 		"Z": 0
 	},
 	"Tags": [
-		"Lizard",
+		"Lizards",
 		"Warrior"
 	]
 }

@@ -2,7 +2,7 @@
 	"Type": "Dice",
 	"GUID": "4C18787E463855D30E96F9BF44F24B36",
 	"Name": "VB1 Die",
-	"Metadata": "",
+	"Metadata": "dice.1:base/vagabond",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0.5,

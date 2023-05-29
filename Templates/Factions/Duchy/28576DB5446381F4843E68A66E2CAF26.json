@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "28576DB5446381F4843E68A66E2CAF26",
 	"Name": "Duchy PlayerBoard",
-	"Metadata": "",
+	"Metadata": "board.faction:underworld/duchy",
 	"CollisionType": "Ground",
 	"Friction": 0.7,
 	"Restitution": 0,

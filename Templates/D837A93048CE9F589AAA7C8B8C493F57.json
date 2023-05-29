@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "D837A93048CE9F589AAA7C8B8C493F57",
 	"Name": "Ruin",
-	"Metadata": "",
+	"Metadata": "piece.item:base/ruins",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

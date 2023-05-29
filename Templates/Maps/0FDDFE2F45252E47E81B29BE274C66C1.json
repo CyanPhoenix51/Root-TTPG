@@ -2,7 +2,7 @@
 	"Type": "Generic",
 	"GUID": "0FDDFE2F45252E47E81B29BE274C66C1",
 	"Name": "Fox Clearing Marker",
-	"Metadata": "",
+	"Metadata": "marker.clearing:base/fox",
 	"CollisionType": "Ground",
 	"Friction": 0.7,
 	"Restitution": 0.3,
