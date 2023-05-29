@@ -39,7 +39,8 @@
 	},
 	"Tags": [
 		"Vagabond",
-		"Item"
+		"Item",
+		"Sword"
 	],
 	"FrontTexture": "Factions/Vagabond/Sword_Craft_Exhaust.jpg",
 	"BackTexture": "Factions/Vagabond/Sword_Craft_FaceUp.jpg",

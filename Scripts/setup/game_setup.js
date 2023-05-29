@@ -92,9 +92,11 @@ class SetupGame{
         const mapTemplate = {};
         const clearingTemplate = {};
         const ruinItemsTemplate = {};
+        const itemCrafts = {};
         Object.assign(mapTemplate, require("./spawn/object_guid/map_guid"));
         Object.assign(clearingTemplate, require("./spawn/object_guid/clearing_guid"));
         Object.assign(ruinItemsTemplate, require("./spawn/faction_guid/Vagabond/ruin_items_guid.json"));
+        Object.assign(itemCrafts, require("./spawn/object_guid/item_crafts.json"));
         this.spawnedMap = false;
         for(let child of this.setupCanvas.getChildren()){
             this.setupCanvas.removeChild(child);
@@ -138,13 +140,51 @@ class SetupGame{
             Shuffle.shuffle(this.ruinItems);
             let rIdx = 0;
             for(let i = 0; i < allSnaps.length; i++){
-                if(allSnaps[i].getTags().includes("Ruin")){
-                    let ruin = world.createObjectFromTemplate("D837A93048CE9F589AAA7C8B8C493F57", allSnaps[i].getGlobalPosition());
-                    ruin.createSwitcher([this.ruinItems[rIdx]]);
-                    ruin.snap();
-                    rIdx++;
+                console.log(allSnaps[i].getTags());
+                switch(true){
+                    case allSnaps[i].getTags().includes("Ruin"):
+                        let ruin = world.createObjectFromTemplate("D837A93048CE9F589AAA7C8B8C493F57", allSnaps[i].getGlobalPosition());
+                        ruin.createSwitcher([this.ruinItems[rIdx]]);
+                        ruin.snap();
+                        rIdx++;
+                        break;
+                    case allSnaps[i].getTags().includes("Bag"):
+                        this.item = world.createObjectFromTemplate(itemCrafts["Bag"], allSnaps[i].getGlobalPosition());
+                        this.item.snap();
+                        break;
+                    case allSnaps[i].getTags().includes("Boot"):
+                        this.item = world.createObjectFromTemplate(itemCrafts["Boot"], allSnaps[i].getGlobalPosition());
+                        this.item.snap();
+                        break;
+                    case allSnaps[i].getTags().includes("Crossbow"):
+                        this.item = world.createObjectFromTemplate(itemCrafts["Crossbow"], allSnaps[i].getGlobalPosition());
+                        this.item.snap();
+                        break;
+                    case allSnaps[i].getTags().includes("Hammer"):
+                        this.item = world.createObjectFromTemplate(itemCrafts["Hammer"], allSnaps[i].getGlobalPosition());
+                        this.item.snap();
+                        break;
+                    case allSnaps[i].getTags().includes("Sword"):
+                        this.item = world.createObjectFromTemplate(itemCrafts["Sword"], allSnaps[i].getGlobalPosition());
+                        this.item.snap();
+                        break;
+                    case allSnaps[i].getTags().includes("Tea"):
+                        this.item = world.createObjectFromTemplate(itemCrafts["Tea"], allSnaps[i].getGlobalPosition());
+                        this.item.snap();
+                        break;
+                    case allSnaps[i].getTags().includes("Coins"):
+                        this.item = world.createObjectFromTemplate(itemCrafts["Coins"], allSnaps[i].getGlobalPosition());
+                        this.item.snap();
+                        break;
                 }
+                // if(allSnaps[i].getTags().includes("Ruin")){
+                //     let ruin = world.createObjectFromTemplate("D837A93048CE9F589AAA7C8B8C493F57", allSnaps[i].getGlobalPosition());
+                //     ruin.createSwitcher([this.ruinItems[rIdx]]);
+                //     ruin.snap();
+                //     rIdx++;
+                // }
             }
+
             this.bigBoard();
             this.createFactionSelection();
         });
@@ -245,7 +285,7 @@ class SetupGame{
             if(drawnCard.getCardDetails().tags.includes("Vagabond")){
                 let keys = Object.keys(VagabondCards);
                 let chosenKey = Shuffle.choice(keys);
-                this.chosenVagabond = world.createObjectFromTemplate(VagabondCards[chosenKey], new Vector(7 * i - 7, -73, 125));
+                this.chosenVagabond = world.createObjectFromTemplate(VagabondCards[chosenKey], new Vector(7 * i - 7, -73, 130));
                 this.chosenVagabond.setRotation(new Rotator(0, -90, 0));
                 this.chosenVagabond.flipOrUpright();
             }

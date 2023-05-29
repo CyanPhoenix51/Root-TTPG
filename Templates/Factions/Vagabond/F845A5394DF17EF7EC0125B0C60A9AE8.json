@@ -39,7 +39,8 @@
 	},
 	"Tags": [
 		"Vagabond",
-		"Item"
+		"Item",
+		"Bag"
 	],
 	"FrontTexture": "Factions/Vagabond/Bag_Craft_Exhaust.jpg",
 	"BackTexture": "Factions/Vagabond/Bag_Craft_FaceUp.jpg",

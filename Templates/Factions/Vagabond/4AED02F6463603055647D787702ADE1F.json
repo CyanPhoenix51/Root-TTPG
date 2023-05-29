@@ -39,7 +39,8 @@
 	},
 	"Tags": [
 		"Vagabond",
-		"Item"
+		"Item",
+		"Crossbow"
 	],
 	"FrontTexture": "Factions/Vagabond/Crossbow_Starter_Exhaust.jpg",
 	"BackTexture": "Factions/Vagabond/Crossbow_Craft_FaceUp.jpg",

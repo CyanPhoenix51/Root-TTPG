@@ -39,7 +39,8 @@
 	},
 	"Tags": [
 		"Vagabond",
-		"Item"
+		"Item",
+		"Boot"
 	],
 	"FrontTexture": "Factions/Vagabond/Boots_Craft_Exhaust.jpg",
 	"BackTexture": "Factions/Vagabond/Boots_Craft_FaceUp.jpg",

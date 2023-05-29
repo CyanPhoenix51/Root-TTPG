@@ -39,7 +39,8 @@
 	},
 	"Tags": [
 		"Vagabond",
-		"Item"
+		"Item",
+		"Hammer"
 	],
 	"FrontTexture": "Factions/Vagabond/Hammer_Ruin_Exhaust.jpg",
 	"BackTexture": "Factions/Vagabond/Hammer_Craft_FaceUp.jpg",

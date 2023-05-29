@@ -39,7 +39,8 @@
 	},
 	"Tags": [
 		"Vagabond",
-		"Item"
+		"Item",
+		"Tea"
 	],
 	"FrontTexture": "Factions/Vagabond/Tea_Craft_Exhaust.jpg",
 	"BackTexture": "Factions/Vagabond/Tea_Craft_FaceUp.jpg",

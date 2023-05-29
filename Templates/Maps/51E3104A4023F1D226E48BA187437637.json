@@ -475,7 +475,7 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Item"
+				"Bag"
 			]
 		},
 		{
@@ -488,7 +488,7 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Item"
+				"Bag"
 			]
 		},
 		{
@@ -501,7 +501,7 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Item"
+				"Boot"
 			]
 		},
 		{
@@ -514,7 +514,7 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Item"
+				"Boot"
 			]
 		},
 		{
@@ -527,7 +527,7 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Item"
+				"Hammer"
 			]
 		},
 		{
@@ -540,7 +540,7 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Item"
+				"Crossbow"
 			]
 		},
 		{
@@ -553,7 +553,7 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Item"
+				"Sword"
 			]
 		},
 		{
@@ -566,7 +566,7 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Item"
+				"Sword"
 			]
 		},
 		{
@@ -579,7 +579,7 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Item"
+				"Tea"
 			]
 		},
 		{
@@ -592,7 +592,7 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Item"
+				"Tea"
 			]
 		},
 		{
@@ -605,7 +605,7 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Item"
+				"Coins"
 			]
 		},
 		{
@@ -618,7 +618,7 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Item"
+				"Coins"
 			]
 		},
 		{
@@ -753,8 +753,8 @@
 			]
 		},
 		{
-			"X": -2.48044,
-			"Y": -9.04664,
+			"X": -2.48,
+			"Y": -9.087,
 			"Z": 0.5,
 			"Range": 1,
 			"SnapRotation": 3,
