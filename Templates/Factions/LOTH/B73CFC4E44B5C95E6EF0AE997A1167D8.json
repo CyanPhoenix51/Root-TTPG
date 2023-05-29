@@ -48,7 +48,7 @@
 				"Y": 0,
 				"Z": 0
 			},
-			"Texture": "Factions/Hundreds/Mob_Die.png",
+			"Texture": "Factions/LOTH/Mob_Die.png",
 			"NormalMap": "",
 			"ExtraMap": "",
 			"ExtraMap2": "",
@@ -76,42 +76,42 @@
 			"X": 0,
 			"Y": 0,
 			"Z": 1,
-			"Name": "1",
+			"Name": "Fox",
 			"Metadata": ""
 		},
 		{
 			"X": -1,
 			"Y": 0,
 			"Z": 0,
-			"Name": "2",
+			"Name": "Bunny",
 			"Metadata": ""
 		},
 		{
 			"X": 0,
 			"Y": 1,
 			"Z": 0,
-			"Name": "3",
+			"Name": "Mouse",
 			"Metadata": ""
 		},
 		{
 			"X": 0,
 			"Y": -1,
 			"Z": 0,
-			"Name": "4",
+			"Name": "Mouse",
 			"Metadata": ""
 		},
 		{
 			"X": 1,
 			"Y": 0,
 			"Z": 0,
-			"Name": "5",
+			"Name": "Bunny",
 			"Metadata": ""
 		},
 		{
 			"X": 0,
 			"Y": 0,
 			"Z": -1,
-			"Name": "6",
+			"Name": "Fox",
 			"Metadata": ""
 		}
 	]

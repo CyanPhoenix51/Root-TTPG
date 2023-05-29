@@ -159,8 +159,8 @@
 		"LOTH",
 		"PlayerBoard"
 	],
-	"FrontTexture": "Factions/Hundreds/LOTH_PlayerBoard_Back.jpg",
-	"BackTexture": "Factions/Hundreds/LOTH_PlayerBoard_Front.png",
+	"FrontTexture": "Factions/LOTH/LOTH_PlayerBoard_Back.jpg",
+	"BackTexture": "Factions/LOTH/LOTH_PlayerBoard_Front.png",
 	"HiddenTexture": "",
 	"BackIndex": -2,
 	"HiddenIndex": -1,

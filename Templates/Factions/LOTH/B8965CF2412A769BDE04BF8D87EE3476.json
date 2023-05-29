@@ -41,7 +41,7 @@
 		"LOTH",
 		"Token"
 	],
-	"FrontTexture": "Factions/Hundreds/LOTH_Mob.png",
+	"FrontTexture": "Factions/LOTH/LOTH_Mob.png",
 	"BackTexture": "",
 	"HiddenTexture": "",
 	"BackIndex": 0,

@@ -41,7 +41,7 @@
 		"LOTH",
 		"VP"
 	],
-	"FrontTexture": "Factions/Hundreds/LOTH_VP_Marker.png",
+	"FrontTexture": "Factions/LOTH/LOTH_VP_Marker.png",
 	"BackTexture": "",
 	"HiddenTexture": "",
 	"BackIndex": 0,

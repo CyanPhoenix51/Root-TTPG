@@ -41,7 +41,7 @@
 		"Building",
 		"LOTH"
 	],
-	"FrontTexture": "Factions/Hundreds/LOTH_Stronghold.png",
+	"FrontTexture": "Factions/LOTH/LOTH_Stronghold.png",
 	"BackTexture": "",
 	"HiddenTexture": "",
 	"BackIndex": 0,

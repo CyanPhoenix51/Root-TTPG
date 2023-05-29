@@ -41,8 +41,8 @@
 		"LOTH",
 		"Mood Card"
 	],
-	"FrontTexture": "Factions/Hundreds/LOTH_Moods.jpg",
-	"BackTexture": "Factions/Hundreds/LOTH_Mood_Back.png",
+	"FrontTexture": "Factions/LOTH/LOTH_Moods.jpg",
+	"BackTexture": "Factions/LOTH/LOTH_Mood_Back.png",
 	"HiddenTexture": "",
 	"BackIndex": -2,
 	"HiddenIndex": -1,
