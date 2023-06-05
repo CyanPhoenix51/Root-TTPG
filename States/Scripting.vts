@@ -10,7 +10,7 @@
 		},
 		"slotTeams": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
 		"globalScriptPackage": "51731BFE4A660EE284250B85591C4281",
-		"globalScriptName": "setup/game_setup.js",
+		"globalScriptName": "global.js",
 		"backgroundTexture":
 		{
 			"resourceName": "",
@@ -182,11 +182,11 @@
 			"friction": 0.69999998807907104,
 			"restitution": 0.30000001192092896,
 			"density": 1,
-			"surfaceType": "SurfaceType2",
+			"surfaceType": "SurfaceType3",
 			"objectName": "",
 			"objectDescription": "",
 			"collisionType": "CB_Static",
-			"templateId": "20160BDF44DF7CDC0B3ABD9E48B14747",
+			"templateId": "4001130A4FFC19220CAAD488C92BA29A",
 			"shouldSnap": true,
 			"previousPosition":
 			{
@@ -200,11 +200,12 @@
 			"persistentKeyData":
 			{
 			},
-			"uniqueId": "",
+			"uniqueId": "gg3",
 			"drawingLines": [],
 			"objectTags": [],
 			"objectGroupId": -1,
 			"ownerIndex": -1,
+			"lightsOn": true,
 			"bCanBeDamaged": false
 		}
 	],

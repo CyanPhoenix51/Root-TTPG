@@ -1,0 +1,175 @@
+{
+	"Type": "Table",
+	"GUID": "4001130A4FFC19220CAAD488C92BA29A",
+	"Name": "Test Table",
+	"Metadata": "",
+	"CollisionType": "Static",
+	"Friction": 0.7,
+	"Restitution": 0.3,
+	"Density": 1,
+	"SurfaceType": "Metal",
+	"Roughness": 1,
+	"Metallic": 0,
+	"PrimaryColor":
+	{
+		"R": 255,
+		"G": 255,
+		"B": 255
+	},
+	"SecondaryColor":
+	{
+		"R": 0,
+		"G": 0,
+		"B": 0
+	},
+	"Flippable": false,
+	"AutoStraighten": false,
+	"ShouldSnap": true,
+	"ScriptName": "",
+	"Blueprint": "",
+	"Models": [
+		{
+			"Model": "Custom Square Top.fbx",
+			"Offset":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 128
+			},
+			"Scale":
+			{
+				"X": 3.73367,
+				"Y": 3.11002,
+				"Z": 2.54
+			},
+			"Rotation":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Texture": "Fancy_Felt.jpg",
+			"NormalMap": "",
+			"ExtraMap": "",
+			"ExtraMap2": "",
+			"IsTransparent": false,
+			"CastShadow": true,
+			"IsTwoSided": false,
+			"UseOverrides": false,
+			"Roughness": 1,
+			"Metallic": 0,
+			"PrimaryColor":
+			{
+				"R": 255,
+				"G": 255,
+				"B": 255
+			},
+			"SecondaryColor":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0
+			},
+			"SurfaceType": "Plastic"
+		},
+		{
+			"Model": "Table Custom Square 2.fbx",
+			"Offset":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 131.2
+			},
+			"Scale":
+			{
+				"X": 3.73367,
+				"Y": 3.11002,
+				"Z": 2.54
+			},
+			"Rotation":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Texture": "",
+			"NormalMap": "",
+			"ExtraMap": "",
+			"ExtraMap2": "",
+			"IsTransparent": false,
+			"CastShadow": true,
+			"IsTwoSided": true,
+			"UseOverrides": false,
+			"Roughness": 0.8,
+			"Metallic": 0,
+			"PrimaryColor":
+			{
+				"R": 123,
+				"G": 123,
+				"B": 123
+			},
+			"SecondaryColor":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0
+			},
+			"SurfaceType": "Plastic"
+		},
+		{
+			"Model": "Table Custom Square 1.fbx",
+			"Offset":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 131.2
+			},
+			"Scale":
+			{
+				"X": 3.73367,
+				"Y": 3.11002,
+				"Z": 2.54
+			},
+			"Rotation":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Texture": "table_square_myMaterial1_Diffuse.png",
+			"NormalMap": "table_square_myMaterial1_Normal.png",
+			"ExtraMap": "table_square_myMaterial1_Mask.png",
+			"ExtraMap2": "",
+			"IsTransparent": false,
+			"CastShadow": true,
+			"IsTwoSided": false,
+			"UseOverrides": false,
+			"Roughness": 0.3,
+			"Metallic": 1,
+			"PrimaryColor":
+			{
+				"R": 255,
+				"G": 255,
+				"B": 255
+			},
+			"SecondaryColor":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0
+			},
+			"SurfaceType": "Plastic"
+		}
+	],
+	"Collision": [],
+	"Lights": [],
+	"SnapPointsGlobal": false,
+	"SnapPoints": [],
+	"ZoomViewDirection":
+	{
+		"X": 0,
+		"Y": 0,
+		"Z": 0
+	},
+	"Tags": []
+}

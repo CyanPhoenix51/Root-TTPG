@@ -2,7 +2,7 @@
 	"Type": "Card",
 	"GUID": "4CC1136E438A76DA940F43B97014507A",
 	"Name": "Snare",
-	"Metadata": "token.plot.corvid:underworld/snare",
+	"Metadata": "token.plot.snare:underworld/corvid",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,

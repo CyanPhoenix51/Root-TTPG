@@ -3,7 +3,7 @@
 	"GUID": "63A3425A40EAEFEC00F77189C2D1F3F8",
 	"Name": "Test Holder",
 	"Metadata": "",
-	"CollisionType": "Regular",
+	"CollisionType": "Ground",
 	"Friction": 0.7,
 	"Restitution": 0.3,
 	"Density": 1,
@@ -38,8 +38,8 @@
 			},
 			"Scale":
 			{
-				"X": 1,
-				"Y": 1,
+				"X": 0.909091,
+				"Y": 0.539498,
 				"Z": 1
 			},
 			"Rotation":
@@ -82,8 +82,8 @@
 			},
 			"Scale":
 			{
-				"X": 1,
-				"Y": 1,
+				"X": 0.909091,
+				"Y": 0.539498,
 				"Z": 1
 			},
 			"Rotation":
@@ -104,6 +104,7 @@
 		}
 	],
 	"Collision": [],
+	"Lights": [],
 	"SnapPointsGlobal": false,
 	"SnapPoints": [],
 	"ZoomViewDirection":
@@ -115,11 +116,11 @@
 	"Tags": [],
 	"CardsCenter":
 	{
-		"X": -0.5,
+		"X": -0.454545,
 		"Y": 0,
 		"Z": 0.4
 	},
-	"CardsWidth": 49.5,
-	"MaxCards": 48,
-	"MaxCardHeight": 9.6
+	"CardsWidth": 26.7051,
+	"MaxCards": 20,
+	"MaxCardHeight": 8.72727
 }
