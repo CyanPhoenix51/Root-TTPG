@@ -81,7 +81,7 @@ class GameSetupUI {
 
         uiSwitcher.addChild(joinBorder);
 
-        uiSwitcher.addChild(new Border().setChild(new HorizontalBox()));
+        uiSwitcher.addChild(new Border().setChild(new VerticalBox()));
 
         return uiSwitcher;
     }

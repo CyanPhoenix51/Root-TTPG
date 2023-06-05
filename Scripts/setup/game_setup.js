@@ -70,15 +70,15 @@ function mapRoster(widget, mapChoices){
     for (let mapName of mapChoices){
         const mapBtn = new Button().setText(mapName);
         mapBtn.onClicked.add(mapSelect);
-        mapHBox.addChild(mapBtn);
+        mapHBox.addChild(mapBtn, 1);
     }
     console.log(widget.getActiveIndex());
     widget.getActiveWidget().getChild().addChild(mapHBox);
 }
 
 function mapSelect(button, player){
-    const map = world.createObjectFromTemplate(mapsTemplate[button.getText()], new Vector(0, 0, 0));
-    map.rotation = new Rotator(0, 90, 0);
+    const map = world.createObjectFromTemplate(mapsTemplate[button.getText()], new Vector(0, 0.925, 131));
+    map.setRotation(new Rotator(0, 90, 0));
 }
 
 class GameSetup{
