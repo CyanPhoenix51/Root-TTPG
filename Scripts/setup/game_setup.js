@@ -6,8 +6,10 @@ const CONFIG = require('../game_ui/game_ui_config');
 const TABLE = require("../table/6p-rectangle");
 
 const mapsTemplate = {};
+const deckTemplate = {};
 
-Object.assign(mapsTemplate, require('../setup/spawn/object_guid/map_guid.json'))
+Object.assign(mapsTemplate, require('../setup/spawn/object_guid/map_guid.json'));
+Object.assign(deckTemplate, require('../setup/spawn/object_guid/deck_guid.json'));
 
 //May change how setup starts but for now this will do
 //Eventually break functions out to other scripts/classes
@@ -51,10 +53,9 @@ function startGame(button, player){
             PlayerArea.movePlayersToNonSeat();
             randomizePlayerOrder();
             PlayerArea.seatPlayers();
-            //PlayerArea create playerArea Array var
             wSwitch.setActiveIndex(2); //probably need to change later
             mapRoster(wSwitch, ["Summer", "Winter", "Lake", "Mountain"]);
-            //spawn holder, deck, and deal cards
+            spawnDeck("Exiles and Paristans");
             //move to mapselection
             break;
     }
@@ -79,6 +80,16 @@ function mapRoster(widget, mapChoices){
 function mapSelect(button, player){
     const map = world.createObjectFromTemplate(mapsTemplate[button.getText()], new Vector(0, 0.925, 131));
     map.setRotation(new Rotator(0, 90, 0));
+}
+
+function spawnDeck(deckName){
+    const dominanceHolder = world.createObjectFromTemplate(deckTemplate["Dominance Holder"], new Vector(TABLE.tableLayout.dominance.x, TABLE.tableLayout.dominance.y, 131));
+    dominanceHolder.freeze();
+    const deckHolder = world.createObjectFromTemplate(deckTemplate["Deck Holder"], new Vector(TABLE.tableLayout.deckHolder.x, TABLE.tableLayout.deckHolder.y, 131));
+    deckHolder.freeze();
+    const deck = world.createObjectFromTemplate(deckTemplate[deckName], new Vector(TABLE.tableLayout.deck.x, TABLE.tableLayout.deck.y, 132));
+    deck.snap();
+    deck.shuffle();
 }
 
 class GameSetup{

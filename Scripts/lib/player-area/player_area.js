@@ -1,4 +1,5 @@
 const { Vector, world, globalEvents } = require('@tabletop-playground/api');
+const TABLE = require("../../table/6p-rectangle");
 //will need playernameui, vpbuttonui, playercolor, gamesetupui
 
 let _playerAreas = false;
@@ -30,6 +31,7 @@ class PlayerArea {
         for(let i = 0; i < world.Root.players.length; i ++){
             const player = world.getPlayerByName(world.Root.players[i]);
             player.switchSlot(i);
+            world.Root.playerAreas.push(new PlayerArea(TABLE.player[i], player));
         }
     }
 
@@ -55,7 +57,8 @@ class PlayerArea {
     constructor(attrs, player){
         this._pos = new Vector(attrs.pos.x, attrs.pos.y, attrs.pos.z);
         this._color = false;
-        this._player = false;
+        this._player = player;
+        this._slot = attrs.slot;
         this._ui = false;
         this._nameUI = false;
         this._faction = false;
