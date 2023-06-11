@@ -476,7 +476,8 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Item"
+				"Item",
+				"Bag"
 			]
 		},
 		{
@@ -489,7 +490,8 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Item"
+				"Item",
+				"Bag"
 			]
 		},
 		{
@@ -502,7 +504,8 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Item"
+				"Item",
+				"Boot"
 			]
 		},
 		{
@@ -515,7 +518,8 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Item"
+				"Item",
+				"Boot"
 			]
 		},
 		{
@@ -528,7 +532,8 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Item"
+				"Item",
+				"Hammer"
 			]
 		},
 		{
@@ -541,7 +546,8 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Item"
+				"Item",
+				"Crossbow"
 			]
 		},
 		{
@@ -554,7 +560,8 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Item"
+				"Item",
+				"Sword"
 			]
 		},
 		{
@@ -567,7 +574,8 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Item"
+				"Item",
+				"Sword"
 			]
 		},
 		{
@@ -580,7 +588,8 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Item"
+				"Item",
+				"Tea"
 			]
 		},
 		{
@@ -593,7 +602,8 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Item"
+				"Item",
+				"Tea"
 			]
 		},
 		{
@@ -606,7 +616,8 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Item"
+				"Item",
+				"Coins"
 			]
 		},
 		{
@@ -619,7 +630,8 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Item"
+				"Item",
+				"Coins"
 			]
 		},
 		{
@@ -763,7 +775,8 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Building"
+				"Building",
+				"Ruin"
 			]
 		},
 		{

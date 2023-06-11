@@ -17,6 +17,8 @@ const ruins = {};
 Object.assign(ruins, require('./faction_guid/Vagabond/ruin_items_guid.json'));
 const itemCrafts = {};
 Object.assign(itemCrafts, require('./object_guid/item_crafts.json'));
+const clearingTemplate = {};
+Object.assign(clearingTemplate, require('./object_guid/clearing_guid.json'));
 const factions = [];
 
 
@@ -39,6 +41,7 @@ class Spawn{
         const map = world.createObjectFromTemplate(maps[mapName], new Vector(0, 0.925, 131));
         map.setRotation(new Rotator(0, 90, 0));
         this.ruinsAndItems(map, mapName);
+        this.clearingMarkers(map, mapName);
     }
 
     //from map() will spawn craftable items and ruins
@@ -81,6 +84,17 @@ class Spawn{
             }
             item.snap();
             world.Root.items.push(item);
+        }
+        item = false;
+    }
+
+    static clearingMarkers(map, mapName){
+        const mapSnaps = map.getAllSnapPoints();
+        let clearings = ["Bunny", "Bunny","Bunny","Bunny", "Fox", "Fox", "Fox", "Fox", "Mouse", "Mouse", "Mouse", "Mouse"];
+        clearings = Shuffle.shuffle(clearings);
+        for(let i = mapCONFIG.map[mapName].clearings.start; i < mapCONFIG.map[mapName].clearings.end; i++){
+            const clearing = world.createObjectFromTemplate(clearingTemplate[clearings.pop()], mapSnaps[i].getGlobalPosition());
+            clearing.snap();
         }
     }
 
