@@ -11,7 +11,9 @@ world.Root = {
     setupType : "",
     players : [],
     playersNameText : undefined,
-    playerAreas : []
+    playerAreas : [],
+    items : [],
+    ruins : ["Bag", "Boot", "Hammer", "Sword"],
 }
 
 const gObj = world.getAllObjects();

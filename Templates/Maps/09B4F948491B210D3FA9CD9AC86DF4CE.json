@@ -60,6 +60,7 @@
 		}
 	],
 	"Collision": [],
+	"Lights": [],
 	"SnapPointsGlobal": true,
 	"SnapPoints": [
 		{
@@ -626,7 +627,10 @@
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
 		},
 		{
 			"X": 23.9433,
@@ -636,7 +640,10 @@
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
 		},
 		{
 			"X": 24.3802,
@@ -646,7 +653,10 @@
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
 		},
 		{
 			"X": 15.9405,
@@ -656,7 +666,10 @@
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
 		},
 		{
 			"X": 13.2475,
@@ -666,7 +679,10 @@
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
 		},
 		{
 			"X": 13.2279,
@@ -676,7 +692,10 @@
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
 		},
 		{
 			"X": 9.09177,
@@ -688,7 +707,8 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Ruin"
+				"Ruin",
+				"Building"
 			]
 		},
 		{
@@ -699,7 +719,10 @@
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
 		},
 		{
 			"X": 7.40714,
@@ -709,7 +732,10 @@
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
 		},
 		{
 			"X": -5.26842,
@@ -719,7 +745,10 @@
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
 		},
 		{
 			"X": -2.52707,
@@ -731,7 +760,8 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Ruin"
+				"Ruin",
+				"Building"
 			]
 		},
 		{
@@ -744,7 +774,8 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Ruin"
+				"Ruin",
+				"Building"
 			]
 		},
 		{
@@ -755,7 +786,10 @@
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
 		},
 		{
 			"X": 0.947037,
@@ -765,7 +799,10 @@
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
 		},
 		{
 			"X": -1.91998,
@@ -775,7 +812,10 @@
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
 		},
 		{
 			"X": 0.988298,
@@ -787,7 +827,8 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Ruin"
+				"Ruin",
+				"Building"
 			]
 		},
 		{
@@ -798,7 +839,10 @@
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
 		},
 		{
 			"X": -22.7529,
@@ -808,7 +852,10 @@
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
 		},
 		{
 			"X": -19.3422,
@@ -818,7 +865,10 @@
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
 		},
 		{
 			"X": -16.2011,
@@ -828,7 +878,10 @@
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
 		},
 		{
 			"X": -12.9311,
@@ -840,7 +893,8 @@
 			"Shape": 0,
 			"FlipValidity": 0,
 			"Tags": [
-				"Ruin"
+				"Ruin",
+				"Building"
 			]
 		},
 		{
@@ -851,7 +905,10 @@
 			"SnapRotation": 3,
 			"RotationOffset": 0,
 			"Shape": 0,
-			"FlipValidity": 0
+			"FlipValidity": 0,
+			"Tags": [
+				"Building"
+			]
 		}
 	],
 	"ZoomViewDirection":
