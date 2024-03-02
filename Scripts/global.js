@@ -1,6 +1,6 @@
 const { globalEvents, MulticastDelegate, world } = require('@tabletop-playground/api');
 const { GameSetup } = require('./setup/game_setup');
-const { PlayerArea } = require('./lib/player-area/player_area');
+const { PlayerArea } = require('./lib/player_area/player_area');
 
 // globalEvents.onPlayerJoined.add((player) => {
 //     process.nextTick(() => {
@@ -11,7 +11,7 @@ world.Root = {
     setupType : "",
     players : [],
     playersNameText : undefined,
-    playerAreas : [],
+    //playerAreas : [],
     items : [],
     ruins : ["Bag", "Boot", "Hammer", "Sword"],
 }

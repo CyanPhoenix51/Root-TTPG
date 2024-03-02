@@ -1,12 +1,13 @@
-const { Vector, world, globalEvents } = require('@tabletop-playground/api');
+const { Vector, world, globalEvents, Rotator } = require('@tabletop-playground/api');
 const TABLE = require("../../table/6p-rectangle");
 //will need playernameui, vpbuttonui, playercolor, gamesetupui
 
-let _playerAreas = false;
+let _playerAreas = [];
 
 //General area where the player's faction will be located
 class PlayerArea {
 
+    //Eventually want to move players when they join the session
     static movePlayersToNonSeat(){
         let nonReservedSeat = 0;
         const noOfPlayers = world.getAllPlayers().length;
@@ -31,7 +32,7 @@ class PlayerArea {
         for(let i = 0; i < world.Root.players.length; i ++){
             const player = world.getPlayerByName(world.Root.players[i]);
             player.switchSlot(i);
-            world.Root.playerAreas.push(new PlayerArea(TABLE.player[i], player));
+            _playerAreas.push(new PlayerArea(TABLE.player[i], player));
         }
     }
 
@@ -40,8 +41,6 @@ class PlayerArea {
         if (_playerAreas && _playerAreas.length != playerCount){
             _playerAreas = undefined;
         }
-
-        _playerAreas = [];
 
         return _playerAreas;
     }
@@ -55,10 +54,14 @@ class PlayerArea {
     }
 
     constructor(attrs, player){
-        this._pos = new Vector(attrs.pos.x, attrs.pos.y, attrs.pos.z);
+        this._pos = new Vector(attrs.pos.x, attrs.pos.y, world.getTableHeight());
+        this._rot = new Rotator(0, attrs.yaw, 0);
         this._color = false;
         this._player = player;
         this._slot = attrs.slot;
+        this._holderPos = new Vector(attrs.holder.x, attrs.holder.y, world.getTableHeight());
+        //this._container =
+        //this._ciHolder = 
         this._ui = false;
         this._nameUI = false;
         this._faction = false;
@@ -73,6 +76,14 @@ class PlayerArea {
     }
     get pos(){
         return this._pos;
+    }
+
+    get rot(){
+        return this._rot;
+    }
+
+    get faction(){
+        return this._faction;
     }
 
     scorceButtonUI(){

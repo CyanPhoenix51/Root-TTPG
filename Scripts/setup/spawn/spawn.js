@@ -1,6 +1,6 @@
-const { world } = require('@tabletop-playground/api');
+const { world, Rotator, Vector, Card } = require('@tabletop-playground/api');
 const TABLE = require('../../table/6p-rectangle');
-const mapCONFIG = require('../map_setup');
+const mapCONFIG = require('../setup_map_snap');
 const { Shuffle } = require('../../lib/shuffle');
 
 //Objective of this script
@@ -19,10 +19,17 @@ const itemCrafts = {};
 Object.assign(itemCrafts, require('./object_guid/item_crafts.json'));
 const clearingTemplate = {};
 Object.assign(clearingTemplate, require('./object_guid/clearing_guid.json'));
-const factions = [];
+const vagabondCards = {};
+Object.assign(vagabondCards, require('./faction_guid/Vagabond/vagabond_cards.json'));
 
 
 class Spawn{
+    static spawn(id, position, rotation){
+        const obj = world.createObjectFromTemplate(templateID, position);
+        //check obj spawned
+
+        obj.setRotation(rotation);
+    }
 
     //Spawns chosen deck, holder, and dominance
     static deck(deckName){
@@ -46,7 +53,7 @@ class Spawn{
 
     //from map() will spawn craftable items and ruins
     //might want to standardize ruin snaps but items definitely are (31 - 42)
-     static ruinsAndItems(map, mapName){
+    static ruinsAndItems(map, mapName){
         const mapSnaps = map.getAllSnapPoints();
 
         const ruinSnaps = mapCONFIG.map[mapName].ruins;
@@ -85,7 +92,6 @@ class Spawn{
             item.snap();
             world.Root.items.push(item);
         }
-        item = false;
     }
 
     static clearingMarkers(map, mapName){
@@ -99,9 +105,32 @@ class Spawn{
     }
 
     static adSetCards(){
-        const adSetDeck = world.createObjectFromTemplate("2EBF5850447848C218D3C8A6ED37EB13", new Vector(TABLE.tableLayout.adSet.x, TABLE.tableLayout.adSet.y, 131));
-        const first = Shuffle.choice([1,2,3,4,5]);
-        adSetDeck[first].position(new Vector())
+        const milADSET = world.createObjectFromTemplate("2EBF5850447848C218D3C8A6ED37EB13", new Vector(TABLE.tableLayout.adSet.x, TABLE.tableLayout.adSet.y, 131));
+        milADSET.setRotation(new Rotator(0, 180, 0));
+        milADSET.shuffle();
+        milADSET.flipOrUpright();
+        let drawnFaction = milADSET.takeCards();
+        const draft = [];
+        draft.push(drawnFaction);
+        //drawnFaction.flipOrUpright();
+        drawnFaction.setPosition(new Vector(TABLE.tableLayout.adSet.x, TABLE.tableLayout.adSet.y - 7, 131));
+        console.log("0 " + drawnFaction.getCardDetails().templateId);
+
+        const insADSET = world.createObjectFromTemplate("5EA9BFAD462546C20206309C6F956E35", new Vector(TABLE.tableLayout.adSet.x, TABLE.tableLayout.adSet.y, 131));
+        insADSET.setRotation(new Rotator(0, 180, 0));
+        milADSET.addCards(insADSET);
+        milADSET.shuffle();
+        // //change to dyanmic number of players
+        for(let i = 1; i < 5; i++){
+            drawnFaction = milADSET.takeCards();
+            //drawnFaction.flipOrUpright();
+            draft.push(drawnFaction);
+            drawnFaction.setPosition(new Vector(TABLE.tableLayout.adSet.x, TABLE.tableLayout.adSet.y - (7*(i+1)), 131));
+            drawnFaction.setPosition(new Vector(TABLE.tableLayout.adSet.x, TABLE.tableLayout.adSet.y - (7*(i+1)), 131));
+            //drawnFaction.flipOrUpright();
+            console.log(i + " " + drawnFaction.getCardDetails().templateId);
+        }
+        // milADSET.setObjectType(1);
     }
 
     //when a faction is choosen will spawn at the correct player area
@@ -110,7 +139,7 @@ class Spawn{
     }
 
     //battle mat that will roll die for battles
-    battleMat(){
+    static battleMat(){
 
     }
 

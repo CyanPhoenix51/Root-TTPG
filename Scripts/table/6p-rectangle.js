@@ -60,6 +60,6 @@ module.exports = {
         deck: {x: 39.678, y: -3.724},
         deckHolder : {x: 40.594, y: 0.399},
         dominance : {x: 54.829, y: 0.314},
-        adSet : {x: -85, y: 20},
+        adSet : {x: -85, y: 20.5},
     }
 };

@@ -2,15 +2,9 @@ const { Canvas, UIElement, Rotator, Border, Vector, Text, Button, world, Card, I
 const { Spawn } = require('./spawn/spawn');
 const { Shuffle } = require('../lib/shuffle');
 const { GameSetupUI } = require('./game_setup_ui');
-const { PlayerArea } = require('../lib/player-area/player_area');
+const { PlayerArea } = require('../lib/player_area/player_area');
 const CONFIG = require('../game_ui/game_ui_config');
 const TABLE = require("../table/6p-rectangle");
-
-const mapsTemplate = {};
-const deckTemplate = {};
-
-Object.assign(mapsTemplate, require('../setup/spawn/object_guid/map_guid.json'));
-Object.assign(deckTemplate, require('../setup/spawn/object_guid/deck_guid.json'));
 
 //May change how setup starts but for now this will do
 //Eventually break functions out to other scripts/classes
@@ -58,7 +52,7 @@ function startGame(button, player){
             mapRoster(wSwitch, ["Summer", "Winter", "Lake", "Mountain"]);
             const deck = Spawn.deck("Exiles and Paristans");
             deck.deal(5);
-            //move to mapselection
+            Spawn.adSetCards();
             break;
     }
 }
@@ -80,6 +74,13 @@ function mapRoster(widget, mapChoices){
 
 function mapSelect(button, player){
     Spawn.map(button.getText());
+    //highlight the selected map and disable all of them
+    const box = button.getParent();
+    //not a good way to do it, Canvas can get all children
+    box.getChildAt(0).setEnabled(false);
+    box.getChildAt(1).setEnabled(false);
+    box.getChildAt(2).setEnabled(false);
+    box.getChildAt(3).setEnabled(false);
 }
 
 class GameSetup{
@@ -102,85 +103,12 @@ class GameSetup{
     }
 
     takeSeats(){
-        this.turnOrder = Shuffle.shuffle(this.rosterArray);
-        let playerNameText = [];
-        for(let player of this.turnOrder){
-            playerNameText.push(new Text().setText(player.getName()).setFontSize(50));
-        }
-
-        const testHolder = world.createObjectFromTemplate("63A3425A40EAEFEC00F77189C2D1F3F8", new Vector(-64, -62, 81));
-        testHolder.setRotation(new Rotator(0, 90, 0));
-        testHolder.setOwningPlayerSlot(0);
-        // const twoHolder = world.createObjectFromTemplate("63A3425A40EAEFEC00F77189C2D1F3F8", new Vector(64, -63, 81));
-        // twoHolder.setRotation(new Rotator(0, 90, 0));
-        // twoHolder.setOwningPlayerSlot(1);
-        this.playerUI = new UIElement();
-        this.playerUI.useWidgetSize = false;
-        this.playerUI.width = 630;
-        this.playerUI.height = 100;
-
-        this.playerUI.position = new Vector(-64, -108, 80);
-        this.playerUI.rotation = new Rotator(50, -90, 0);
-        this.playerUI.widget = new Border().setChild(playerNameText[0].setJustification(1));
-        world.addUI(this.playerUI);
-
-        // this.setupUI.position = new Vector(64, -108, 80);
-        // this.setupUI.rotation = new Rotator(50, -90, 0);
-        // this.setupUI.widget = new Border().setChild(playerNameText[1].setJustification(1));
-        // world.addUI(this.setupUI);
-
-        // this.setupUI.position = new Vector(-45, 108, 130);
-        // this.setupUI.rotation = new Rotator(50, -90, 0);
-        // this.setupUI.widget = new Border().setChild(playerNameText[0]);
-        // world.addUI(this.setupUI);
-
-        // this.setupUI.position = new Vector(-45, -90, 130);
-        // this.setupUI.rotation = new Rotator(50, -90, 0);
-        // this.setupUI.widget = new Border().setChild(playerNameText[0]);
-        // world.addUI(this.setupUI);
+        
     }
 
     correctTurnOrder(){
-        currentOrder = world.getAllPlayers();
-        for(let i = 0; i < currentOrder.length; i++){
-            if(this.rosterArray[i].getSlot() != currentOrder[i].getSlot()){
-                currentOrder[i].switchSlot(currentOrder.length);
-                let tempNo = this.rosterArray[i].getSlot();
-                this.rosterArray[i].switchSlot(i);
-                currentOrder[i].switchSlot(tempNo);
-            }
-        }
+        
     }
-
-    // createFactionSelection(){
-    //     const VagabondCards = {};
-    //     Object.assign(VagabondCards, require("./spawn/faction_guid/Vagabond/vagabond_cards.json"));
-    //     this.adSetCards = world.createObjectFromTemplate("2EBF5850447848C218D3C8A6ED37EB13", new Vector(-21, -75, 88));
-    //     this.adSetCards.setRotation(new Rotator(0, -90, 0));
-    //     this.militantCards = this.adSetCards.takeCards(5, true);
-    //     this.militantCards.shuffle();
-    //     let drawnCard = this.militantCards.takeCards(1);
-    //     drawnCard.setPosition(new Vector(-14, -75, 88));
-    //     drawnCard.flipOrUpright();
-    //     this.adSetCards.addCards(this.militantCards);
-    //     this.adSetCards.shuffle();
-    //     let factionChoices = [];
-    //     for(let i = 0; i < this.rosterArray.length + 4; i++){
-    //         drawnCard = this.adSetCards.takeCards(1, true);
-    //         drawnCard.setPosition(new Vector(7 * i - 7, -75, 88));
-    //         drawnCard.flipOrUpright();
-    //         let factionChoice = new Button().setText();
-
-    //         if(drawnCard.getCardDetails().tags.includes("Vagabond")){
-    //             let keys = Object.keys(VagabondCards);
-    //             //fix double VB being the same one
-    //             let chosenKey = Shuffle.choice(keys);
-    //             this.chosenVagabond = world.createObjectFromTemplate(VagabondCards[chosenKey], new Vector(7 * i - 7, -73, 130));
-    //             this.chosenVagabond.setRotation(new Rotator(0, -90, 0));
-    //             this.chosenVagabond.flipOrUpright();
-    //         }
-    //     }
-    // }
 }
 
-module.exports = {GameSetup};
+module.exports = { GameSetup };

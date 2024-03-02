@@ -1,8 +1,8 @@
 {
 	"Type": "Card",
-	"GUID": "2EBF5850447848C218D3C8A6ED37EB13",
-	"Name": "ADSET Mil Cards",
-	"Metadata": "card.deck.adset:marauder/0",
+	"GUID": "5EA9BFAD462546C20206309C6F956E35",
+	"Name": "ADSET Ins Cards",
+	"Metadata": "card.deck.adset:marauder/1",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
 	"Restitution": 0,
@@ -58,69 +58,20 @@
 	"MirrorBack": true,
 	"EmissiveFront": false,
 	"Model": "Rounded",
-	"Indices": [ 0, 1, 7, 9, 10 ],
+	"Indices": [ 2, 3, 4, 5, 6, 8 ],
 	"CardNames":
 	{
 	},
 	"CardMetadata":
 	{
-		"0": "card.adset:marauder/cats",
-		"1": "card.adset:marauder/eyrie",
-		"7": "card.adset:marauder/duchy",
-		"9": "card.adset:marauder/loth",
-		"10": "card.adset:marauder/keepers",
-		"2": "card.adset:marauder/woodland",
-		"3": "card.adset:marauder/vagabond_1",
+		"2": "card.adset:marauder/WA",
+		"3": "card.adset:marauder/vagabond.1",
 		"4": "card.adset:marauder/riverfolk",
 		"5": "card.adset:marauder/lizards",
-		"8": "card.adset:marauder/corvid",
-		"6": "card.adset:marauder/vagabond_2"
+		"6": "card.adset:marauder/vagabond.2",
+		"8": "card.adset:marauder/corvid"
 	},
 	"CardTags":
 	{
-		"0": [
-			"Militant",
-			"Cats"
-		],
-		"1": [
-			"Eyrie",
-			"Militant"
-		],
-		"2": [
-			"Woodland",
-			"Insurgent"
-		],
-		"3": [
-			"Vagabond",
-			"Insurgent"
-		],
-		"4": [
-			"Riverfolk",
-			"Insurgent"
-		],
-		"5": [
-			"Lizard",
-			"Insurgent"
-		],
-		"6": [
-			"Vagabond",
-			"Insurgent"
-		],
-		"7": [
-			"Duchy",
-			"Militant"
-		],
-		"8": [
-			"Corvid",
-			"Insurgent"
-		],
-		"9": [
-			"LOTH",
-			"Militant"
-		],
-		"10": [
-			"Keepers",
-			"Militant"
-		]
 	}
 }
